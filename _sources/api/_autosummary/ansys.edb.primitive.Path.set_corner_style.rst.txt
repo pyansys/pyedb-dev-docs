@@ -1,0 +1,6 @@
+set\_corner\_style
+==================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.set_corner_style

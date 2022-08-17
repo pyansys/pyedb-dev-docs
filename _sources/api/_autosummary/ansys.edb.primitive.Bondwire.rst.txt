@@ -1,0 +1,163 @@
+﻿ansys.edb.primitive.Bondwire
+============================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoclass:: Bondwire
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Bondwire.add_void
+      
+      
+      Bondwire.can_be_zone_primitive
+      
+      
+      Bondwire.create
+      
+      
+      Bondwire.delete
+      
+      
+      Bondwire.find_by_id
+      
+      
+      Bondwire.get_definition_name
+      
+      
+      Bondwire.get_end_elevation
+      
+      
+      Bondwire.get_hfss_prop
+      
+      
+      Bondwire.get_is_negative
+      
+      
+      Bondwire.get_layer
+      
+      
+      Bondwire.get_material
+      
+      
+      Bondwire.get_owner
+      
+      
+      Bondwire.get_primitive_type
+      
+      
+      Bondwire.get_product_property
+      
+      
+      Bondwire.get_product_property_ids
+      
+      
+      Bondwire.get_start_elevation
+      
+      
+      Bondwire.has_voids
+      
+      
+      Bondwire.is_null
+      
+      
+      Bondwire.is_parameterized
+      
+      
+      Bondwire.is_void
+      
+      
+      Bondwire.is_zone_primitive
+      
+      
+      Bondwire.remove_hfss_prop
+      
+      
+      Bondwire.set_definition_name
+      
+      
+      Bondwire.set_end_elevation
+      
+      
+      Bondwire.set_hfss_prop
+      
+      
+      Bondwire.set_is_negative
+      
+      
+      Bondwire.set_layer
+      
+      
+      Bondwire.set_material
+      
+      
+      Bondwire.set_product_property
+      
+      
+      Bondwire.set_start_elevation
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Bondwire.component
+      
+      
+      Bondwire.cross_section_height
+      
+      
+      Bondwire.cross_section_type
+      
+      
+      Bondwire.edb_uid
+      
+      
+      Bondwire.group
+      
+      
+      Bondwire.id
+      
+      
+      Bondwire.layout
+      
+      
+      Bondwire.layout_obj_type
+      
+      
+      Bondwire.msg
+      
+      
+      Bondwire.net
+      
+      
+      Bondwire.obj_type
+      
+      
+      Bondwire.traj
+      
+      
+      Bondwire.type
+      
+      
+      Bondwire.voids
+      
+      
+      Bondwire.width
+      
+   
+   

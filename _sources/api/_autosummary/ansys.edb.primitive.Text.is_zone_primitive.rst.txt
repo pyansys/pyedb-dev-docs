@@ -1,0 +1,6 @@
+is\_zone\_primitive
+===================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Text.is_zone_primitive

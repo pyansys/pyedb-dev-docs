@@ -1,0 +1,94 @@
+﻿ansys.edb.database.Database
+===========================
+
+.. currentmodule:: ansys.edb.database
+
+.. autoclass:: Database
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Database.add_menu_variable
+      
+      
+      Database.add_variable
+      
+      
+      Database.close
+      
+      
+      Database.create
+      
+      
+      Database.create_value
+      
+      
+      Database.delete
+      
+      
+      Database.delete_variable
+      
+      
+      Database.find_by_id
+      
+      
+      Database.get_all_variable_names
+      
+      
+      Database.get_id
+      
+      
+      Database.get_variable_desc
+      
+      
+      Database.get_variable_value
+      
+      
+      Database.is_null
+      
+      
+      Database.is_parameter
+      
+      
+      Database.is_read_only
+      
+      
+      Database.open
+      
+      
+      Database.save
+      
+      
+      Database.set_variable_desc
+      
+      
+      Database.set_variable_value
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Database.id
+      
+      
+      Database.msg
+      
+      
+      Database.top_circuit_cells
+      
+   
+   

@@ -1,0 +1,136 @@
+﻿ansys.edb.primitive.Rectangle
+=============================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoclass:: Rectangle
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Rectangle.add_void
+      
+      
+      Rectangle.can_be_zone_primitive
+      
+      
+      Rectangle.create
+      
+      
+      Rectangle.delete
+      
+      
+      Rectangle.find_by_id
+      
+      
+      Rectangle.get_hfss_prop
+      
+      
+      Rectangle.get_is_negative
+      
+      
+      Rectangle.get_layer
+      
+      
+      Rectangle.get_owner
+      
+      
+      Rectangle.get_parameters
+      
+      
+      Rectangle.get_polygon_data
+      
+      
+      Rectangle.get_primitive_type
+      
+      
+      Rectangle.get_product_property
+      
+      
+      Rectangle.get_product_property_ids
+      
+      
+      Rectangle.has_voids
+      
+      
+      Rectangle.is_null
+      
+      
+      Rectangle.is_parameterized
+      
+      
+      Rectangle.is_void
+      
+      
+      Rectangle.is_zone_primitive
+      
+      
+      Rectangle.remove_hfss_prop
+      
+      
+      Rectangle.render
+      
+      
+      Rectangle.set_hfss_prop
+      
+      
+      Rectangle.set_is_negative
+      
+      
+      Rectangle.set_layer
+      
+      
+      Rectangle.set_parameters
+      
+      
+      Rectangle.set_product_property
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Rectangle.component
+      
+      
+      Rectangle.edb_uid
+      
+      
+      Rectangle.group
+      
+      
+      Rectangle.id
+      
+      
+      Rectangle.layout
+      
+      
+      Rectangle.layout_obj_type
+      
+      
+      Rectangle.msg
+      
+      
+      Rectangle.net
+      
+      
+      Rectangle.obj_type
+      
+      
+      Rectangle.voids
+      
+   
+   

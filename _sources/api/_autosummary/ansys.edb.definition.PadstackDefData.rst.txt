@@ -1,0 +1,37 @@
+﻿ansys.edb.definition.PadstackDefData
+====================================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoclass:: PadstackDefData
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      PadstackDefData.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      PadstackDefData.id
+      
+      
+      PadstackDefData.msg
+      
+   
+   

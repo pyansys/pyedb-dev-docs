@@ -1,0 +1,82 @@
+﻿ansys.edb.net.ExtendedNet
+=========================
+
+.. currentmodule:: ansys.edb.net
+
+.. autoclass:: ExtendedNet
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      ExtendedNet.add_net
+      
+      
+      ExtendedNet.contains_net
+      
+      
+      ExtendedNet.create
+      
+      
+      ExtendedNet.delete
+      
+      
+      ExtendedNet.find
+      
+      
+      ExtendedNet.get_product_property
+      
+      
+      ExtendedNet.get_product_property_ids
+      
+      
+      ExtendedNet.is_null
+      
+      
+      ExtendedNet.remove_net
+      
+      
+      ExtendedNet.set_product_property
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      ExtendedNet.description
+      
+      
+      ExtendedNet.id
+      
+      
+      ExtendedNet.is_power_ground
+      
+      
+      ExtendedNet.layout
+      
+      
+      ExtendedNet.layout_obj_type
+      
+      
+      ExtendedNet.msg
+      
+      
+      ExtendedNet.name
+      
+      
+      ExtendedNet.obj_type
+      
+   
+   

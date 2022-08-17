@@ -1,0 +1,43 @@
+﻿ansys.edb.layout\_instance.LayoutObjInstanceGeometry
+====================================================
+
+.. currentmodule:: ansys.edb.layout_instance
+
+.. autoclass:: LayoutObjInstanceGeometry
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      LayoutObjInstanceGeometry.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      LayoutObjInstanceGeometry.color
+      
+      
+      LayoutObjInstanceGeometry.id
+      
+      
+      LayoutObjInstanceGeometry.material
+      
+      
+      LayoutObjInstanceGeometry.msg
+      
+   
+   

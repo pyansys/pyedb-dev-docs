@@ -1,0 +1,43 @@
+﻿ansys.edb.definition.MaterialDef
+================================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoclass:: MaterialDef
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      MaterialDef.create
+      
+      
+      MaterialDef.is_null
+      
+      
+      MaterialDef.set_property
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      MaterialDef.id
+      
+      
+      MaterialDef.msg
+      
+   
+   

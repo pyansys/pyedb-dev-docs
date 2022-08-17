@@ -1,0 +1,6 @@
+set\_is\_negative
+=================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Polygon.set_is_negative

@@ -1,0 +1,130 @@
+﻿ansys.edb.primitive.Polygon
+===========================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoclass:: Polygon
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Polygon.add_void
+      
+      
+      Polygon.can_be_zone_primitive
+      
+      
+      Polygon.create
+      
+      
+      Polygon.delete
+      
+      
+      Polygon.find_by_id
+      
+      
+      Polygon.get_hfss_prop
+      
+      
+      Polygon.get_is_negative
+      
+      
+      Polygon.get_layer
+      
+      
+      Polygon.get_owner
+      
+      
+      Polygon.get_polygon_data
+      
+      
+      Polygon.get_primitive_type
+      
+      
+      Polygon.get_product_property
+      
+      
+      Polygon.get_product_property_ids
+      
+      
+      Polygon.has_voids
+      
+      
+      Polygon.is_null
+      
+      
+      Polygon.is_parameterized
+      
+      
+      Polygon.is_void
+      
+      
+      Polygon.is_zone_primitive
+      
+      
+      Polygon.remove_hfss_prop
+      
+      
+      Polygon.set_hfss_prop
+      
+      
+      Polygon.set_is_negative
+      
+      
+      Polygon.set_layer
+      
+      
+      Polygon.set_polygon_data
+      
+      
+      Polygon.set_product_property
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Polygon.component
+      
+      
+      Polygon.edb_uid
+      
+      
+      Polygon.group
+      
+      
+      Polygon.id
+      
+      
+      Polygon.layout
+      
+      
+      Polygon.layout_obj_type
+      
+      
+      Polygon.msg
+      
+      
+      Polygon.net
+      
+      
+      Polygon.obj_type
+      
+      
+      Polygon.voids
+      
+   
+   

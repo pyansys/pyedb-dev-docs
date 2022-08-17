@@ -1,0 +1,6 @@
+get\_corner\_style
+==================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.get_corner_style

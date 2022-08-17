@@ -1,0 +1,6 @@
+is\_parameterized
+=================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Primitive.is_parameterized

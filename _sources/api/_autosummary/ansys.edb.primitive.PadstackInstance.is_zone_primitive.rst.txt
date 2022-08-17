@@ -1,0 +1,6 @@
+is\_zone\_primitive
+===================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: PadstackInstance.is_zone_primitive

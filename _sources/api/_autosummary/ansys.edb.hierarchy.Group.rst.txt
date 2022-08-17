@@ -1,0 +1,106 @@
+﻿ansys.edb.hierarchy.Group
+=========================
+
+.. currentmodule:: ansys.edb.hierarchy
+
+.. autoclass:: Group
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Group.add_member
+      
+      
+      Group.create
+      
+      
+      Group.delete
+      
+      
+      Group.find
+      
+      
+      Group.find_by_id
+      
+      
+      Group.get_product_property
+      
+      
+      Group.get_product_property_ids
+      
+      
+      Group.is_null
+      
+      
+      Group.remove_member
+      
+      
+      Group.set_product_property
+      
+      
+      Group.ungroup
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Group.component
+      
+      
+      Group.edb_uid
+      
+      
+      Group.group
+      
+      
+      Group.id
+      
+      
+      Group.layout
+      
+      
+      Group.layout_obj_type
+      
+      
+      Group.location
+      
+      
+      Group.members
+      
+      
+      Group.msg
+      
+      
+      Group.name
+      
+      
+      Group.net
+      
+      
+      Group.obj_type
+      
+      
+      Group.placement_layer
+      
+      
+      Group.solve_independent_preference
+      
+      
+      Group.transform
+      
+   
+   

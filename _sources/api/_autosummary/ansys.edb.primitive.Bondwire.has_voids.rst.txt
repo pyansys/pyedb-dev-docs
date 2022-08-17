@@ -1,0 +1,6 @@
+has\_voids
+==========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Bondwire.has_voids

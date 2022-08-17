@@ -1,0 +1,6 @@
+get\_layer
+==========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.get_layer

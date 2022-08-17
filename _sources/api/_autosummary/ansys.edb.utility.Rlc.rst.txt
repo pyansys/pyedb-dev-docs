@@ -1,0 +1,58 @@
+﻿ansys.edb.utility.Rlc
+=====================
+
+.. currentmodule:: ansys.edb.utility
+
+.. autoclass:: Rlc
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Rlc.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Rlc.c
+      
+      
+      Rlc.c_enabled
+      
+      
+      Rlc.id
+      
+      
+      Rlc.is_parallel
+      
+      
+      Rlc.l
+      
+      
+      Rlc.l_enabled
+      
+      
+      Rlc.msg
+      
+      
+      Rlc.r
+      
+      
+      Rlc.r_enabled
+      
+   
+   

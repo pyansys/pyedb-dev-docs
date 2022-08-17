@@ -1,0 +1,6 @@
+find
+====
+
+.. currentmodule:: ansys.edb.net
+
+.. automethod:: NetClass.find

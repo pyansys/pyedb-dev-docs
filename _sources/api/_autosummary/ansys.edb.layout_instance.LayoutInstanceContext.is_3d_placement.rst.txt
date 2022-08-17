@@ -1,0 +1,6 @@
+is\_3d\_placement
+=================
+
+.. currentmodule:: ansys.edb.layout_instance
+
+.. autoproperty:: LayoutInstanceContext.is_3d_placement

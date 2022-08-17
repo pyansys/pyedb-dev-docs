@@ -1,0 +1,6 @@
+msg
+===
+
+.. currentmodule:: ansys.edb.utility
+
+.. autoproperty:: PortPostProcessingProp.msg

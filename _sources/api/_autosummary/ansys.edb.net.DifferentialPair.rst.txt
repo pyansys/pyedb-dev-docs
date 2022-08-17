@@ -1,0 +1,82 @@
+﻿ansys.edb.net.DifferentialPair
+==============================
+
+.. currentmodule:: ansys.edb.net
+
+.. autoclass:: DifferentialPair
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      DifferentialPair.add_net
+      
+      
+      DifferentialPair.contains_net
+      
+      
+      DifferentialPair.create
+      
+      
+      DifferentialPair.delete
+      
+      
+      DifferentialPair.find
+      
+      
+      DifferentialPair.get_product_property
+      
+      
+      DifferentialPair.get_product_property_ids
+      
+      
+      DifferentialPair.is_null
+      
+      
+      DifferentialPair.remove_net
+      
+      
+      DifferentialPair.set_product_property
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      DifferentialPair.description
+      
+      
+      DifferentialPair.id
+      
+      
+      DifferentialPair.is_power_ground
+      
+      
+      DifferentialPair.layout
+      
+      
+      DifferentialPair.layout_obj_type
+      
+      
+      DifferentialPair.msg
+      
+      
+      DifferentialPair.name
+      
+      
+      DifferentialPair.obj_type
+      
+   
+   

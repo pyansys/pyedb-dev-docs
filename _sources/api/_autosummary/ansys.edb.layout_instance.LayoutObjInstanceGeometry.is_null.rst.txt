@@ -1,0 +1,6 @@
+is\_null
+========
+
+.. currentmodule:: ansys.edb.layout_instance
+
+.. automethod:: LayoutObjInstanceGeometry.is_null

@@ -1,0 +1,6 @@
+set\_width
+==========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.set_width

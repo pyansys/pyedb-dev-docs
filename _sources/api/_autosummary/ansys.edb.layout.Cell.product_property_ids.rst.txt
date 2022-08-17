@@ -1,0 +1,6 @@
+product\_property\_ids
+======================
+
+.. currentmodule:: ansys.edb.layout
+
+.. automethod:: Cell.product_property_ids

@@ -1,0 +1,6 @@
+get\_width
+==========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.get_width

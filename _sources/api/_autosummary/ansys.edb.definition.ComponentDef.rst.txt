@@ -1,0 +1,37 @@
+﻿ansys.edb.definition.ComponentDef
+=================================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoclass:: ComponentDef
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      ComponentDef.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      ComponentDef.id
+      
+      
+      ComponentDef.msg
+      
+   
+   

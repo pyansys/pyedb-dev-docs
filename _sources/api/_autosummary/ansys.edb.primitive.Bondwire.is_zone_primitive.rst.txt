@@ -1,0 +1,6 @@
+is\_zone\_primitive
+===================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Bondwire.is_zone_primitive

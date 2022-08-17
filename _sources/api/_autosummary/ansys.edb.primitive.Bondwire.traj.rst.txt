@@ -1,0 +1,6 @@
+traj
+====
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoproperty:: Bondwire.traj

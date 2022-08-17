@@ -1,0 +1,163 @@
+﻿ansys.edb.primitive.Path
+========================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoclass:: Path
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Path.add_void
+      
+      
+      Path.can_be_zone_primitive
+      
+      
+      Path.create
+      
+      
+      Path.delete
+      
+      
+      Path.find_by_id
+      
+      
+      Path.get_center_line
+      
+      
+      Path.get_clip_info
+      
+      
+      Path.get_corner_style
+      
+      
+      Path.get_end_cap_style
+      
+      
+      Path.get_hfss_prop
+      
+      
+      Path.get_is_negative
+      
+      
+      Path.get_layer
+      
+      
+      Path.get_miter_ratio
+      
+      
+      Path.get_owner
+      
+      
+      Path.get_primitive_type
+      
+      
+      Path.get_product_property
+      
+      
+      Path.get_product_property_ids
+      
+      
+      Path.get_width
+      
+      
+      Path.has_voids
+      
+      
+      Path.is_null
+      
+      
+      Path.is_parameterized
+      
+      
+      Path.is_void
+      
+      
+      Path.is_zone_primitive
+      
+      
+      Path.remove_hfss_prop
+      
+      
+      Path.render
+      
+      
+      Path.set_center_line
+      
+      
+      Path.set_clip_info
+      
+      
+      Path.set_corner_style
+      
+      
+      Path.set_end_cap_style
+      
+      
+      Path.set_hfss_prop
+      
+      
+      Path.set_is_negative
+      
+      
+      Path.set_layer
+      
+      
+      Path.set_miter_ratio
+      
+      
+      Path.set_product_property
+      
+      
+      Path.set_width
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      Path.component
+      
+      
+      Path.edb_uid
+      
+      
+      Path.group
+      
+      
+      Path.id
+      
+      
+      Path.layout
+      
+      
+      Path.layout_obj_type
+      
+      
+      Path.msg
+      
+      
+      Path.net
+      
+      
+      Path.obj_type
+      
+      
+      Path.voids
+      
+   
+   

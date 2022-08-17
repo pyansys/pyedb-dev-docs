@@ -1,0 +1,58 @@
+﻿ansys.edb.utility.PortPostProcessingProp
+========================================
+
+.. currentmodule:: ansys.edb.utility
+
+.. autoclass:: PortPostProcessingProp
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      PortPostProcessingProp.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      PortPostProcessingProp.deembed_length
+      
+      
+      PortPostProcessingProp.do_deembed
+      
+      
+      PortPostProcessingProp.do_deembed_gap_l
+      
+      
+      PortPostProcessingProp.do_renormalize
+      
+      
+      PortPostProcessingProp.id
+      
+      
+      PortPostProcessingProp.msg
+      
+      
+      PortPostProcessingProp.renormalization_impedance
+      
+      
+      PortPostProcessingProp.voltage_magnitude
+      
+      
+      PortPostProcessingProp.voltage_phase
+      
+   
+   

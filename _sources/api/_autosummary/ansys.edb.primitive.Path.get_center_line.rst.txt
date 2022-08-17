@@ -1,0 +1,6 @@
+get\_center\_line
+=================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Path.get_center_line

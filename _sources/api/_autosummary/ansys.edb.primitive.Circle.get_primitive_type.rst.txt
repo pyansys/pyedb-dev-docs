@@ -1,0 +1,6 @@
+get\_primitive\_type
+====================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Circle.get_primitive_type

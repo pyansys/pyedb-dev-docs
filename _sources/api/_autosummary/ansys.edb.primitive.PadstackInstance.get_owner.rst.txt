@@ -1,0 +1,6 @@
+get\_owner
+==========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: PadstackInstance.get_owner

@@ -1,0 +1,6 @@
+set\_polygon\_data
+==================
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Polygon.set_polygon_data
