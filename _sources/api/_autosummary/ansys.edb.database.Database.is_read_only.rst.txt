@@ -3,4 +3,4 @@ is\_read\_only
 
 .. currentmodule:: ansys.edb.database
 
-.. automethod:: Database.is_read_only
+.. autoproperty:: Database.is_read_only

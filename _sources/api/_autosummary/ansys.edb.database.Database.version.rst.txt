@@ -1,6 +1,6 @@
-get\_id
+version
 =======
 
 .. currentmodule:: ansys.edb.database
 
-.. automethod:: Database.get_id
+.. autoproperty:: Database.version
