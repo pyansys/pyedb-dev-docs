@@ -520,19 +520,28 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.layout.Cell.create_value">
 <span class="sig-prename descclassname"><span class="pre">Cell.</span></span><span class="sig-name descname"><span class="pre">create_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">val</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layout.Cell.create_value" title="Permalink to this definition">#</a></dt>
-<dd><p>Create a Value that can reference variables in this VariableServer.</p>
+<dd><p>Create a <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a> that can reference variables in this VariableServer.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>val</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a></span></dt><dd></dd>
+<dt><strong>val</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a></span></dt><dd><p>val can be any type that can be converted to a <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></dt><dd></dd>
 </dl>
 </dd>
 </dl>
+<p class="rubric">Notes</p>
+<p>Creating a value from a <a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a> can reference variables in the
+<a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a>.</p>
+<p>Creating a value from a <a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a> can reference variables in both the
+<a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a> and the <a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a>.</p>
+<p>Creating a value from a <a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a> can reference variables
+in both the <a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a> and
+the <a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a>.</p>
 </dd></dl>
 
 </section>

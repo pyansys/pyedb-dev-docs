@@ -417,6 +417,11 @@
      </li>
     </ul>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.database.ProductIdType.html">
+     ansys.edb.database.ProductIdType
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -525,17 +530,38 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.database.Database.add_variable">
 <span class="sig-prename descclassname"><span class="pre">Database.</span></span><span class="sig-name descname"><span class="pre">add_variable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_param</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.database.Database.add_variable" title="Permalink to this definition">#</a></dt>
-<dd><p>Add new variable to the VariableServer.</p>
+<dd><p>Add new variable.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
-<dt><strong>value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">double</span></code>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></span></dt><dd></dd>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Variable name</p>
+</dd>
+<dt><strong>value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>value can be any type that can be converted to a <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></p>
+</dd>
 <dt><strong>is_param</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>True means the new variable is a parameter, False means it is a local variable</p>
 </dd>
 </dl>
 </dd>
 </dl>
+<p class="rubric">Notes</p>
+<p>Variables can be added to the following EDB objects</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a>. Variable names must begin with a ‘$’</p></li>
+<li><p><a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a></p></li>
+<li><p><a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a></p></li>
+<li><p><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a> – adds variable
+to corresponding <a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a></p></li>
+</ul>
+<p class="rubric">Examples</p>
+<p>Adding variables to a Cell and creating a Value that references those variables</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">param</span> <span class="o">=</span> <span class="n">Value</span><span class="p">(</span><span class="mf">33.1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">cell</span><span class="o">.</span><span class="n">add_variable</span><span class="p">(</span><span class="s2">&quot;blue1&quot;</span><span class="p">,</span> <span class="n">param</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">cell</span><span class="o">.</span><span class="n">add_variable</span><span class="p">(</span><span class="s2">&quot;blue2&quot;</span><span class="p">,</span> <span class="s2">&quot;25mm&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vv</span> <span class="o">=</span> <span class="n">cell</span><span class="o">.</span><span class="n">create_value</span><span class="p">(</span><span class="s2">&quot;blue1 + blue2&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">vv</span><span class="o">.</span><span class="n">double</span><span class="p">)</span>
+<span class="go">33.125</span>
+</pre></div>
+</div>
 </dd></dl>
 
 </section>

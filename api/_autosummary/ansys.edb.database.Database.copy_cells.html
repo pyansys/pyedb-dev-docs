@@ -417,6 +417,11 @@
      </li>
     </ul>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.database.ProductIdType.html">
+     ansys.edb.database.ProductIdType
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -525,11 +530,18 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.database.Database.copy_cells">
 <span class="sig-prename descclassname"><span class="pre">Database.</span></span><span class="sig-name descname"><span class="pre">copy_cells</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cells_to_copy</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.database.Database.copy_cells" title="Permalink to this definition">#</a></dt>
-<dd><p>Copy the given cells into this database.</p>
+<dd><p>Copy Cells from other Databases or this Database into this Database.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>cells_to_copy</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">Cell</span></code>]</span></dt><dd></dd>
+<dt><strong>cells_to_copy</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a>]</span></dt><dd><p>Cells to copy.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a>]</dt><dd><p>New Cells created in this Database.</p>
+</dd>
 </dl>
 </dd>
 </dl>
