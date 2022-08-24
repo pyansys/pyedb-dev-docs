@@ -30,6 +30,9 @@
       ExtendedNet.find
       
       
+      ExtendedNet.find_by_name
+      
+      
       ExtendedNet.get_product_property
       
       
@@ -37,6 +40,9 @@
       
       
       ExtendedNet.is_null
+      
+      
+      ExtendedNet.remove_all_nets
       
       
       ExtendedNet.remove_net
