@@ -1,0 +1,43 @@
+﻿ansys.edb.definition.NPortComponentModel
+========================================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoclass:: NPortComponentModel
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      NPortComponentModel.create
+      
+      
+      NPortComponentModel.is_null
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      NPortComponentModel.id
+      
+      
+      NPortComponentModel.msg
+      
+      
+      NPortComponentModel.reference_file
+      
+   
+   

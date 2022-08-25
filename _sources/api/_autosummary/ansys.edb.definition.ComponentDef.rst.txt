@@ -15,6 +15,12 @@
    
       
       
+      ComponentDef.create
+      
+      
+      ComponentDef.find
+      
+      
       ComponentDef.is_null
       
    
@@ -28,10 +34,22 @@
       :toctree:
    
       
+      ComponentDef.component_models
+      
+      
+      ComponentDef.component_pins
+      
+      
+      ComponentDef.footprint
+      
+      
       ComponentDef.id
       
       
       ComponentDef.msg
+      
+      
+      ComponentDef.name
       
    
    
