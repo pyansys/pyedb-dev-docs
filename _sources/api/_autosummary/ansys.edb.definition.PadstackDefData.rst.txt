@@ -15,7 +15,25 @@
    
       
       
+      PadstackDefData.add_layers
+      
+      
+      PadstackDefData.create
+      
+      
+      PadstackDefData.get_pad_parameters
+      
+      
+      PadstackDefData.get_polygonal_pad_parameters
+      
+      
       PadstackDefData.is_null
+      
+      
+      PadstackDefData.set_pad_parameters
+      
+      
+      PadstackDefData.set_polygonal_pad_parameters
       
    
    
@@ -28,10 +46,37 @@
       :toctree:
    
       
+      PadstackDefData.hole_range
+      
+      
       PadstackDefData.id
       
       
+      PadstackDefData.layer_ids
+      
+      
+      PadstackDefData.layer_names
+      
+      
+      PadstackDefData.material
+      
+      
       PadstackDefData.msg
+      
+      
+      PadstackDefData.plating_percentage
+      
+      
+      PadstackDefData.solder_ball_material
+      
+      
+      PadstackDefData.solder_ball_param
+      
+      
+      PadstackDefData.solder_ball_placement
+      
+      
+      PadstackDefData.solder_ball_shape
       
    
    
