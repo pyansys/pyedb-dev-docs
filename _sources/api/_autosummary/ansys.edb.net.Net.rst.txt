@@ -46,7 +46,13 @@
       :toctree:
    
       
+      Net.extended_net
+      
+      
       Net.id
+      
+      
+      Net.is_power_ground
       
       
       Net.layout
@@ -58,7 +64,25 @@
       Net.msg
       
       
+      Net.name
+      
+      
+      Net.net_classes
+      
+      
       Net.obj_type
+      
+      
+      Net.padstack_instances
+      
+      
+      Net.primitives
+      
+      
+      Net.terminal_instances
+      
+      
+      Net.terminals
       
    
    

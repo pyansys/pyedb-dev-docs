@@ -384,7 +384,27 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.utility.PortPostProcessingProp">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">PortPostProcessingProp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.PortPostProcessingProp" title="Permalink to this definition">#</a></dt>
-<dd><p>Class representing Port Post Processing Prop.</p>
+<dd><p>Represents Port Post Processing Prop.</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>voltage_magnitude</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Excitation voltage magnitude.</p>
+</dd>
+<dt><strong>voltage_phase</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Excitation voltage phase.</p>
+</dd>
+<dt><strong>deembed_length</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Dembeed distance. Only applied if do_deembed is True.</p>
+</dd>
+<dt><strong>renormalization_impedance</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Renormalization impedance. Only applied if do_renormalize is True.</p>
+</dd>
+<dt><strong>do_deembed</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>Enable port to be deembedded.</p>
+</dd>
+<dt><strong>do_renormalize</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>Enable port impedance renormalization.</p>
+</dd>
+<dt><strong>do_deembed_gap_l</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>Enable the gap port inductance to be deembedded.</p>
+</dd>
+</dl>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -408,13 +428,13 @@
 <td><p>Deembed Length.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.do_deembed.html#ansys.edb.utility.PortPostProcessingProp.do_deembed" title="ansys.edb.utility.PortPostProcessingProp.do_deembed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.do_deembed</span></code></a></p></td>
-<td><p>Whether to deembed or not.</p></td>
+<td><p>Enable port to be deembedded.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.do_deembed_gap_l.html#ansys.edb.utility.PortPostProcessingProp.do_deembed_gap_l" title="ansys.edb.utility.PortPostProcessingProp.do_deembed_gap_l"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.do_deembed_gap_l</span></code></a></p></td>
-<td><p>Whether to deembed gap length or not.</p></td>
+<td><p>Enable the gap port inductance to be deembedded.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.do_renormalize.html#ansys.edb.utility.PortPostProcessingProp.do_renormalize" title="ansys.edb.utility.PortPostProcessingProp.do_renormalize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.do_renormalize</span></code></a></p></td>
-<td><p>Whether to renormalize or not.</p></td>
+<td><p>Enable port impedance renormalization.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.id.html#ansys.edb.utility.PortPostProcessingProp.id" title="ansys.edb.utility.PortPostProcessingProp.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.id</span></code></a></p></td>
 <td><p>Return unique ID of an EDB object.</p></td>
@@ -426,10 +446,10 @@
 <td><p>Renormalization Impedance.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.voltage_magnitude.html#ansys.edb.utility.PortPostProcessingProp.voltage_magnitude" title="ansys.edb.utility.PortPostProcessingProp.voltage_magnitude"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.voltage_magnitude</span></code></a></p></td>
-<td><p>Voltage magnitude.</p></td>
+<td><p>Excitation voltage magnitude.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.PortPostProcessingProp.voltage_phase.html#ansys.edb.utility.PortPostProcessingProp.voltage_phase" title="ansys.edb.utility.PortPostProcessingProp.voltage_phase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PortPostProcessingProp.voltage_phase</span></code></a></p></td>
-<td><p>Voltage phase.</p></td>
+<td><p>Excitation voltage phase.</p></td>
 </tr>
 </tbody>
 </table>
