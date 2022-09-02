@@ -39,8 +39,8 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="id" href="ansys.edb.definition.MaterialDef.id.html" />
-    <link rel="prev" title="is_null" href="ansys.edb.definition.MaterialDef.is_null.html" />
+    <link rel="next" title="set_thermal_modifier" href="ansys.edb.definition.MaterialDef.set_thermal_modifier.html" />
+    <link rel="prev" title="set_anisotropic_thermal_modifier" href="ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -256,13 +256,68 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.delete.html">
+       delete
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.find_by_name.html">
+       find_by_name
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_all_properties.html">
+       get_all_properties
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_anisotropic_thermal_modifier.html">
+       get_anisotropic_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_dimensions.html">
+       get_dimensions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_property.html">
+       get_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_thermal_modifier.html">
+       get_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.MaterialDef.is_null.html">
        is_null
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.remove_property.html">
+       remove_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier.html">
+       set_anisotropic_thermal_modifier
       </a>
      </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
        set_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.set_thermal_modifier.html">
+       set_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.dielectric_material_model.html">
+       dielectric_material_model
       </a>
      </li>
      <li class="toctree-l3">
@@ -273,6 +328,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.MaterialDef.msg.html">
        msg
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.name.html">
+       name
       </a>
      </li>
     </ul>
@@ -399,18 +459,21 @@
 <h1>set_property<a class="headerlink" href="#set-property" title="Permalink to this headline">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.definition.MaterialDef.set_property">
-<span class="sig-prename descclassname"><span class="pre">MaterialDef.</span></span><span class="sig-name descname"><span class="pre">set_property</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">material_property</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.MaterialDef.set_property" title="Permalink to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">MaterialDef.</span></span><span class="sig-name descname"><span class="pre">set_property</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">material_property</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">component_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.MaterialDef.set_property" title="Permalink to this definition">#</a></dt>
 <dd><p>Set a property value of a material.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>material_property</strong><span class="classifier"><a class="reference internal" href="ansys.edb.definition.MaterialProperty.html#ansys.edb.definition.MaterialProperty" title="ansys.edb.definition.MaterialProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialProperty</span></code></a></span></dt><dd></dd>
-<dt><strong>value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
-</dl>
+<dt><strong>material_property</strong><span class="classifier"><a class="reference internal" href="ansys.edb.definition.MaterialProperty.html#ansys.edb.definition.MaterialProperty" title="ansys.edb.definition.MaterialProperty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialProperty</span></code></a></span></dt><dd><p>Property id.</p>
 </dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></dt><dd></dd>
+<dt><strong>value</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Property value returned.</p>
+</dd>
+<dt><strong>component_id</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Component id.</p>
+</dd>
+<dt><strong>row</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Tensor row.</p>
+</dd>
+<dt><strong>col</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Tensor column.</p>
+</dd>
 </dl>
 </dd>
 </dl>

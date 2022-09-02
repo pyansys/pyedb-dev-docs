@@ -255,13 +255,68 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.delete.html">
+       delete
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.find_by_name.html">
+       find_by_name
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_all_properties.html">
+       get_all_properties
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_anisotropic_thermal_modifier.html">
+       get_anisotropic_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_dimensions.html">
+       get_dimensions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_property.html">
+       get_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.get_thermal_modifier.html">
+       get_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.MaterialDef.is_null.html">
        is_null
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.remove_property.html">
+       remove_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier.html">
+       set_anisotropic_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.MaterialDef.set_property.html">
        set_property
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.set_thermal_modifier.html">
+       set_thermal_modifier
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.dielectric_material_model.html">
+       dielectric_material_model
       </a>
      </li>
      <li class="toctree-l3">
@@ -272,6 +327,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.MaterialDef.msg.html">
        msg
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.MaterialDef.name.html">
+       name
       </a>
      </li>
     </ul>
@@ -408,13 +468,43 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.create.html#ansys.edb.definition.MaterialDef.create" title="ansys.edb.definition.MaterialDef.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.create</span></code></a>(database, name, **kwargs)</p></td>
-<td><p>Create a material definition.</p></td>
+<td><p>Create a material definition into the given database.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.is_null.html#ansys.edb.definition.MaterialDef.is_null" title="ansys.edb.definition.MaterialDef.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.is_null</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.delete.html#ansys.edb.definition.MaterialDef.delete" title="ansys.edb.definition.MaterialDef.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.delete</span></code></a>()</p></td>
+<td><p>Delete a material definition.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.find_by_name.html#ansys.edb.definition.MaterialDef.find_by_name" title="ansys.edb.definition.MaterialDef.find_by_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.find_by_name</span></code></a>(database, name)</p></td>
+<td><p>Find a material definition in the database with given name.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.get_all_properties.html#ansys.edb.definition.MaterialDef.get_all_properties" title="ansys.edb.definition.MaterialDef.get_all_properties"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.get_all_properties</span></code></a>()</p></td>
+<td><p>Set a property value of a material.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.get_anisotropic_thermal_modifier.html#ansys.edb.definition.MaterialDef.get_anisotropic_thermal_modifier" title="ansys.edb.definition.MaterialDef.get_anisotropic_thermal_modifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.get_anisotropic_thermal_modifier</span></code></a>(...)</p></td>
+<td><p>Get anisotropic thermal modifier of a material def.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.get_dimensions.html#ansys.edb.definition.MaterialDef.get_dimensions" title="ansys.edb.definition.MaterialDef.get_dimensions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.get_dimensions</span></code></a>(material_property_id)</p></td>
+<td><p>Get dimensions of a material definition Simple 1x1, Anisotropic 3x1, Tensor 3x3.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.get_property.html#ansys.edb.definition.MaterialDef.get_property" title="ansys.edb.definition.MaterialDef.get_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.get_property</span></code></a>(material_property)</p></td>
+<td><p>Set a property value of a material.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.get_thermal_modifier.html#ansys.edb.definition.MaterialDef.get_thermal_modifier" title="ansys.edb.definition.MaterialDef.get_thermal_modifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.get_thermal_modifier</span></code></a>(...)</p></td>
+<td><p>Get thermal modifier of the material definition.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.is_null.html#ansys.edb.definition.MaterialDef.is_null" title="ansys.edb.definition.MaterialDef.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.is_null</span></code></a>()</p></td>
 <td><p>Determine whether this object exists in EDB.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.set_property.html#ansys.edb.definition.MaterialDef.set_property" title="ansys.edb.definition.MaterialDef.set_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.set_property</span></code></a>(material_property, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.remove_property.html#ansys.edb.definition.MaterialDef.remove_property" title="ansys.edb.definition.MaterialDef.remove_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.remove_property</span></code></a>(material_property)</p></td>
+<td><p>Remove a property value of a material def.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier.html#ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier" title="ansys.edb.definition.MaterialDef.set_anisotropic_thermal_modifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.set_anisotropic_thermal_modifier</span></code></a>(...)</p></td>
+<td><p>Set anisotropic thermal modifier of a material def.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.set_property.html#ansys.edb.definition.MaterialDef.set_property" title="ansys.edb.definition.MaterialDef.set_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.set_property</span></code></a>(material_property, ...)</p></td>
 <td><p>Set a property value of a material.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.set_thermal_modifier.html#ansys.edb.definition.MaterialDef.set_thermal_modifier" title="ansys.edb.definition.MaterialDef.set_thermal_modifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.set_thermal_modifier</span></code></a>(...)</p></td>
+<td><p>Set thermal modifier of the material definition.</p></td>
 </tr>
 </tbody>
 </table>
@@ -425,11 +515,17 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.id.html#ansys.edb.definition.MaterialDef.id" title="ansys.edb.definition.MaterialDef.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.id</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.dielectric_material_model.html#ansys.edb.definition.MaterialDef.dielectric_material_model" title="ansys.edb.definition.MaterialDef.dielectric_material_model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.dielectric_material_model</span></code></a></p></td>
+<td><p>Get Dielectric material model of the material definition.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.id.html#ansys.edb.definition.MaterialDef.id" title="ansys.edb.definition.MaterialDef.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.id</span></code></a></p></td>
 <td><p>Return unique ID of an EDB object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.msg.html#ansys.edb.definition.MaterialDef.msg" title="ansys.edb.definition.MaterialDef.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.msg</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.msg.html#ansys.edb.definition.MaterialDef.msg" title="ansys.edb.definition.MaterialDef.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.msg</span></code></a></p></td>
 <td><p>Return protobuf message that represents this object's ID.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.MaterialDef.name.html#ansys.edb.definition.MaterialDef.name" title="ansys.edb.definition.MaterialDef.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MaterialDef.name</span></code></a></p></td>
+<td><p>Get name of the material definition.</p></td>
 </tr>
 </tbody>
 </table>

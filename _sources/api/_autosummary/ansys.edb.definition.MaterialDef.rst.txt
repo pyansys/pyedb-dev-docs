@@ -18,10 +18,40 @@
       MaterialDef.create
       
       
+      MaterialDef.delete
+      
+      
+      MaterialDef.find_by_name
+      
+      
+      MaterialDef.get_all_properties
+      
+      
+      MaterialDef.get_anisotropic_thermal_modifier
+      
+      
+      MaterialDef.get_dimensions
+      
+      
+      MaterialDef.get_property
+      
+      
+      MaterialDef.get_thermal_modifier
+      
+      
       MaterialDef.is_null
       
       
+      MaterialDef.remove_property
+      
+      
+      MaterialDef.set_anisotropic_thermal_modifier
+      
+      
       MaterialDef.set_property
+      
+      
+      MaterialDef.set_thermal_modifier
       
    
    
@@ -34,10 +64,16 @@
       :toctree:
    
       
+      MaterialDef.dielectric_material_model
+      
+      
       MaterialDef.id
       
       
       MaterialDef.msg
+      
+      
+      MaterialDef.name
       
    
    
