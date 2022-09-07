@@ -616,23 +616,33 @@
 <dt class="sig sig-object py" id="ansys.edb.primitive.PadstackInstance.create">
 <em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">PadstackInstance.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">padstack_def</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">top_layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bottom_layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">solder_ball_layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">layer_map</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.PadstackInstance.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a PadstackInstance object.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>layout: Layout,</strong></dt><dd></dd>
-<dt><strong>net: Net,</strong></dt><dd></dd>
-<dt><strong>name: str,</strong></dt><dd></dd>
-<dt><strong>padstack_def: PadstackDef,</strong></dt><dd></dd>
-<dt><strong>rotation: float,</strong></dt><dd></dd>
-<dt><strong>top_layer: Layer,</strong></dt><dd></dd>
-<dt><strong>bottom_layer: Layer,</strong></dt><dd></dd>
-<dt><strong>solder_ball_layer: Layer,</strong></dt><dd></dd>
-<dt><strong>layer_map: LayerMap</strong></dt><dd></dd>
+<dd class="field-odd"><dl>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout this padstack instance will be in.</p>
+</dd>
+<dt><strong>net</strong><span class="classifier"><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a></span></dt><dd><p>Net of this padstack instance.</p>
+</dd>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of padstack instance.</p>
+</dd>
+<dt><strong>padstack_def</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackDef</span></code></span></dt><dd><p>Padstack definition of this padstack instance.</p>
+</dd>
+<dt><strong>rotation</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Rotation of this padstack instance.</p>
+</dd>
+<dt><strong>top_layer</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a></span></dt><dd><p>Top layer of this padstack instance.</p>
+</dd>
+<dt><strong>bottom_layer</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a></span></dt><dd><p>Bottom layer of this padstack instance.</p>
+</dd>
+<dt><strong>solder_ball_layer</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a></span></dt><dd><p>Solder ball layer of this padstack instance, or None for none.</p>
+</dd>
+<dt><strong>layer_map</strong><span class="classifier"><code class="xref py py-class docutils literal notranslate"><span class="pre">LayerMap</span></code></span></dt><dd><p>Layer map of this padstack instance. None or empty means do auto-mapping.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.html#ansys.edb.primitive.PadstackInstance" title="ansys.edb.primitive.PadstackInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.html#ansys.edb.primitive.PadstackInstance" title="ansys.edb.primitive.PadstackInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance</span></code></a></dt><dd><p>Padstack instance object created.</p>
+</dd>
 </dl>
 </dd>
 </dl>

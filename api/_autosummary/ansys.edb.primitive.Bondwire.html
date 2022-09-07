@@ -320,6 +320,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Bondwire.get_traj.html">
+       get_traj
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.has_voids.html">
        has_voids
       </a>
@@ -390,6 +395,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Bondwire.set_traj.html">
+       set_traj
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.component.html">
        component
       </a>
@@ -442,11 +452,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.obj_type.html">
        obj_type
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.primitive.Bondwire.traj.html">
-       traj
       </a>
      </li>
      <li class="toctree-l3">
@@ -585,18 +590,6 @@
 <dt class="sig sig-object py" id="ansys.edb.primitive.Bondwire">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.primitive.</span></span><span class="sig-name descname"><span class="pre">Bondwire</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.Bondwire" title="Permalink to this definition">#</a></dt>
 <dd><p>Class representing a bondwire object.</p>
-<blockquote>
-<div><dl class="simple">
-<dt>Attributes:</dt><dd><p>material (str)
-type (BondwireType)
-cross_section_type (BondwireCrossSectionType)
-cross_section_height (Value)
-definition_name (str)
-traj (tuple[Value, Value, Value, Value])
-width (Value)</p>
-</dd>
-</dl>
-</div></blockquote>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -652,47 +645,53 @@ width (Value)</p>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.get_start_elevation.html#ansys.edb.primitive.Bondwire.get_start_elevation" title="ansys.edb.primitive.Bondwire.get_start_elevation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.get_start_elevation</span></code></a>(start_context)</p></td>
 <td><p>Get the start elevation layer of a bondwire object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.has_voids.html#ansys.edb.primitive.Bondwire.has_voids" title="ansys.edb.primitive.Bondwire.has_voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.has_voids</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.get_traj.html#ansys.edb.primitive.Bondwire.get_traj" title="ansys.edb.primitive.Bondwire.get_traj"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.get_traj</span></code></a>()</p></td>
+<td><p>Get trajectory parameters of a bondwire object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.has_voids.html#ansys.edb.primitive.Bondwire.has_voids" title="ansys.edb.primitive.Bondwire.has_voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.has_voids</span></code></a>()</p></td>
 <td><p>Determine if a primitive contains voids inside.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_null.html#ansys.edb.primitive.Bondwire.is_null" title="ansys.edb.primitive.Bondwire.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_null</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_null.html#ansys.edb.primitive.Bondwire.is_null" title="ansys.edb.primitive.Bondwire.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_null</span></code></a>()</p></td>
 <td><p>Determine whether this object exists in EDB.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_parameterized.html#ansys.edb.primitive.Bondwire.is_parameterized" title="ansys.edb.primitive.Bondwire.is_parameterized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_parameterized</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_parameterized.html#ansys.edb.primitive.Bondwire.is_parameterized" title="ansys.edb.primitive.Bondwire.is_parameterized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_parameterized</span></code></a>()</p></td>
 <td><p>Determine if a primitive is parametrized.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_void.html#ansys.edb.primitive.Bondwire.is_void" title="ansys.edb.primitive.Bondwire.is_void"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_void</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_void.html#ansys.edb.primitive.Bondwire.is_void" title="ansys.edb.primitive.Bondwire.is_void"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_void</span></code></a>()</p></td>
 <td><p>Determine if a primitive is a void.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_zone_primitive.html#ansys.edb.primitive.Bondwire.is_zone_primitive" title="ansys.edb.primitive.Bondwire.is_zone_primitive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_zone_primitive</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.is_zone_primitive.html#ansys.edb.primitive.Bondwire.is_zone_primitive" title="ansys.edb.primitive.Bondwire.is_zone_primitive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.is_zone_primitive</span></code></a>()</p></td>
 <td><p>Determine if a primitive is a zone.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.remove_hfss_prop.html#ansys.edb.primitive.Bondwire.remove_hfss_prop" title="ansys.edb.primitive.Bondwire.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.remove_hfss_prop</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.remove_hfss_prop.html#ansys.edb.primitive.Bondwire.remove_hfss_prop" title="ansys.edb.primitive.Bondwire.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.remove_hfss_prop</span></code></a>()</p></td>
 <td><p>Remove HFSS properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_definition_name.html#ansys.edb.primitive.Bondwire.set_definition_name" title="ansys.edb.primitive.Bondwire.set_definition_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_definition_name</span></code></a>(definition_name)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_definition_name.html#ansys.edb.primitive.Bondwire.set_definition_name" title="ansys.edb.primitive.Bondwire.set_definition_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_definition_name</span></code></a>(definition_name)</p></td>
 <td><p>Set the definition name of a bondwire.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_end_elevation.html#ansys.edb.primitive.Bondwire.set_end_elevation" title="ansys.edb.primitive.Bondwire.set_end_elevation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_end_elevation</span></code></a>(end_context, layer)</p></td>
-<td><p>Set the set end elevation of a bondwire.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_end_elevation.html#ansys.edb.primitive.Bondwire.set_end_elevation" title="ansys.edb.primitive.Bondwire.set_end_elevation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_end_elevation</span></code></a>(end_context, layer)</p></td>
+<td><p>Set the end elevation of a bondwire.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_hfss_prop.html#ansys.edb.primitive.Bondwire.set_hfss_prop" title="ansys.edb.primitive.Bondwire.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_hfss_prop.html#ansys.edb.primitive.Bondwire.set_hfss_prop" title="ansys.edb.primitive.Bondwire.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
 <td><p>Set HFSS properties.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_is_negative.html#ansys.edb.primitive.Bondwire.set_is_negative" title="ansys.edb.primitive.Bondwire.set_is_negative"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_is_negative</span></code></a>(is_negative)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_is_negative.html#ansys.edb.primitive.Bondwire.set_is_negative" title="ansys.edb.primitive.Bondwire.set_is_negative"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_is_negative</span></code></a>(is_negative)</p></td>
 <td><p>Update if negative.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_layer.html#ansys.edb.primitive.Bondwire.set_layer" title="ansys.edb.primitive.Bondwire.set_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_layer</span></code></a>(layer)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_layer.html#ansys.edb.primitive.Bondwire.set_layer" title="ansys.edb.primitive.Bondwire.set_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_layer</span></code></a>(layer)</p></td>
 <td><p>Set the layer.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_material.html#ansys.edb.primitive.Bondwire.set_material" title="ansys.edb.primitive.Bondwire.set_material"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_material</span></code></a>(material)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_material.html#ansys.edb.primitive.Bondwire.set_material" title="ansys.edb.primitive.Bondwire.set_material"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_material</span></code></a>(material)</p></td>
 <td><p>Set the material of a bondwire.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_product_property.html#ansys.edb.primitive.Bondwire.set_product_property" title="ansys.edb.primitive.Bondwire.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_product_property.html#ansys.edb.primitive.Bondwire.set_product_property" title="ansys.edb.primitive.Bondwire.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_start_elevation.html#ansys.edb.primitive.Bondwire.set_start_elevation" title="ansys.edb.primitive.Bondwire.set_start_elevation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_start_elevation</span></code></a>(start_context, ...)</p></td>
-<td><p>Set the set start elevation of a bondwire.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_start_elevation.html#ansys.edb.primitive.Bondwire.set_start_elevation" title="ansys.edb.primitive.Bondwire.set_start_elevation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_start_elevation</span></code></a>(start_context, ...)</p></td>
+<td><p>Set the start elevation of a bondwire.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.set_traj.html#ansys.edb.primitive.Bondwire.set_traj" title="ansys.edb.primitive.Bondwire.set_traj"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.set_traj</span></code></a>(x1, y1, x2, y2)</p></td>
+<td><p>Set the parameters of the trajectory of a bondwire.</p></td>
 </tr>
 </tbody>
 </table>
@@ -736,16 +735,13 @@ width (Value)</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.obj_type.html#ansys.edb.primitive.Bondwire.obj_type" title="ansys.edb.primitive.Bondwire.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.obj_type</span></code></a></p></td>
 <td><p>Get the layout object type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.traj.html#ansys.edb.primitive.Bondwire.traj" title="ansys.edb.primitive.Bondwire.traj"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.traj</span></code></a></p></td>
-<td><p>Get trajectory parameters of a bondwire object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.type.html#ansys.edb.primitive.Bondwire.type" title="ansys.edb.primitive.Bondwire.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.type</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.type.html#ansys.edb.primitive.Bondwire.type" title="ansys.edb.primitive.Bondwire.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.type</span></code></a></p></td>
 <td><p>Get bondwire-type of a bondwire object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.voids.html#ansys.edb.primitive.Bondwire.voids" title="ansys.edb.primitive.Bondwire.voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.voids</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.voids.html#ansys.edb.primitive.Bondwire.voids" title="ansys.edb.primitive.Bondwire.voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.voids</span></code></a></p></td>
 <td><p>Get list of voids inside a primitive.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.width.html#ansys.edb.primitive.Bondwire.width" title="ansys.edb.primitive.Bondwire.width"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.width</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Bondwire.width.html#ansys.edb.primitive.Bondwire.width" title="ansys.edb.primitive.Bondwire.width"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire.width</span></code></a></p></td>
 <td><p>Get width of a bondwire object.</p></td>
 </tr>
 </tbody>

@@ -63,6 +63,9 @@
       Bondwire.get_start_elevation
       
       
+      Bondwire.get_traj
+      
+      
       Bondwire.has_voids
       
       
@@ -103,6 +106,9 @@
       
       
       Bondwire.set_start_elevation
+      
+      
+      Bondwire.set_traj
       
    
    
@@ -146,9 +152,6 @@
       
       
       Bondwire.obj_type
-      
-      
-      Bondwire.traj
       
       
       Bondwire.type

@@ -321,6 +321,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Bondwire.get_traj.html">
+       get_traj
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.has_voids.html">
        has_voids
       </a>
@@ -391,6 +396,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Bondwire.set_traj.html">
+       set_traj
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.component.html">
        component
       </a>
@@ -443,11 +453,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Bondwire.obj_type.html">
        obj_type
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.primitive.Bondwire.traj.html">
-       traj
       </a>
      </li>
      <li class="toctree-l3">
@@ -586,29 +591,45 @@
 <dt class="sig sig-object py" id="ansys.edb.primitive.Bondwire.create">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Bondwire.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bondwire_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">definition_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">placement_layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">material</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_context</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_layer_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_context</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_layer_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">net</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.Bondwire.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a bondwire object.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>layout: Layout</strong></dt><dd></dd>
-<dt><strong>bondwire_type: Bondwire.BondwireType</strong></dt><dd></dd>
-<dt><strong>definition_name: str</strong></dt><dd></dd>
-<dt><strong>placement_layer: str</strong></dt><dd></dd>
-<dt><strong>width: Value</strong></dt><dd></dd>
-<dt><strong>material: str</strong></dt><dd></dd>
-<dt><strong>start_context: CellInstance</strong></dt><dd></dd>
-<dt><strong>start_layer_name: str</strong></dt><dd></dd>
-<dt><strong>start_x: Value</strong></dt><dd></dd>
-<dt><strong>start_y: Value</strong></dt><dd></dd>
-<dt><strong>end_context: CellInstance</strong></dt><dd></dd>
-<dt><strong>end_layer_name: str</strong></dt><dd></dd>
-<dt><strong>end_x: Value</strong></dt><dd></dd>
-<dt><strong>end_y: Value</strong></dt><dd></dd>
-<dt><strong>net: Net, optional</strong></dt><dd></dd>
+<dd class="field-odd"><dl>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout this bondwire will be in.</p>
+</dd>
+<dt><strong>bondwire_type</strong><span class="classifier"><a class="reference internal" href="../primitive.html#ansys.edb.primitive.Bondwire.BondwireType" title="ansys.edb.primitive.Bondwire.BondwireType"><code class="xref py py-class docutils literal notranslate"><span class="pre">BondwireType</span></code></a></span></dt><dd><p>Type of bondwire: kAPDBondWire or kJDECBondWire types.</p>
+</dd>
+<dt><strong>definition_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Bondwire definition name.</p>
+</dd>
+<dt><strong>placement_layer</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Layer name this bondwire will be on.</p>
+</dd>
+<dt><strong>width</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Bondwire width.</p>
+</dd>
+<dt><strong>material</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Bondwire material name.</p>
+</dd>
+<dt><strong>start_context</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance</span></code></span></dt><dd><p>Start context: None means top level.</p>
+</dd>
+<dt><strong>start_layer_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of start layer.</p>
+</dd>
+<dt><strong>start_x</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>X value of start point.</p>
+</dd>
+<dt><strong>start_y</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Y value of start point.</p>
+</dd>
+<dt><strong>end_context</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance</span></code></span></dt><dd><p>End context: None means top level.</p>
+</dd>
+<dt><strong>end_layer_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of end layer.</p>
+</dd>
+<dt><strong>end_x</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>X value of end point.</p>
+</dd>
+<dt><strong>end_y</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Y value of end point.</p>
+</dd>
+<dt><strong>net</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Net of the Bondwire.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.primitive.Bondwire.html#ansys.edb.primitive.Bondwire" title="ansys.edb.primitive.Bondwire"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.primitive.Bondwire.html#ansys.edb.primitive.Bondwire" title="ansys.edb.primitive.Bondwire"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Bondwire</span></code></a></dt><dd><p>Bondwire object created.</p>
+</dd>
 </dl>
 </dd>
 </dl>

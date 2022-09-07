@@ -529,20 +529,25 @@
 <h1>create<a class="headerlink" href="#create" title="Permalink to this headline">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.primitive.Polygon.create">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Polygon.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">layer_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">polygon_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.Polygon.create" title="Permalink to this definition">#</a></dt>
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Polygon.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">net</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">polygon_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.Polygon.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a polygon.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layout</span></code></span></dt><dd></dd>
-<dt><strong>layer_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
-<dt><strong>net</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
-<dt><strong>polygon_data</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PolygonData</span></code></span></dt><dd></dd>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout the polygon will be in.</p>
+</dd>
+<dt><strong>layer</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a> or <a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a></span></dt><dd><p>Layer this Polygon will be in.</p>
+</dd>
+<dt><strong>net</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Net of the Polygon object.</p>
+</dd>
+<dt><strong>polygon_data</strong><span class="classifier"><a class="reference internal" href="ansys.edb.geometry.PolygonData.html#ansys.edb.geometry.PolygonData" title="ansys.edb.geometry.PolygonData"><code class="xref py py-class docutils literal notranslate"><span class="pre">PolygonData</span></code></a></span></dt><dd><p>The outer contour of the Polygon.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.primitive.Polygon.html#ansys.edb.primitive.Polygon" title="ansys.edb.primitive.Polygon"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Polygon</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.primitive.Polygon.html#ansys.edb.primitive.Polygon" title="ansys.edb.primitive.Polygon"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Polygon</span></code></a></dt><dd><p>Polygon object created.</p>
+</dd>
 </dl>
 </dd>
 </dl>

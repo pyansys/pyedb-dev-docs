@@ -531,13 +531,20 @@
 <dt class="sig sig-object py" id="ansys.edb.primitive.Text.get_text_data">
 <span class="sig-prename descclassname"><span class="pre">Text.</span></span><span class="sig-name descname"><span class="pre">get_text_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.Text.get_text_data" title="Permalink to this definition">#</a></dt>
 <dd><p>Get the text data of a text.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code>, <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>]</dt><dd><p>Tuple which holds respectively X value, Y value, Text value
-X value of center point.
-Y value of center point.
-Text object’s String value.</p>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[</dt><dd><p><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
+<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
+str</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>]</dt><dd><p>Returns a tuple of the following format:
+(center_x, center_y, text)
+center_x : X value of center point.
+center_y : Y value of center point.
+radius : Text object’s String value.</p>
 </dd>
 </dl>
 </dd>

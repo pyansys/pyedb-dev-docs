@@ -616,10 +616,19 @@
 <dt class="sig sig-object py" id="ansys.edb.primitive.PadstackInstance.get_hole_overrides">
 <span class="sig-prename descclassname"><span class="pre">PadstackInstance.</span></span><span class="sig-name descname"><span class="pre">get_hole_overrides</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.primitive.PadstackInstance.get_hole_overrides" title="Permalink to this definition">#</a></dt>
 <dd><p>Get the hole overrides of Padstack Instance.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code>]</dt><dd></dd>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[</dt><dd><p>bool,
+<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>]</dt><dd><p>Returns a tuple of the following format:
+(is_hole_override, hole_override)
+is_hole_override : If padstack instance is hole override.
+hole_override : Hole override diameter of this padstack instance.</p>
+</dd>
 </dl>
 </dd>
 </dl>
