@@ -21,6 +21,9 @@
       PadstackDefData.create
       
       
+      PadstackDefData.get_hole_parameters
+      
+      
       PadstackDefData.get_pad_parameters
       
       
@@ -28,6 +31,9 @@
       
       
       PadstackDefData.is_null
+      
+      
+      PadstackDefData.set_hole_parameters
       
       
       PadstackDefData.set_pad_parameters
