@@ -1,6 +1,0 @@
-get\_primitive\_type
-====================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Rectangle.get_primitive_type

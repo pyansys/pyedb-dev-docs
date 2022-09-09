@@ -3,4 +3,4 @@ has\_voids
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: BoardBendDef.has_voids
+.. autoproperty:: BoardBendDef.has_voids

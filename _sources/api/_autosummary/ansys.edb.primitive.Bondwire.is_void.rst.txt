@@ -3,4 +3,4 @@ is\_void
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Bondwire.is_void
+.. autoproperty:: Bondwire.is_void

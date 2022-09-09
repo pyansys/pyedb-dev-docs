@@ -1,6 +1,0 @@
-set\_layer
-==========
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Polygon.set_layer

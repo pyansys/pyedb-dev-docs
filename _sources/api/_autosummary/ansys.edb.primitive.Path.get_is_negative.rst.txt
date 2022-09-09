@@ -1,6 +1,0 @@
-get\_is\_negative
-=================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Path.get_is_negative

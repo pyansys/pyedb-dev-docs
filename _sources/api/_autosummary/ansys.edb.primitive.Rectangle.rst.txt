@@ -18,9 +18,6 @@
       Rectangle.add_void
       
       
-      Rectangle.can_be_zone_primitive
-      
-      
       Rectangle.create
       
       
@@ -33,22 +30,7 @@
       Rectangle.get_hfss_prop
       
       
-      Rectangle.get_is_negative
-      
-      
-      Rectangle.get_layer
-      
-      
-      Rectangle.get_owner
-      
-      
       Rectangle.get_parameters
-      
-      
-      Rectangle.get_polygon_data
-      
-      
-      Rectangle.get_primitive_type
       
       
       Rectangle.get_product_property
@@ -57,19 +39,7 @@
       Rectangle.get_product_property_ids
       
       
-      Rectangle.has_voids
-      
-      
       Rectangle.is_null
-      
-      
-      Rectangle.is_parameterized
-      
-      
-      Rectangle.is_void
-      
-      
-      Rectangle.is_zone_primitive
       
       
       Rectangle.remove_hfss_prop
@@ -79,12 +49,6 @@
       
       
       Rectangle.set_hfss_prop
-      
-      
-      Rectangle.set_is_negative
-      
-      
-      Rectangle.set_layer
       
       
       Rectangle.set_parameters
@@ -103,6 +67,9 @@
       :toctree:
    
       
+      Rectangle.can_be_zone_primitive
+      
+      
       Rectangle.component
       
       
@@ -112,7 +79,25 @@
       Rectangle.group
       
       
+      Rectangle.has_voids
+      
+      
       Rectangle.id
+      
+      
+      Rectangle.is_negative
+      
+      
+      Rectangle.is_parameterized
+      
+      
+      Rectangle.is_void
+      
+      
+      Rectangle.is_zone_primitive
+      
+      
+      Rectangle.layer
       
       
       Rectangle.layout
@@ -128,6 +113,15 @@
       
       
       Rectangle.obj_type
+      
+      
+      Rectangle.owner
+      
+      
+      Rectangle.polygon_data
+      
+      
+      Rectangle.primitive_type
       
       
       Rectangle.voids

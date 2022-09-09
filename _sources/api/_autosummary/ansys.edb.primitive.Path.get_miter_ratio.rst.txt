@@ -1,6 +1,0 @@
-get\_miter\_ratio
-=================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Path.get_miter_ratio

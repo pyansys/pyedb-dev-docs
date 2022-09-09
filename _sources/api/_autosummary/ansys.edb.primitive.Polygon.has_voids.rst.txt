@@ -3,4 +3,4 @@ has\_voids
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Polygon.has_voids
+.. autoproperty:: Polygon.has_voids

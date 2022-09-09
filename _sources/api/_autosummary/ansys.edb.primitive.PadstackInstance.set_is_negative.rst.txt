@@ -1,6 +1,0 @@
-set\_is\_negative
-=================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: PadstackInstance.set_is_negative

@@ -1,6 +1,0 @@
-get\_layer
-==========
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Circle.get_layer

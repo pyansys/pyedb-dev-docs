@@ -18,9 +18,6 @@
       Text.add_void
       
       
-      Text.can_be_zone_primitive
-      
-      
       Text.create
       
       
@@ -33,18 +30,6 @@
       Text.get_hfss_prop
       
       
-      Text.get_is_negative
-      
-      
-      Text.get_layer
-      
-      
-      Text.get_owner
-      
-      
-      Text.get_primitive_type
-      
-      
       Text.get_product_property
       
       
@@ -54,31 +39,13 @@
       Text.get_text_data
       
       
-      Text.has_voids
-      
-      
       Text.is_null
-      
-      
-      Text.is_parameterized
-      
-      
-      Text.is_void
-      
-      
-      Text.is_zone_primitive
       
       
       Text.remove_hfss_prop
       
       
       Text.set_hfss_prop
-      
-      
-      Text.set_is_negative
-      
-      
-      Text.set_layer
       
       
       Text.set_product_property
@@ -97,6 +64,9 @@
       :toctree:
    
       
+      Text.can_be_zone_primitive
+      
+      
       Text.component
       
       
@@ -106,7 +76,25 @@
       Text.group
       
       
+      Text.has_voids
+      
+      
       Text.id
+      
+      
+      Text.is_negative
+      
+      
+      Text.is_parameterized
+      
+      
+      Text.is_void
+      
+      
+      Text.is_zone_primitive
+      
+      
+      Text.layer
       
       
       Text.layout
@@ -122,6 +110,12 @@
       
       
       Text.obj_type
+      
+      
+      Text.owner
+      
+      
+      Text.primitive_type
       
       
       Text.voids

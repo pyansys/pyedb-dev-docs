@@ -18,9 +18,6 @@
       Primitive.add_void
       
       
-      Primitive.can_be_zone_primitive
-      
-      
       Primitive.delete
       
       
@@ -30,49 +27,19 @@
       Primitive.get_hfss_prop
       
       
-      Primitive.get_is_negative
-      
-      
-      Primitive.get_layer
-      
-      
-      Primitive.get_owner
-      
-      
-      Primitive.get_primitive_type
-      
-      
       Primitive.get_product_property
       
       
       Primitive.get_product_property_ids
       
       
-      Primitive.has_voids
-      
-      
       Primitive.is_null
-      
-      
-      Primitive.is_parameterized
-      
-      
-      Primitive.is_void
-      
-      
-      Primitive.is_zone_primitive
       
       
       Primitive.remove_hfss_prop
       
       
       Primitive.set_hfss_prop
-      
-      
-      Primitive.set_is_negative
-      
-      
-      Primitive.set_layer
       
       
       Primitive.set_product_property
@@ -88,6 +55,9 @@
       :toctree:
    
       
+      Primitive.can_be_zone_primitive
+      
+      
       Primitive.component
       
       
@@ -97,7 +67,25 @@
       Primitive.group
       
       
+      Primitive.has_voids
+      
+      
       Primitive.id
+      
+      
+      Primitive.is_negative
+      
+      
+      Primitive.is_parameterized
+      
+      
+      Primitive.is_void
+      
+      
+      Primitive.is_zone_primitive
+      
+      
+      Primitive.layer
       
       
       Primitive.layout
@@ -113,6 +101,12 @@
       
       
       Primitive.obj_type
+      
+      
+      Primitive.owner
+      
+      
+      Primitive.primitive_type
       
       
       Primitive.voids

@@ -3,4 +3,4 @@ is\_zone\_primitive
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: BoardBendDef.is_zone_primitive
+.. autoproperty:: BoardBendDef.is_zone_primitive

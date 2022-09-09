@@ -18,9 +18,6 @@
       Polygon.add_void
       
       
-      Polygon.can_be_zone_primitive
-      
-      
       Polygon.create
       
       
@@ -33,55 +30,19 @@
       Polygon.get_hfss_prop
       
       
-      Polygon.get_is_negative
-      
-      
-      Polygon.get_layer
-      
-      
-      Polygon.get_owner
-      
-      
-      Polygon.get_polygon_data
-      
-      
-      Polygon.get_primitive_type
-      
-      
       Polygon.get_product_property
       
       
       Polygon.get_product_property_ids
       
       
-      Polygon.has_voids
-      
-      
       Polygon.is_null
-      
-      
-      Polygon.is_parameterized
-      
-      
-      Polygon.is_void
-      
-      
-      Polygon.is_zone_primitive
       
       
       Polygon.remove_hfss_prop
       
       
       Polygon.set_hfss_prop
-      
-      
-      Polygon.set_is_negative
-      
-      
-      Polygon.set_layer
-      
-      
-      Polygon.set_polygon_data
       
       
       Polygon.set_product_property
@@ -97,6 +58,9 @@
       :toctree:
    
       
+      Polygon.can_be_zone_primitive
+      
+      
       Polygon.component
       
       
@@ -106,7 +70,25 @@
       Polygon.group
       
       
+      Polygon.has_voids
+      
+      
       Polygon.id
+      
+      
+      Polygon.is_negative
+      
+      
+      Polygon.is_parameterized
+      
+      
+      Polygon.is_void
+      
+      
+      Polygon.is_zone_primitive
+      
+      
+      Polygon.layer
       
       
       Polygon.layout
@@ -122,6 +104,15 @@
       
       
       Polygon.obj_type
+      
+      
+      Polygon.owner
+      
+      
+      Polygon.polygon_data
+      
+      
+      Polygon.primitive_type
       
       
       Polygon.voids

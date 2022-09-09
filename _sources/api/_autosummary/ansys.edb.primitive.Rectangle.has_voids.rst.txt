@@ -3,4 +3,4 @@ has\_voids
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Rectangle.has_voids
+.. autoproperty:: Rectangle.has_voids

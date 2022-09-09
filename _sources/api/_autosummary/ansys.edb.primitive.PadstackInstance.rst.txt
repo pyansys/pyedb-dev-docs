@@ -18,9 +18,6 @@
       PadstackInstance.add_void
       
       
-      PadstackInstance.can_be_zone_primitive
-      
-      
       PadstackInstance.create
       
       
@@ -45,16 +42,7 @@
       PadstackInstance.get_hole_overrides
       
       
-      PadstackInstance.get_is_negative
-      
-      
-      PadstackInstance.get_layer
-      
-      
       PadstackInstance.get_layer_range
-      
-      
-      PadstackInstance.get_owner
       
       
       PadstackInstance.get_padstack_instance_terminal
@@ -63,31 +51,16 @@
       PadstackInstance.get_position_and_rotation
       
       
-      PadstackInstance.get_primitive_type
-      
-      
       PadstackInstance.get_product_property
       
       
       PadstackInstance.get_product_property_ids
       
       
-      PadstackInstance.has_voids
-      
-      
       PadstackInstance.is_in_pin_group
       
       
       PadstackInstance.is_null
-      
-      
-      PadstackInstance.is_parameterized
-      
-      
-      PadstackInstance.is_void
-      
-      
-      PadstackInstance.is_zone_primitive
       
       
       PadstackInstance.remove_hfss_prop
@@ -103,12 +76,6 @@
       
       
       PadstackInstance.set_hole_overrides
-      
-      
-      PadstackInstance.set_is_negative
-      
-      
-      PadstackInstance.set_layer
       
       
       PadstackInstance.set_layer_range
@@ -130,6 +97,9 @@
       :toctree:
    
       
+      PadstackInstance.can_be_zone_primitive
+      
+      
       PadstackInstance.component
       
       
@@ -139,10 +109,28 @@
       PadstackInstance.group
       
       
+      PadstackInstance.has_voids
+      
+      
       PadstackInstance.id
       
       
       PadstackInstance.is_layout_pin
+      
+      
+      PadstackInstance.is_negative
+      
+      
+      PadstackInstance.is_parameterized
+      
+      
+      PadstackInstance.is_void
+      
+      
+      PadstackInstance.is_zone_primitive
+      
+      
+      PadstackInstance.layer
       
       
       PadstackInstance.layer_map
@@ -166,10 +154,16 @@
       PadstackInstance.obj_type
       
       
+      PadstackInstance.owner
+      
+      
       PadstackInstance.padstack_def
       
       
       PadstackInstance.pin_groups
+      
+      
+      PadstackInstance.primitive_type
       
       
       PadstackInstance.solderball_layer

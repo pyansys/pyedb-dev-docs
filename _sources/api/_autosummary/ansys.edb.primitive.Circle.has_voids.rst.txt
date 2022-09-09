@@ -3,4 +3,4 @@ has\_voids
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Circle.has_voids
+.. autoproperty:: Circle.has_voids

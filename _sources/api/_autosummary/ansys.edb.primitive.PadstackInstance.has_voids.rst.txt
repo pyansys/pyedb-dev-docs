@@ -3,4 +3,4 @@ has\_voids
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: PadstackInstance.has_voids
+.. autoproperty:: PadstackInstance.has_voids

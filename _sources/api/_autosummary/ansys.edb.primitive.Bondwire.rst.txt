@@ -18,9 +18,6 @@
       Bondwire.add_void
       
       
-      Bondwire.can_be_zone_primitive
-      
-      
       Bondwire.create
       
       
@@ -39,19 +36,7 @@
       Bondwire.get_hfss_prop
       
       
-      Bondwire.get_is_negative
-      
-      
-      Bondwire.get_layer
-      
-      
       Bondwire.get_material
-      
-      
-      Bondwire.get_owner
-      
-      
-      Bondwire.get_primitive_type
       
       
       Bondwire.get_product_property
@@ -66,19 +51,7 @@
       Bondwire.get_traj
       
       
-      Bondwire.has_voids
-      
-      
       Bondwire.is_null
-      
-      
-      Bondwire.is_parameterized
-      
-      
-      Bondwire.is_void
-      
-      
-      Bondwire.is_zone_primitive
       
       
       Bondwire.remove_hfss_prop
@@ -91,12 +64,6 @@
       
       
       Bondwire.set_hfss_prop
-      
-      
-      Bondwire.set_is_negative
-      
-      
-      Bondwire.set_layer
       
       
       Bondwire.set_material
@@ -121,6 +88,9 @@
       :toctree:
    
       
+      Bondwire.can_be_zone_primitive
+      
+      
       Bondwire.component
       
       
@@ -136,7 +106,25 @@
       Bondwire.group
       
       
+      Bondwire.has_voids
+      
+      
       Bondwire.id
+      
+      
+      Bondwire.is_negative
+      
+      
+      Bondwire.is_parameterized
+      
+      
+      Bondwire.is_void
+      
+      
+      Bondwire.is_zone_primitive
+      
+      
+      Bondwire.layer
       
       
       Bondwire.layout
@@ -152,6 +140,12 @@
       
       
       Bondwire.obj_type
+      
+      
+      Bondwire.owner
+      
+      
+      Bondwire.primitive_type
       
       
       Bondwire.type

@@ -18,9 +18,6 @@
       BoardBendDef.add_void
       
       
-      BoardBendDef.can_be_zone_primitive
-      
-      
       BoardBendDef.delete
       
       
@@ -30,49 +27,19 @@
       BoardBendDef.get_hfss_prop
       
       
-      BoardBendDef.get_is_negative
-      
-      
-      BoardBendDef.get_layer
-      
-      
-      BoardBendDef.get_owner
-      
-      
-      BoardBendDef.get_primitive_type
-      
-      
       BoardBendDef.get_product_property
       
       
       BoardBendDef.get_product_property_ids
       
       
-      BoardBendDef.has_voids
-      
-      
       BoardBendDef.is_null
-      
-      
-      BoardBendDef.is_parameterized
-      
-      
-      BoardBendDef.is_void
-      
-      
-      BoardBendDef.is_zone_primitive
       
       
       BoardBendDef.remove_hfss_prop
       
       
       BoardBendDef.set_hfss_prop
-      
-      
-      BoardBendDef.set_is_negative
-      
-      
-      BoardBendDef.set_layer
       
       
       BoardBendDef.set_product_property
@@ -88,6 +55,9 @@
       :toctree:
    
       
+      BoardBendDef.can_be_zone_primitive
+      
+      
       BoardBendDef.component
       
       
@@ -97,7 +67,25 @@
       BoardBendDef.group
       
       
+      BoardBendDef.has_voids
+      
+      
       BoardBendDef.id
+      
+      
+      BoardBendDef.is_negative
+      
+      
+      BoardBendDef.is_parameterized
+      
+      
+      BoardBendDef.is_void
+      
+      
+      BoardBendDef.is_zone_primitive
+      
+      
+      BoardBendDef.layer
       
       
       BoardBendDef.layout
@@ -113,6 +101,12 @@
       
       
       BoardBendDef.obj_type
+      
+      
+      BoardBendDef.owner
+      
+      
+      BoardBendDef.primitive_type
       
       
       BoardBendDef.voids

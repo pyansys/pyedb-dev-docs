@@ -3,4 +3,4 @@ is\_void
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: BoardBendDef.is_void
+.. autoproperty:: BoardBendDef.is_void

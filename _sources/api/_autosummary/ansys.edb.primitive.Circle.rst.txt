@@ -33,22 +33,10 @@
       Circle.get_hfss_prop
       
       
-      Circle.get_is_negative
-      
-      
-      Circle.get_layer
-      
-      
-      Circle.get_owner
-      
-      
       Circle.get_parameters
       
       
       Circle.get_polygon_data
-      
-      
-      Circle.get_primitive_type
       
       
       Circle.get_product_property
@@ -57,19 +45,7 @@
       Circle.get_product_property_ids
       
       
-      Circle.has_voids
-      
-      
       Circle.is_null
-      
-      
-      Circle.is_parameterized
-      
-      
-      Circle.is_void
-      
-      
-      Circle.is_zone_primitive
       
       
       Circle.remove_hfss_prop
@@ -79,12 +55,6 @@
       
       
       Circle.set_hfss_prop
-      
-      
-      Circle.set_is_negative
-      
-      
-      Circle.set_layer
       
       
       Circle.set_parameters
@@ -112,7 +82,25 @@
       Circle.group
       
       
+      Circle.has_voids
+      
+      
       Circle.id
+      
+      
+      Circle.is_negative
+      
+      
+      Circle.is_parameterized
+      
+      
+      Circle.is_void
+      
+      
+      Circle.is_zone_primitive
+      
+      
+      Circle.layer
       
       
       Circle.layout
@@ -128,6 +116,12 @@
       
       
       Circle.obj_type
+      
+      
+      Circle.owner
+      
+      
+      Circle.primitive_type
       
       
       Circle.voids

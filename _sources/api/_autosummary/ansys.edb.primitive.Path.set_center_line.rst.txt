@@ -1,6 +1,0 @@
-set\_center\_line
-=================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Path.set_center_line

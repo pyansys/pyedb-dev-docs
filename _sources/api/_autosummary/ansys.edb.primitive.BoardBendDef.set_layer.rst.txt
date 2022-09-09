@@ -1,6 +1,0 @@
-set\_layer
-==========
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: BoardBendDef.set_layer

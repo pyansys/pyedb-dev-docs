@@ -1,6 +1,0 @@
-get\_polygon\_data
-==================
-
-.. currentmodule:: ansys.edb.primitive
-
-.. automethod:: Rectangle.get_polygon_data

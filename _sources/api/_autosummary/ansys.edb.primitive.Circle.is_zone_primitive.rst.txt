@@ -3,4 +3,4 @@ is\_zone\_primitive
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Circle.is_zone_primitive
+.. autoproperty:: Circle.is_zone_primitive

@@ -3,4 +3,4 @@ can\_be\_zone\_primitive
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Rectangle.can_be_zone_primitive
+.. autoproperty:: Rectangle.can_be_zone_primitive

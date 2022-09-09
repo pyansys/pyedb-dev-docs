@@ -3,4 +3,4 @@ is\_parameterized
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: BoardBendDef.is_parameterized
+.. autoproperty:: BoardBendDef.is_parameterized

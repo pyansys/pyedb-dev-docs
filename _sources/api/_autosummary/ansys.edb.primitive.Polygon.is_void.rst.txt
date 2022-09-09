@@ -3,4 +3,4 @@ is\_void
 
 .. currentmodule:: ansys.edb.primitive
 
-.. automethod:: Polygon.is_void
+.. autoproperty:: Polygon.is_void
