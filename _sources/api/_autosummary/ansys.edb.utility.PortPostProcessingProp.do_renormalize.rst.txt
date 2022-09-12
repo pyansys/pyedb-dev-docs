@@ -3,4 +3,4 @@ do\_renormalize
 
 .. currentmodule:: ansys.edb.utility
 
-.. autoproperty:: PortPostProcessingProp.do_renormalize
+.. autoattribute:: PortPostProcessingProp.do_renormalize

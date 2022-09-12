@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      PortPostProcessingProp.is_null
-      
    
    
 
@@ -31,21 +28,6 @@
       PortPostProcessingProp.deembed_length
       
       
-      PortPostProcessingProp.do_deembed
-      
-      
-      PortPostProcessingProp.do_deembed_gap_l
-      
-      
-      PortPostProcessingProp.do_renormalize
-      
-      
-      PortPostProcessingProp.id
-      
-      
-      PortPostProcessingProp.msg
-      
-      
       PortPostProcessingProp.renormalization_impedance
       
       
@@ -53,6 +35,15 @@
       
       
       PortPostProcessingProp.voltage_phase
+      
+      
+      PortPostProcessingProp.do_deembed
+      
+      
+      PortPostProcessingProp.do_deembed_gap_l
+      
+      
+      PortPostProcessingProp.do_renormalize
       
    
    

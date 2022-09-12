@@ -39,6 +39,9 @@
       DifferentialPair.is_null
       
       
+      DifferentialPair.nets
+      
+      
       DifferentialPair.remove_net
       
       
@@ -56,6 +59,9 @@
    
       
       DifferentialPair.description
+      
+      
+      DifferentialPair.differential_pair
       
       
       DifferentialPair.id
@@ -76,7 +82,13 @@
       DifferentialPair.name
       
       
+      DifferentialPair.negative_net
+      
+      
       DifferentialPair.obj_type
+      
+      
+      DifferentialPair.positive_net
       
    
    

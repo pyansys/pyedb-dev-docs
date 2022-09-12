@@ -3,4 +3,4 @@ do\_deembed\_gap\_l
 
 .. currentmodule:: ansys.edb.utility
 
-.. autoproperty:: PortPostProcessingProp.do_deembed_gap_l
+.. autoattribute:: PortPostProcessingProp.do_deembed_gap_l
