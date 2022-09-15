@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.hierarchy
 
-.. automethod:: Group.is_null
+.. autoproperty:: Group.is_null

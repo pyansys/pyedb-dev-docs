@@ -27,9 +27,6 @@
       ApdBondwireDef.get_parameters
       
       
-      ApdBondwireDef.is_null
-      
-      
       ApdBondwireDef.load_definitions_from_file
       
       
@@ -50,6 +47,9 @@
       
       
       ApdBondwireDef.id
+      
+      
+      ApdBondwireDef.is_null
       
       
       ApdBondwireDef.msg

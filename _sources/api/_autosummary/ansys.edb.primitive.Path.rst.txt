@@ -42,9 +42,6 @@
       Path.get_product_property_ids
       
       
-      Path.is_null
-      
-      
       Path.remove_hfss_prop
       
       
@@ -98,6 +95,9 @@
       
       
       Path.is_negative
+      
+      
+      Path.is_null
       
       
       Path.is_parameterized

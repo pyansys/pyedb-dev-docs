@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.terminal
 
-.. automethod:: PadEdge.is_null
+.. autoproperty:: PadEdge.is_null

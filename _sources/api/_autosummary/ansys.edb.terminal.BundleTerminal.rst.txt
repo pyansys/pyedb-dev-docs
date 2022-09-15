@@ -36,9 +36,6 @@
       BundleTerminal.get_product_property_ids
       
       
-      BundleTerminal.is_null
-      
-      
       BundleTerminal.product_solver_names
       
       
@@ -95,6 +92,9 @@
       
       
       BundleTerminal.is_interface_terminal
+      
+      
+      BundleTerminal.is_null
       
       
       BundleTerminal.is_reference_terminal

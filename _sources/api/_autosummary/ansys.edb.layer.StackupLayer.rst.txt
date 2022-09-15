@@ -39,9 +39,6 @@
       StackupLayer.is_in_zone
       
       
-      StackupLayer.is_null
-      
-      
       StackupLayer.is_stackup_layer
       
       
@@ -89,6 +86,9 @@
       
       
       StackupLayer.id
+      
+      
+      StackupLayer.is_null
       
       
       StackupLayer.layer_id

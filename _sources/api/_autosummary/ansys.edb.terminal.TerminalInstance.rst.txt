@@ -30,9 +30,6 @@
       TerminalInstance.get_product_property_ids
       
       
-      TerminalInstance.is_null
-      
-      
       TerminalInstance.set_product_property
       
    
@@ -62,6 +59,9 @@
       
       
       TerminalInstance.id
+      
+      
+      TerminalInstance.is_null
       
       
       TerminalInstance.layout

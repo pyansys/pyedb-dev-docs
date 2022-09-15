@@ -17,9 +17,6 @@
       
       DynamicLinkComponentModel.create
       
-      
-      DynamicLinkComponentModel.is_null
-      
    
    
 
@@ -35,6 +32,9 @@
       
       
       DynamicLinkComponentModel.id
+      
+      
+      DynamicLinkComponentModel.is_null
       
       
       DynamicLinkComponentModel.msg

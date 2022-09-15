@@ -20,9 +20,6 @@
       
       LayoutObjInstance.get_geometries
       
-      
-      LayoutObjInstance.is_null
-      
    
    
 
@@ -38,6 +35,9 @@
       
       
       LayoutObjInstance.id
+      
+      
+      LayoutObjInstance.is_null
       
       
       LayoutObjInstance.layers

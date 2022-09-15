@@ -42,9 +42,6 @@
       Layout.get_variable_value
       
       
-      Layout.is_null
-      
-      
       Layout.is_parameter
       
       
@@ -89,6 +86,9 @@
       
       
       Layout.id
+      
+      
+      Layout.is_null
       
       
       Layout.layer_collection

@@ -33,9 +33,6 @@
       BoardBendDef.get_product_property_ids
       
       
-      BoardBendDef.is_null
-      
-      
       BoardBendDef.remove_hfss_prop
       
       
@@ -74,6 +71,9 @@
       
       
       BoardBendDef.is_negative
+      
+      
+      BoardBendDef.is_null
       
       
       BoardBendDef.is_parameterized

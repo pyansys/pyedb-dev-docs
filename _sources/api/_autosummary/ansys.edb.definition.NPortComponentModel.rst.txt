@@ -17,9 +17,6 @@
       
       NPortComponentModel.create
       
-      
-      NPortComponentModel.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
    
       
       NPortComponentModel.id
+      
+      
+      NPortComponentModel.is_null
       
       
       NPortComponentModel.msg

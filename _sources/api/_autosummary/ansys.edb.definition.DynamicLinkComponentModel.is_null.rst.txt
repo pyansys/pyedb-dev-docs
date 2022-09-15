@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.definition
 
-.. automethod:: DynamicLinkComponentModel.is_null
+.. autoproperty:: DynamicLinkComponentModel.is_null

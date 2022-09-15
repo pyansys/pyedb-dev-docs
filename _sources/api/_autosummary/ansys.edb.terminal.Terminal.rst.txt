@@ -33,9 +33,6 @@
       Terminal.get_product_property_ids
       
       
-      Terminal.is_null
-      
-      
       Terminal.product_solver_names
       
       
@@ -89,6 +86,9 @@
       
       
       Terminal.is_interface_terminal
+      
+      
+      Terminal.is_null
       
       
       Terminal.is_reference_terminal

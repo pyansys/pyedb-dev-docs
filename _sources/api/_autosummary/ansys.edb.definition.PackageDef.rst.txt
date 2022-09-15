@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      PackageDef.is_null
-      
    
    
 
@@ -29,6 +26,9 @@
    
       
       PackageDef.id
+      
+      
+      PackageDef.is_null
       
       
       PackageDef.msg

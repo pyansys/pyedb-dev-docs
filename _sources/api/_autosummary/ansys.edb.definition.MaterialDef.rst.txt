@@ -39,9 +39,6 @@
       MaterialDef.get_thermal_modifier
       
       
-      MaterialDef.is_null
-      
-      
       MaterialDef.remove_property
       
       
@@ -68,6 +65,9 @@
       
       
       MaterialDef.id
+      
+      
+      MaterialDef.is_null
       
       
       MaterialDef.msg

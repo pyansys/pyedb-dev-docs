@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      LayoutObjInstance3DGeometry.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
       
       
       LayoutObjInstance3DGeometry.id
+      
+      
+      LayoutObjInstance3DGeometry.is_null
       
       
       LayoutObjInstance3DGeometry.material

@@ -20,9 +20,6 @@
       
       PrimitiveEdge.create
       
-      
-      PrimitiveEdge.is_null
-      
    
    
 
@@ -35,6 +32,9 @@
    
       
       PrimitiveEdge.id
+      
+      
+      PrimitiveEdge.is_null
       
       
       PrimitiveEdge.msg

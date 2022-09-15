@@ -60,9 +60,6 @@
       PadstackInstance.is_in_pin_group
       
       
-      PadstackInstance.is_null
-      
-      
       PadstackInstance.remove_hfss_prop
       
       
@@ -119,6 +116,9 @@
       
       
       PadstackInstance.is_negative
+      
+      
+      PadstackInstance.is_null
       
       
       PadstackInstance.is_parameterized

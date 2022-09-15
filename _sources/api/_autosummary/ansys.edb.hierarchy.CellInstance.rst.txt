@@ -39,9 +39,6 @@
       CellInstance.get_product_property_ids
       
       
-      CellInstance.is_null
-      
-      
       CellInstance.set_parameter_override
       
       
@@ -68,6 +65,9 @@
       
       
       CellInstance.id
+      
+      
+      CellInstance.is_null
       
       
       CellInstance.layout

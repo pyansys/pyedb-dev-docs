@@ -27,9 +27,6 @@
       Jedec5BondwireDef.get_parameters
       
       
-      Jedec5BondwireDef.is_null
-      
-      
       Jedec5BondwireDef.set_parameters
       
    
@@ -47,6 +44,9 @@
       
       
       Jedec5BondwireDef.id
+      
+      
+      Jedec5BondwireDef.is_null
       
       
       Jedec5BondwireDef.msg

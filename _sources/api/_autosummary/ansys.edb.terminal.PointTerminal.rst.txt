@@ -36,9 +36,6 @@
       PointTerminal.get_product_property_ids
       
       
-      PointTerminal.is_null
-      
-      
       PointTerminal.product_solver_names
       
       
@@ -92,6 +89,9 @@
       
       
       PointTerminal.is_interface_terminal
+      
+      
+      PointTerminal.is_null
       
       
       PointTerminal.is_reference_terminal

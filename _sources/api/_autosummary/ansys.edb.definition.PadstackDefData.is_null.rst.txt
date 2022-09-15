@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.definition
 
-.. automethod:: PadstackDefData.is_null
+.. autoproperty:: PadstackDefData.is_null

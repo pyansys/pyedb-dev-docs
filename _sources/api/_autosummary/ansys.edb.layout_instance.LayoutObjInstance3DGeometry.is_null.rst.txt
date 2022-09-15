@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.layout_instance
 
-.. automethod:: LayoutObjInstance3DGeometry.is_null
+.. autoproperty:: LayoutObjInstance3DGeometry.is_null

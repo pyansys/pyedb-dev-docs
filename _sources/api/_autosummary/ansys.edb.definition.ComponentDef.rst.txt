@@ -20,9 +20,6 @@
       
       ComponentDef.find
       
-      
-      ComponentDef.is_null
-      
    
    
 
@@ -44,6 +41,9 @@
       
       
       ComponentDef.id
+      
+      
+      ComponentDef.is_null
       
       
       ComponentDef.msg

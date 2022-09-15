@@ -30,9 +30,6 @@
       VoltageRegulator.get_product_property_ids
       
       
-      VoltageRegulator.is_null
-      
-      
       VoltageRegulator.set_product_property
       
    
@@ -59,6 +56,9 @@
       
       
       VoltageRegulator.id
+      
+      
+      VoltageRegulator.is_null
       
       
       VoltageRegulator.layout

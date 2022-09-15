@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      AdaptiveSettings.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
       
       
       AdaptiveSettings.id
+      
+      
+      AdaptiveSettings.is_null
       
       
       AdaptiveSettings.msg

@@ -33,9 +33,6 @@
       Primitive.get_product_property_ids
       
       
-      Primitive.is_null
-      
-      
       Primitive.remove_hfss_prop
       
       
@@ -74,6 +71,9 @@
       
       
       Primitive.is_negative
+      
+      
+      Primitive.is_null
       
       
       Primitive.is_parameterized

@@ -39,9 +39,6 @@
       Rectangle.get_product_property_ids
       
       
-      Rectangle.is_null
-      
-      
       Rectangle.remove_hfss_prop
       
       
@@ -86,6 +83,9 @@
       
       
       Rectangle.is_negative
+      
+      
+      Rectangle.is_null
       
       
       Rectangle.is_parameterized

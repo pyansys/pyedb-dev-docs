@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      SimulationSetupInfo.is_null
-      
    
    
 
@@ -29,6 +26,9 @@
    
       
       SimulationSetupInfo.id
+      
+      
+      SimulationSetupInfo.is_null
       
       
       SimulationSetupInfo.msg

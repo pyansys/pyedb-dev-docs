@@ -21,9 +21,6 @@
       LayoutInstance.get_layout_obj_instance_in_context
       
       
-      LayoutInstance.is_null
-      
-      
       LayoutInstance.query_layout_obj_instances
       
       
@@ -41,6 +38,9 @@
    
       
       LayoutInstance.id
+      
+      
+      LayoutInstance.is_null
       
       
       LayoutInstance.msg

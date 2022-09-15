@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.definition
 
-.. automethod:: MaterialDef.is_null
+.. autoproperty:: MaterialDef.is_null

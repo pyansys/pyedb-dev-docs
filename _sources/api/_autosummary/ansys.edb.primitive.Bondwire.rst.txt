@@ -51,9 +51,6 @@
       Bondwire.get_traj
       
       
-      Bondwire.is_null
-      
-      
       Bondwire.remove_hfss_prop
       
       
@@ -113,6 +110,9 @@
       
       
       Bondwire.is_negative
+      
+      
+      Bondwire.is_null
       
       
       Bondwire.is_parameterized

@@ -36,9 +36,6 @@
       Group.get_product_property_ids
       
       
-      Group.is_null
-      
-      
       Group.remove_member
       
       
@@ -68,6 +65,9 @@
       
       
       Group.id
+      
+      
+      Group.is_null
       
       
       Group.layout

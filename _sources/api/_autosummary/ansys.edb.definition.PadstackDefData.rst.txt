@@ -30,9 +30,6 @@
       PadstackDefData.get_polygonal_pad_parameters
       
       
-      PadstackDefData.is_null
-      
-      
       PadstackDefData.set_hole_parameters
       
       
@@ -56,6 +53,9 @@
       
       
       PadstackDefData.id
+      
+      
+      PadstackDefData.is_null
       
       
       PadstackDefData.layer_ids

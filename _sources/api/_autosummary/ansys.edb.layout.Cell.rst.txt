@@ -60,9 +60,6 @@
       Cell.get_variable_value
       
       
-      Cell.is_null
-      
-      
       Cell.is_parameter
       
       
@@ -119,6 +116,9 @@
       
       
       Cell.is_footprint
+      
+      
+      Cell.is_null
       
       
       Cell.is_symbolic_footprint

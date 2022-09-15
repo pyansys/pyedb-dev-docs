@@ -63,9 +63,6 @@
       Database.import_material_from_control_file
       
       
-      Database.is_null
-      
-      
       Database.is_parameter
       
       
@@ -122,6 +119,9 @@
       
       
       Database.id
+      
+      
+      Database.is_null
       
       
       Database.is_read_only

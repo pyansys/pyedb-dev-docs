@@ -340,11 +340,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.terminal.Terminal.is_null.html">
-       is_null
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.terminal.Terminal.product_solver_names.html">
        product_solver_names
       </a>
@@ -417,6 +412,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.terminal.Terminal.is_interface_terminal.html">
        is_interface_terminal
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.Terminal.is_null.html">
+       is_null
       </a>
      </li>
      <li class="toctree-l3">
@@ -600,19 +600,16 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.get_product_property_ids.html#ansys.edb.terminal.Terminal.get_product_property_ids" title="ansys.edb.terminal.Terminal.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.is_null.html#ansys.edb.terminal.Terminal.is_null" title="ansys.edb.terminal.Terminal.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.is_null</span></code></a>()</p></td>
-<td><p>Determine whether this object exists in EDB.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.product_solver_names.html#ansys.edb.terminal.Terminal.product_solver_names" title="ansys.edb.terminal.Terminal.product_solver_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.product_solver_names</span></code></a>(product_id)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.product_solver_names.html#ansys.edb.terminal.Terminal.product_solver_names" title="ansys.edb.terminal.Terminal.product_solver_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.product_solver_names</span></code></a>(product_id)</p></td>
 <td><p>Return the list of solver names.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.product_solver_option.html#ansys.edb.terminal.Terminal.product_solver_option" title="ansys.edb.terminal.Terminal.product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.product_solver_option</span></code></a>(product_id, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.product_solver_option.html#ansys.edb.terminal.Terminal.product_solver_option" title="ansys.edb.terminal.Terminal.product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.product_solver_option</span></code></a>(product_id, ...)</p></td>
 <td><p>Return product solver option name.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.set_product_property.html#ansys.edb.terminal.Terminal.set_product_property" title="ansys.edb.terminal.Terminal.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.set_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.set_product_property.html#ansys.edb.terminal.Terminal.set_product_property" title="ansys.edb.terminal.Terminal.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.set_product_solver_option.html#ansys.edb.terminal.Terminal.set_product_solver_option" title="ansys.edb.terminal.Terminal.set_product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.set_product_solver_option</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.set_product_solver_option.html#ansys.edb.terminal.Terminal.set_product_solver_option" title="ansys.edb.terminal.Terminal.set_product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.set_product_solver_option</span></code></a>(...)</p></td>
 <td><p>Set product solver option name.</p></td>
 </tr>
 </tbody>
@@ -657,55 +654,58 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.is_interface_terminal.html#ansys.edb.terminal.Terminal.is_interface_terminal" title="ansys.edb.terminal.Terminal.is_interface_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.is_interface_terminal</span></code></a></p></td>
 <td><p>Return whether this terminal is an interface.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.is_reference_terminal.html#ansys.edb.terminal.Terminal.is_reference_terminal" title="ansys.edb.terminal.Terminal.is_reference_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.is_reference_terminal</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.is_null.html#ansys.edb.terminal.Terminal.is_null" title="ansys.edb.terminal.Terminal.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.is_null</span></code></a></p></td>
+<td><p>Determine whether this object exists in EDB.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.is_reference_terminal.html#ansys.edb.terminal.Terminal.is_reference_terminal" title="ansys.edb.terminal.Terminal.is_reference_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.is_reference_terminal</span></code></a></p></td>
 <td><p>Return whether this terminal is a reference terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.layout.html#ansys.edb.terminal.Terminal.layout" title="ansys.edb.terminal.Terminal.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.layout</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.layout.html#ansys.edb.terminal.Terminal.layout" title="ansys.edb.terminal.Terminal.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.layout</span></code></a></p></td>
 <td><p>Get the Layout of the layout object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.layout_obj_type.html#ansys.edb.terminal.Terminal.layout_obj_type" title="ansys.edb.terminal.Terminal.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.layout_obj_type</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.layout_obj_type.html#ansys.edb.terminal.Terminal.layout_obj_type" title="ansys.edb.terminal.Terminal.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.layout_obj_type</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.model.html#ansys.edb.terminal.Terminal.model" title="ansys.edb.terminal.Terminal.model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.model</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.model.html#ansys.edb.terminal.Terminal.model" title="ansys.edb.terminal.Terminal.model"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.model</span></code></a></p></td>
 <td><p>Return the S-parameter model.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.msg.html#ansys.edb.terminal.Terminal.msg" title="ansys.edb.terminal.Terminal.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.msg</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.msg.html#ansys.edb.terminal.Terminal.msg" title="ansys.edb.terminal.Terminal.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.msg</span></code></a></p></td>
 <td><p>Return protobuf message that represents this object's ID.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.name.html#ansys.edb.terminal.Terminal.name" title="ansys.edb.terminal.Terminal.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.name</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.name.html#ansys.edb.terminal.Terminal.name" title="ansys.edb.terminal.Terminal.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.name</span></code></a></p></td>
 <td><p>Return the name of this terminal.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.net.html#ansys.edb.terminal.Terminal.net" title="ansys.edb.terminal.Terminal.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.net</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.net.html#ansys.edb.terminal.Terminal.net" title="ansys.edb.terminal.Terminal.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.net</span></code></a></p></td>
 <td><p>Get the net of the connectable object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.obj_type.html#ansys.edb.terminal.Terminal.obj_type" title="ansys.edb.terminal.Terminal.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.obj_type</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.obj_type.html#ansys.edb.terminal.Terminal.obj_type" title="ansys.edb.terminal.Terminal.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.obj_type</span></code></a></p></td>
 <td><p>Get the layout object type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.port_post_processing_prop.html#ansys.edb.terminal.Terminal.port_post_processing_prop" title="ansys.edb.terminal.Terminal.port_post_processing_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.port_post_processing_prop</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.port_post_processing_prop.html#ansys.edb.terminal.Terminal.port_post_processing_prop" title="ansys.edb.terminal.Terminal.port_post_processing_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.port_post_processing_prop</span></code></a></p></td>
 <td><p>Return the port post processing props.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.reference_layer.html#ansys.edb.terminal.Terminal.reference_layer" title="ansys.edb.terminal.Terminal.reference_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.reference_layer</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.reference_layer.html#ansys.edb.terminal.Terminal.reference_layer" title="ansys.edb.terminal.Terminal.reference_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.reference_layer</span></code></a></p></td>
 <td><p>Return a layer this terminal references, if any.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.reference_terminal.html#ansys.edb.terminal.Terminal.reference_terminal" title="ansys.edb.terminal.Terminal.reference_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.reference_terminal</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.reference_terminal.html#ansys.edb.terminal.Terminal.reference_terminal" title="ansys.edb.terminal.Terminal.reference_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.reference_terminal</span></code></a></p></td>
 <td><p>Return a terminal this terminal references, if any.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.rlc_boundary_parameters.html#ansys.edb.terminal.Terminal.rlc_boundary_parameters" title="ansys.edb.terminal.Terminal.rlc_boundary_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.rlc_boundary_parameters</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.rlc_boundary_parameters.html#ansys.edb.terminal.Terminal.rlc_boundary_parameters" title="ansys.edb.terminal.Terminal.rlc_boundary_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.rlc_boundary_parameters</span></code></a></p></td>
 <td><p>Return the RLC boundary parameters.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.source_amplitude.html#ansys.edb.terminal.Terminal.source_amplitude" title="ansys.edb.terminal.Terminal.source_amplitude"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.source_amplitude</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.source_amplitude.html#ansys.edb.terminal.Terminal.source_amplitude" title="ansys.edb.terminal.Terminal.source_amplitude"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.source_amplitude</span></code></a></p></td>
 <td><p>Return the source amplitude of this terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.source_phase.html#ansys.edb.terminal.Terminal.source_phase" title="ansys.edb.terminal.Terminal.source_phase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.source_phase</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.source_phase.html#ansys.edb.terminal.Terminal.source_phase" title="ansys.edb.terminal.Terminal.source_phase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.source_phase</span></code></a></p></td>
 <td><p>Return the source phase of this terminal.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.term_to_ground.html#ansys.edb.terminal.Terminal.term_to_ground" title="ansys.edb.terminal.Terminal.term_to_ground"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.term_to_ground</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.term_to_ground.html#ansys.edb.terminal.Terminal.term_to_ground" title="ansys.edb.terminal.Terminal.term_to_ground"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.term_to_ground</span></code></a></p></td>
 <td><p>Return source term to ground type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.type.html#ansys.edb.terminal.Terminal.type" title="ansys.edb.terminal.Terminal.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.type</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.type.html#ansys.edb.terminal.Terminal.type" title="ansys.edb.terminal.Terminal.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.type</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.use_reference_from_hierarchy.html#ansys.edb.terminal.Terminal.use_reference_from_hierarchy" title="ansys.edb.terminal.Terminal.use_reference_from_hierarchy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.use_reference_from_hierarchy</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.Terminal.use_reference_from_hierarchy.html#ansys.edb.terminal.Terminal.use_reference_from_hierarchy" title="ansys.edb.terminal.Terminal.use_reference_from_hierarchy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Terminal.use_reference_from_hierarchy</span></code></a></p></td>
 <td><p>Return whether this terminal can use references from hierarchy.</p></td>
 </tr>
 </tbody>

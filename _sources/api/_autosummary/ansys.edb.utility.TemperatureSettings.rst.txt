@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      TemperatureSettings.is_null
-      
    
    
 
@@ -29,6 +26,9 @@
    
       
       TemperatureSettings.id
+      
+      
+      TemperatureSettings.is_null
       
       
       TemperatureSettings.msg

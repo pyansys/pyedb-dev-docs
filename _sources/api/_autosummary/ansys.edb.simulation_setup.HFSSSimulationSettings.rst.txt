@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      HFSSSimulationSettings.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
       
       
       HFSSSimulationSettings.id
+      
+      
+      HFSSSimulationSettings.is_null
       
       
       HFSSSimulationSettings.mesh_operations

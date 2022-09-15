@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.definition
 
-.. automethod:: DatasetDef.is_null
+.. autoproperty:: DatasetDef.is_null

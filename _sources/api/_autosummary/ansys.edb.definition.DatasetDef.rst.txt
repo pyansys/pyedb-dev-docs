@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      DatasetDef.is_null
-      
    
    
 
@@ -29,6 +26,9 @@
    
       
       DatasetDef.id
+      
+      
+      DatasetDef.is_null
       
       
       DatasetDef.msg

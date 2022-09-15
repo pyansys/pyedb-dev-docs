@@ -30,9 +30,6 @@
       Net.get_product_property_ids
       
       
-      Net.is_null
-      
-      
       Net.set_product_property
       
    
@@ -50,6 +47,9 @@
       
       
       Net.id
+      
+      
+      Net.is_null
       
       
       Net.is_power_ground

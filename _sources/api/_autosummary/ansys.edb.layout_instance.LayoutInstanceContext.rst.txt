@@ -17,9 +17,6 @@
       
       LayoutInstanceContext.get_bbox
       
-      
-      LayoutInstanceContext.is_null
-      
    
    
 
@@ -35,6 +32,9 @@
       
       
       LayoutInstanceContext.is_3d_placement
+      
+      
+      LayoutInstanceContext.is_null
       
       
       LayoutInstanceContext.is_top_or_black_box

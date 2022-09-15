@@ -20,9 +20,6 @@
       
       ComponentPin.find
       
-      
-      ComponentPin.is_null
-      
    
    
 
@@ -38,6 +35,9 @@
       
       
       ComponentPin.id
+      
+      
+      ComponentPin.is_null
       
       
       ComponentPin.msg

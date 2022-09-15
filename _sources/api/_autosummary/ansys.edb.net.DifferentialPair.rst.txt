@@ -36,9 +36,6 @@
       DifferentialPair.get_product_property_ids
       
       
-      DifferentialPair.is_null
-      
-      
       DifferentialPair.nets
       
       
@@ -65,6 +62,9 @@
       
       
       DifferentialPair.id
+      
+      
+      DifferentialPair.is_null
       
       
       DifferentialPair.is_power_ground

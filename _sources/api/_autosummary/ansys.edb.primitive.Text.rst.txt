@@ -39,9 +39,6 @@
       Text.get_text_data
       
       
-      Text.is_null
-      
-      
       Text.remove_hfss_prop
       
       
@@ -83,6 +80,9 @@
       
       
       Text.is_negative
+      
+      
+      Text.is_null
       
       
       Text.is_parameterized

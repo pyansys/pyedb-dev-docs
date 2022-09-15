@@ -36,9 +36,6 @@
       EdgeTerminal.get_product_property_ids
       
       
-      EdgeTerminal.is_null
-      
-      
       EdgeTerminal.product_solver_names
       
       
@@ -95,6 +92,9 @@
       
       
       EdgeTerminal.is_interface_terminal
+      
+      
+      EdgeTerminal.is_null
       
       
       EdgeTerminal.is_reference_terminal

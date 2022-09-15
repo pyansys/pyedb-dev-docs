@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.terminal
 
-.. automethod:: EdgeTerminal.is_null
+.. autoproperty:: EdgeTerminal.is_null

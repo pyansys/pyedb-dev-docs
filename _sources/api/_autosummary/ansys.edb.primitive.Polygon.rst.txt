@@ -36,9 +36,6 @@
       Polygon.get_product_property_ids
       
       
-      Polygon.is_null
-      
-      
       Polygon.remove_hfss_prop
       
       
@@ -77,6 +74,9 @@
       
       
       Polygon.is_negative
+      
+      
+      Polygon.is_null
       
       
       Polygon.is_parameterized

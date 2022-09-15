@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      HFSSAdaptiveSettings.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
       
       
       HFSSAdaptiveSettings.id
+      
+      
+      HFSSAdaptiveSettings.is_null
       
       
       HFSSAdaptiveSettings.msg

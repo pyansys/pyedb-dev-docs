@@ -17,9 +17,6 @@
       
       BondwireDef.delete
       
-      
-      BondwireDef.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
    
       
       BondwireDef.id
+      
+      
+      BondwireDef.is_null
       
       
       BondwireDef.msg

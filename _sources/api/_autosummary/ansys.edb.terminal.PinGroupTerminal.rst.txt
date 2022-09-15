@@ -36,9 +36,6 @@
       PinGroupTerminal.get_product_property_ids
       
       
-      PinGroupTerminal.is_null
-      
-      
       PinGroupTerminal.product_solver_names
       
       
@@ -92,6 +89,9 @@
       
       
       PinGroupTerminal.is_interface_terminal
+      
+      
+      PinGroupTerminal.is_null
       
       
       PinGroupTerminal.is_reference_terminal

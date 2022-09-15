@@ -36,9 +36,6 @@
       NetClass.get_product_property_ids
       
       
-      NetClass.is_null
-      
-      
       NetClass.remove_net
       
       
@@ -59,6 +56,9 @@
       
       
       NetClass.id
+      
+      
+      NetClass.is_null
       
       
       NetClass.is_power_ground

@@ -14,9 +14,6 @@
       :toctree:
    
       
-      
-      Rlc.is_null
-      
    
    
 
@@ -35,6 +32,9 @@
       
       
       Rlc.id
+      
+      
+      Rlc.is_null
       
       
       Rlc.is_parallel

@@ -36,9 +36,6 @@
       PadstackInstanceTerminal.get_product_property_ids
       
       
-      PadstackInstanceTerminal.is_null
-      
-      
       PadstackInstanceTerminal.product_solver_names
       
       
@@ -92,6 +89,9 @@
       
       
       PadstackInstanceTerminal.is_interface_terminal
+      
+      
+      PadstackInstanceTerminal.is_null
       
       
       PadstackInstanceTerminal.is_reference_terminal

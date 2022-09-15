@@ -17,9 +17,6 @@
       
       LayoutObjInstance2DGeometry.get_polygon_data
       
-      
-      LayoutObjInstance2DGeometry.is_null
-      
    
    
 
@@ -38,6 +35,9 @@
       
       
       LayoutObjInstance2DGeometry.is_negative
+      
+      
+      LayoutObjInstance2DGeometry.is_null
       
       
       LayoutObjInstance2DGeometry.material

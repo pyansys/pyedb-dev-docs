@@ -20,9 +20,6 @@
       
       PadEdge.create
       
-      
-      PadEdge.is_null
-      
    
    
 
@@ -38,6 +35,9 @@
       
       
       PadEdge.id
+      
+      
+      PadEdge.is_null
       
       
       PadEdge.layer

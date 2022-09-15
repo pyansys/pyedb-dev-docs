@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.layout_instance
 
-.. automethod:: LayoutInstanceContext.is_null
+.. autoproperty:: LayoutInstanceContext.is_null

@@ -42,9 +42,6 @@
       ViaGroup.get_product_property_ids
       
       
-      ViaGroup.is_null
-      
-      
       ViaGroup.remove_member
       
       
@@ -77,6 +74,9 @@
       
       
       ViaGroup.id
+      
+      
+      ViaGroup.is_null
       
       
       ViaGroup.layout

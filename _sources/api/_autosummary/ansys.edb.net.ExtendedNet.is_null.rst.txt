@@ -3,4 +3,4 @@ is\_null
 
 .. currentmodule:: ansys.edb.net
 
-.. automethod:: ExtendedNet.is_null
+.. autoproperty:: ExtendedNet.is_null

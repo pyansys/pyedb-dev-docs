@@ -42,9 +42,6 @@
       ViaLayer.is_in_zone
       
       
-      ViaLayer.is_null
-      
-      
       ViaLayer.is_stackup_layer
       
       
@@ -95,6 +92,9 @@
       
       
       ViaLayer.id
+      
+      
+      ViaLayer.is_null
       
       
       ViaLayer.layer_id

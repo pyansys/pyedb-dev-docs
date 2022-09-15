@@ -24,9 +24,6 @@
       SimulationSetup.frequency_sweep
       
       
-      SimulationSetup.is_null
-      
-      
       SimulationSetup.mesh_operation
       
    
@@ -41,6 +38,9 @@
    
       
       SimulationSetup.id
+      
+      
+      SimulationSetup.is_null
       
       
       SimulationSetup.msg

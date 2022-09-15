@@ -69,9 +69,6 @@
       LayerCollection.insert_zone
       
       
-      LayerCollection.is_null
-      
-      
       LayerCollection.is_valid
       
       
@@ -101,6 +98,9 @@
    
       
       LayerCollection.id
+      
+      
+      LayerCollection.is_null
       
       
       LayerCollection.mode

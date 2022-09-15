@@ -310,11 +310,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.primitive.Rectangle.is_null.html">
-       is_null
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Rectangle.remove_hfss_prop.html">
        remove_hfss_prop
       </a>
@@ -372,6 +367,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Rectangle.is_negative.html">
        is_negative
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Rectangle.is_null.html">
+       is_null
       </a>
      </li>
      <li class="toctree-l3">
@@ -546,22 +546,19 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.get_product_property_ids.html#ansys.edb.primitive.Rectangle.get_product_property_ids" title="ansys.edb.primitive.Rectangle.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_null.html#ansys.edb.primitive.Rectangle.is_null" title="ansys.edb.primitive.Rectangle.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_null</span></code></a>()</p></td>
-<td><p>Determine whether this object exists in EDB.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.remove_hfss_prop.html#ansys.edb.primitive.Rectangle.remove_hfss_prop" title="ansys.edb.primitive.Rectangle.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.remove_hfss_prop</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.remove_hfss_prop.html#ansys.edb.primitive.Rectangle.remove_hfss_prop" title="ansys.edb.primitive.Rectangle.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.remove_hfss_prop</span></code></a>()</p></td>
 <td><p>Remove HFSS properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.render.html#ansys.edb.primitive.Rectangle.render" title="ansys.edb.primitive.Rectangle.render"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.render</span></code></a>(rep_type, ...[, is_hole])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.render.html#ansys.edb.primitive.Rectangle.render" title="ansys.edb.primitive.Rectangle.render"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.render</span></code></a>(rep_type, ...[, is_hole])</p></td>
 <td><p>Get the polygon data of a rectangle.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_hfss_prop.html#ansys.edb.primitive.Rectangle.set_hfss_prop" title="ansys.edb.primitive.Rectangle.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_hfss_prop.html#ansys.edb.primitive.Rectangle.set_hfss_prop" title="ansys.edb.primitive.Rectangle.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
 <td><p>Set HFSS properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_parameters.html#ansys.edb.primitive.Rectangle.set_parameters" title="ansys.edb.primitive.Rectangle.set_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_parameters</span></code></a>(rep_type, param1, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_parameters.html#ansys.edb.primitive.Rectangle.set_parameters" title="ansys.edb.primitive.Rectangle.set_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_parameters</span></code></a>(rep_type, param1, ...)</p></td>
 <td><p>Set coordinates parameters.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_product_property.html#ansys.edb.primitive.Rectangle.set_product_property" title="ansys.edb.primitive.Rectangle.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.set_product_property.html#ansys.edb.primitive.Rectangle.set_product_property" title="ansys.edb.primitive.Rectangle.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
 </tbody>
@@ -594,43 +591,46 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_negative.html#ansys.edb.primitive.Rectangle.is_negative" title="ansys.edb.primitive.Rectangle.is_negative"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_negative</span></code></a></p></td>
 <td><p>Get if the primitive is negative.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_parameterized.html#ansys.edb.primitive.Rectangle.is_parameterized" title="ansys.edb.primitive.Rectangle.is_parameterized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_parameterized</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_null.html#ansys.edb.primitive.Rectangle.is_null" title="ansys.edb.primitive.Rectangle.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_null</span></code></a></p></td>
+<td><p>Determine whether this object exists in EDB.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_parameterized.html#ansys.edb.primitive.Rectangle.is_parameterized" title="ansys.edb.primitive.Rectangle.is_parameterized"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_parameterized</span></code></a></p></td>
 <td><p>Determine if a primitive is parametrized.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_void.html#ansys.edb.primitive.Rectangle.is_void" title="ansys.edb.primitive.Rectangle.is_void"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_void</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_void.html#ansys.edb.primitive.Rectangle.is_void" title="ansys.edb.primitive.Rectangle.is_void"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_void</span></code></a></p></td>
 <td><p>Determine if a primitive is a void.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_zone_primitive.html#ansys.edb.primitive.Rectangle.is_zone_primitive" title="ansys.edb.primitive.Rectangle.is_zone_primitive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_zone_primitive</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.is_zone_primitive.html#ansys.edb.primitive.Rectangle.is_zone_primitive" title="ansys.edb.primitive.Rectangle.is_zone_primitive"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.is_zone_primitive</span></code></a></p></td>
 <td><p>Determine if a primitive is a zone.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layer.html#ansys.edb.primitive.Rectangle.layer" title="ansys.edb.primitive.Rectangle.layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layer</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layer.html#ansys.edb.primitive.Rectangle.layer" title="ansys.edb.primitive.Rectangle.layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layer</span></code></a></p></td>
 <td><p>Get a layer on which this primitive exists.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layout.html#ansys.edb.primitive.Rectangle.layout" title="ansys.edb.primitive.Rectangle.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layout</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layout.html#ansys.edb.primitive.Rectangle.layout" title="ansys.edb.primitive.Rectangle.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layout</span></code></a></p></td>
 <td><p>Get the Layout of the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layout_obj_type.html#ansys.edb.primitive.Rectangle.layout_obj_type" title="ansys.edb.primitive.Rectangle.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layout_obj_type</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.layout_obj_type.html#ansys.edb.primitive.Rectangle.layout_obj_type" title="ansys.edb.primitive.Rectangle.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.layout_obj_type</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.msg.html#ansys.edb.primitive.Rectangle.msg" title="ansys.edb.primitive.Rectangle.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.msg</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.msg.html#ansys.edb.primitive.Rectangle.msg" title="ansys.edb.primitive.Rectangle.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.msg</span></code></a></p></td>
 <td><p>Return protobuf message that represents this object's ID.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.net.html#ansys.edb.primitive.Rectangle.net" title="ansys.edb.primitive.Rectangle.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.net</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.net.html#ansys.edb.primitive.Rectangle.net" title="ansys.edb.primitive.Rectangle.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.net</span></code></a></p></td>
 <td><p>Get the net of the connectable object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.obj_type.html#ansys.edb.primitive.Rectangle.obj_type" title="ansys.edb.primitive.Rectangle.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.obj_type</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.obj_type.html#ansys.edb.primitive.Rectangle.obj_type" title="ansys.edb.primitive.Rectangle.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.obj_type</span></code></a></p></td>
 <td><p>Get the layout object type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.owner.html#ansys.edb.primitive.Rectangle.owner" title="ansys.edb.primitive.Rectangle.owner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.owner</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.owner.html#ansys.edb.primitive.Rectangle.owner" title="ansys.edb.primitive.Rectangle.owner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.owner</span></code></a></p></td>
 <td><p>Get an owner of a primitive.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.polygon_data.html#ansys.edb.primitive.Rectangle.polygon_data" title="ansys.edb.primitive.Rectangle.polygon_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.polygon_data</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.polygon_data.html#ansys.edb.primitive.Rectangle.polygon_data" title="ansys.edb.primitive.Rectangle.polygon_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.polygon_data</span></code></a></p></td>
 <td><p>Get polygon data of a rectangle.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.primitive_type.html#ansys.edb.primitive.Rectangle.primitive_type" title="ansys.edb.primitive.Rectangle.primitive_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.primitive_type</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.primitive_type.html#ansys.edb.primitive.Rectangle.primitive_type" title="ansys.edb.primitive.Rectangle.primitive_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.primitive_type</span></code></a></p></td>
 <td><p>Get the type of a primitive.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.voids.html#ansys.edb.primitive.Rectangle.voids" title="ansys.edb.primitive.Rectangle.voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.voids</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Rectangle.voids.html#ansys.edb.primitive.Rectangle.voids" title="ansys.edb.primitive.Rectangle.voids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rectangle.voids</span></code></a></p></td>
 <td><p>Get list of voids inside a primitive.</p></td>
 </tr>
 </tbody>

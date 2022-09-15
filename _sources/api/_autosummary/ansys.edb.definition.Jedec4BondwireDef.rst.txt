@@ -24,9 +24,6 @@
       Jedec4BondwireDef.get_parameters
       
       
-      Jedec4BondwireDef.is_null
-      
-      
       Jedec4BondwireDef.set_parameters
       
    
@@ -44,6 +41,9 @@
       
       
       Jedec4BondwireDef.id
+      
+      
+      Jedec4BondwireDef.is_null
       
       
       Jedec4BondwireDef.msg

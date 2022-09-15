@@ -17,9 +17,6 @@
       
       Edge.cast
       
-      
-      Edge.is_null
-      
    
    
 
@@ -32,6 +29,9 @@
    
       
       Edge.id
+      
+      
+      Edge.is_null
       
       
       Edge.msg
