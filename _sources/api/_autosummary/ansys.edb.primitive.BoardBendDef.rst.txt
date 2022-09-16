@@ -18,6 +18,9 @@
       BoardBendDef.add_void
       
       
+      BoardBendDef.cast
+      
+      
       BoardBendDef.delete
       
       

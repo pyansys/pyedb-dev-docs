@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="clone" href="ansys.edb.layer.Layer.clone.html" />
+    <link rel="next" title="cast" href="ansys.edb.layer.Layer.cast.html" />
     <link rel="prev" title="Layers" href="../layer.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -214,6 +214,11 @@
      </i>
     </label>
     <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.Layer.cast.html">
+       cast
+      </a>
+     </li>
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.Layer.clone.html">
        clone
@@ -472,31 +477,34 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.clone.html#ansys.edb.layer.Layer.clone" title="ansys.edb.layer.Layer.clone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.clone</span></code></a>([copy_id])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.cast.html#ansys.edb.layer.Layer.cast" title="ansys.edb.layer.Layer.cast"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.cast</span></code></a>()</p></td>
+<td><p>Cast the layer object to correct concrete type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.clone.html#ansys.edb.layer.Layer.clone" title="ansys.edb.layer.Layer.clone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.clone</span></code></a>([copy_id])</p></td>
 <td><p>Create a clone of the layer.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.create.html#ansys.edb.layer.Layer.create" title="ansys.edb.layer.Layer.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.create</span></code></a>(name, lyr_type)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.create.html#ansys.edb.layer.Layer.create" title="ansys.edb.layer.Layer.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.create</span></code></a>(name, lyr_type)</p></td>
 <td><p>Create a non-stackup layer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.get_product_property.html#ansys.edb.layer.Layer.get_product_property" title="ansys.edb.layer.Layer.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.get_product_property</span></code></a>(prod_id, attr_it)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.get_product_property.html#ansys.edb.layer.Layer.get_product_property" title="ansys.edb.layer.Layer.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.get_product_property</span></code></a>(prod_id, attr_it)</p></td>
 <td><p>Get the product property of the layer associated with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.get_product_property_ids.html#ansys.edb.layer.Layer.get_product_property_ids" title="ansys.edb.layer.Layer.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.get_product_property_ids</span></code></a>(prod_id)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.get_product_property_ids.html#ansys.edb.layer.Layer.get_product_property_ids" title="ansys.edb.layer.Layer.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_in_zone.html#ansys.edb.layer.Layer.is_in_zone" title="ansys.edb.layer.Layer.is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_in_zone</span></code></a>(zone)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_in_zone.html#ansys.edb.layer.Layer.is_in_zone" title="ansys.edb.layer.Layer.is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_in_zone</span></code></a>(zone)</p></td>
 <td><p>Check if the layer exists in the provided zone.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html#ansys.edb.layer.Layer.is_stackup_layer" title="ansys.edb.layer.Layer.is_stackup_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_stackup_layer</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html#ansys.edb.layer.Layer.is_stackup_layer" title="ansys.edb.layer.Layer.is_stackup_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_stackup_layer</span></code></a>()</p></td>
 <td><p>Determine if the layer is a stackup layer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html#ansys.edb.layer.Layer.is_via_layer" title="ansys.edb.layer.Layer.is_via_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_via_layer</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html#ansys.edb.layer.Layer.is_via_layer" title="ansys.edb.layer.Layer.is_via_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_via_layer</span></code></a>()</p></td>
 <td><p>Determine if the layer is via layer.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.set_is_in_zone.html#ansys.edb.layer.Layer.set_is_in_zone" title="ansys.edb.layer.Layer.set_is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.set_is_in_zone</span></code></a>(zone[, in_zone])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.set_is_in_zone.html#ansys.edb.layer.Layer.set_is_in_zone" title="ansys.edb.layer.Layer.set_is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.set_is_in_zone</span></code></a>(zone[, in_zone])</p></td>
 <td><p>Set whether the layer exists in the specified zone.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.set_product_property.html#ansys.edb.layer.Layer.set_product_property" title="ansys.edb.layer.Layer.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.set_product_property</span></code></a>(prod_id, attr_it, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.set_product_property.html#ansys.edb.layer.Layer.set_product_property" title="ansys.edb.layer.Layer.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.set_product_property</span></code></a>(prod_id, attr_it, ...)</p></td>
 <td><p>Set the product property of the layer associated with the given product and attribute ids.</p></td>
 </tr>
 </tbody>

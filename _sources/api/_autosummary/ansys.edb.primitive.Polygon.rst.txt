@@ -18,6 +18,9 @@
       Polygon.add_void
       
       
+      Polygon.cast
+      
+      
       Polygon.create
       
       

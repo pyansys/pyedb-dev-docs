@@ -15,6 +15,9 @@
    
       
       
+      Layer.cast
+      
+      
       Layer.clone
       
       

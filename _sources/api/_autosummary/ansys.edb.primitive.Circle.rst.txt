@@ -21,6 +21,9 @@
       Circle.can_be_zone_primitive
       
       
+      Circle.cast
+      
+      
       Circle.create
       
       

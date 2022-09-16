@@ -18,6 +18,9 @@
       Group.add_member
       
       
+      Group.cast
+      
+      
       Group.create
       
       

@@ -18,6 +18,9 @@
       Primitive.add_void
       
       
+      Primitive.cast
+      
+      
       Primitive.delete
       
       

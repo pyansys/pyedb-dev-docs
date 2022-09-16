@@ -18,6 +18,9 @@
       Rectangle.add_void
       
       
+      Rectangle.cast
+      
+      
       Rectangle.create
       
       

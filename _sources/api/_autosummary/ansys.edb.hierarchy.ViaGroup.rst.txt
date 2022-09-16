@@ -18,6 +18,9 @@
       ViaGroup.add_member
       
       
+      ViaGroup.cast
+      
+      
       ViaGroup.create
       
       

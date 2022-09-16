@@ -18,6 +18,9 @@
       PadstackInstance.add_void
       
       
+      PadstackInstance.cast
+      
+      
       PadstackInstance.create
       
       
