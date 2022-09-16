@@ -1,6 +1,0 @@
-c\_enabled
-==========
-
-.. currentmodule:: ansys.edb.utility
-
-.. autoproperty:: Rlc.c_enabled

@@ -1,6 +1,0 @@
-c
-=
-
-.. currentmodule:: ansys.edb.utility
-
-.. autoproperty:: Rlc.c

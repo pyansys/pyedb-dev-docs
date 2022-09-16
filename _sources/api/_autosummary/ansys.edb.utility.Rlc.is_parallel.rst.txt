@@ -1,6 +1,0 @@
-is\_parallel
-============
-
-.. currentmodule:: ansys.edb.utility
-
-.. autoproperty:: Rlc.is_parallel

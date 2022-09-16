@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="c" href="ansys.edb.utility.Rlc.c.html" />
+    <link rel="next" title="ansys.edb.utility.TemperatureSettings" href="ansys.edb.utility.TemperatureSettings.html" />
     <link rel="prev" title="do_renormalize" href="ansys.edb.utility.PortPostProcessingProp.do_renormalize.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -249,67 +249,10 @@
      ansys.edb.utility.PortPostProcessingProp
     </a>
    </li>
-   <li class="toctree-l2 current active has-children">
+   <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      ansys.edb.utility.Rlc
     </a>
-    <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-    <label for="toctree-checkbox-2">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.c.html">
-       c
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.c_enabled.html">
-       c_enabled
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.id.html">
-       id
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.is_null.html">
-       is_null
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.is_parallel.html">
-       is_parallel
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.l.html">
-       l
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.l_enabled.html">
-       l_enabled
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.msg.html">
-       msg
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.r.html">
-       r
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.Rlc.r_enabled.html">
-       r_enabled
-      </a>
-     </li>
-    </ul>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.utility.TemperatureSettings.html">
@@ -378,10 +321,10 @@
 <h1>ansys.edb.utility.Rlc<a class="headerlink" href="#ansys-edb-utility-rlc" title="Permalink to this headline">#</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.utility.Rlc">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">Rlc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.Rlc" title="Permalink to this definition">#</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">Rlc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r=&lt;ansys.edb.utility.value.Value</span> <span class="pre">object&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r_enabled=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l=&lt;ansys.edb.utility.value.Value</span> <span class="pre">object&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l_enabled=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c=&lt;ansys.edb.utility.value.Value</span> <span class="pre">object&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c_enabled=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_parallel=True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.Rlc" title="Permalink to this definition">#</a></dt>
 <dd><p>Class representing RLC.</p>
 <dl class="field-list">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Attributes</dt>
 <dd class="field-odd"><dl>
 <dt><strong>r</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Resistance value. Only used if r_enabled is True</p>
 </dd>
@@ -407,45 +350,6 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-</tbody>
-</table>
-<p class="rubric">Attributes</p>
-<table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.c.html#ansys.edb.utility.Rlc.c" title="ansys.edb.utility.Rlc.c"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.c</span></code></a></p></td>
-<td><p>Return capacitance value.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.c_enabled.html#ansys.edb.utility.Rlc.c_enabled" title="ansys.edb.utility.Rlc.c_enabled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.c_enabled</span></code></a></p></td>
-<td><p>Return whether capacitance is enabled.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.id.html#ansys.edb.utility.Rlc.id" title="ansys.edb.utility.Rlc.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.id</span></code></a></p></td>
-<td><p>Return unique ID of an EDB object.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.is_null.html#ansys.edb.utility.Rlc.is_null" title="ansys.edb.utility.Rlc.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.is_null</span></code></a></p></td>
-<td><p>Determine whether this object exists in EDB.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.is_parallel.html#ansys.edb.utility.Rlc.is_parallel" title="ansys.edb.utility.Rlc.is_parallel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.is_parallel</span></code></a></p></td>
-<td><p>Return if parallel.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.l.html#ansys.edb.utility.Rlc.l" title="ansys.edb.utility.Rlc.l"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.l</span></code></a></p></td>
-<td><p>Return induction value.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.l_enabled.html#ansys.edb.utility.Rlc.l_enabled" title="ansys.edb.utility.Rlc.l_enabled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.l_enabled</span></code></a></p></td>
-<td><p>Return whether induction is enabled.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.msg.html#ansys.edb.utility.Rlc.msg" title="ansys.edb.utility.Rlc.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.msg</span></code></a></p></td>
-<td><p>Return protobuf message that represents this object's ID.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.r.html#ansys.edb.utility.Rlc.r" title="ansys.edb.utility.Rlc.r"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.r</span></code></a></p></td>
-<td><p>Return resistance value.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.Rlc.r_enabled.html#ansys.edb.utility.Rlc.r_enabled" title="ansys.edb.utility.Rlc.r_enabled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Rlc.r_enabled</span></code></a></p></td>
-<td><p>Return whether resistance is enabled.</p></td>
-</tr>
 </tbody>
 </table>
 </dd></dl>

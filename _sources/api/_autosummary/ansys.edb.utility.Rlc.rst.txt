@@ -19,40 +19,4 @@
 
    
    
-   .. rubric:: Attributes
-
-   .. autosummary::
-      :toctree:
-   
-      
-      Rlc.c
-      
-      
-      Rlc.c_enabled
-      
-      
-      Rlc.id
-      
-      
-      Rlc.is_null
-      
-      
-      Rlc.is_parallel
-      
-      
-      Rlc.l
-      
-      
-      Rlc.l_enabled
-      
-      
-      Rlc.msg
-      
-      
-      Rlc.r
-      
-      
-      Rlc.r_enabled
-      
-   
    
