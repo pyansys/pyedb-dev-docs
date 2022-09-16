@@ -195,11 +195,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.definition.BondwireDefType.html">
-     ansys.edb.definition.BondwireDefType
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.BondwireDef.html">
      ansys.edb.definition.BondwireDef
     </a>
@@ -210,13 +205,18 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.definition.ComponentModel.html">
+     ansys.edb.definition.ComponentModel
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.ComponentPin.html">
      ansys.edb.definition.ComponentPin
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.definition.NPortComponentModel.html">
-     ansys.edb.definition.NPortComponentModel
+    <a class="reference internal" href="ansys.edb.definition.DielectricMaterialModel.html">
+     ansys.edb.definition.DielectricMaterialModel
     </a>
    </li>
    <li class="toctree-l2">
@@ -270,8 +270,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.get_bondwire_type.html">
-       get_bondwire_type
+      <a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.bondwire_type.html">
+       bondwire_type
       </a>
      </li>
      <li class="toctree-l3">
@@ -302,8 +302,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.definition.MaterialProperty.html">
-     ansys.edb.definition.MaterialProperty
+    <a class="reference internal" href="ansys.edb.definition.NPortComponentModel.html">
+     ansys.edb.definition.NPortComponentModel
     </a>
    </li>
    <li class="toctree-l2">
@@ -319,6 +319,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.PadstackDefData.html">
      ansys.edb.definition.PadstackDefData
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.definition.ThermalModifier.html">
+     ansys.edb.definition.ThermalModifier
     </a>
    </li>
   </ul>
@@ -424,7 +429,7 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.definition.Jedec5BondwireDef">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.definition.</span></span><span class="sig-name descname"><span class="pre">Jedec5BondwireDef</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.Jedec5BondwireDef" title="Permalink to this definition">#</a></dt>
-<dd><p>Class representing a jedec 4 bondwire definition.</p>
+<dd><p>Class representing a jedec 5 bondwire definition.</p>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -438,13 +443,13 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.delete.html#ansys.edb.definition.Jedec5BondwireDef.delete" title="ansys.edb.definition.Jedec5BondwireDef.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.delete</span></code></a>()</p></td>
 <td><p>Delete a bondwire definition.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.find_by_name.html#ansys.edb.definition.Jedec5BondwireDef.find_by_name" title="ansys.edb.definition.Jedec5BondwireDef.find_by_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.find_by_name</span></code></a>(name)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.find_by_name.html#ansys.edb.definition.Jedec5BondwireDef.find_by_name" title="ansys.edb.definition.Jedec5BondwireDef.find_by_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.find_by_name</span></code></a>(database, name)</p></td>
 <td><p>Find a jedec 5 bondwire definition by name.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.get_parameters.html#ansys.edb.definition.Jedec5BondwireDef.get_parameters" title="ansys.edb.definition.Jedec5BondwireDef.get_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.get_parameters</span></code></a>()</p></td>
 <td><p>Get parameters of a jedec 5 bondwire definition.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.set_parameters.html#ansys.edb.definition.Jedec5BondwireDef.set_parameters" title="ansys.edb.definition.Jedec5BondwireDef.set_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.set_parameters</span></code></a>(ttd, dpa, lpa)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.set_parameters.html#ansys.edb.definition.Jedec5BondwireDef.set_parameters" title="ansys.edb.definition.Jedec5BondwireDef.set_parameters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.set_parameters</span></code></a>(...)</p></td>
 <td><p>Set parameters of a jedec 5 bondwire definition.</p></td>
 </tr>
 </tbody>
@@ -456,7 +461,7 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.get_bondwire_type.html#ansys.edb.definition.Jedec5BondwireDef.get_bondwire_type" title="ansys.edb.definition.Jedec5BondwireDef.get_bondwire_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.get_bondwire_type</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.bondwire_type.html#ansys.edb.definition.Jedec5BondwireDef.bondwire_type" title="ansys.edb.definition.Jedec5BondwireDef.bondwire_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.bondwire_type</span></code></a></p></td>
 <td><p>Return jedec 5 bondwire type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.definition.Jedec5BondwireDef.id.html#ansys.edb.definition.Jedec5BondwireDef.id" title="ansys.edb.definition.Jedec5BondwireDef.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Jedec5BondwireDef.id</span></code></a></p></td>

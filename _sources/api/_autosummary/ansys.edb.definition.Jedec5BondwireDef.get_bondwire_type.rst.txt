@@ -1,6 +1,0 @@
-get\_bondwire\_type
-===================
-
-.. currentmodule:: ansys.edb.definition
-
-.. autoproperty:: Jedec5BondwireDef.get_bondwire_type

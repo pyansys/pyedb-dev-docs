@@ -40,7 +40,7 @@
       :toctree:
    
       
-      Jedec5BondwireDef.get_bondwire_type
+      Jedec5BondwireDef.bondwire_type
       
       
       Jedec5BondwireDef.id

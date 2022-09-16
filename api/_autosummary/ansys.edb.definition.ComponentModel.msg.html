@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>ansys.edb.definition.BondwireDefType &#8212; ansys-edb</title>
+    <title>msg &#8212; ansys-edb</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -39,8 +39,8 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="ansys.edb.definition.BondwireDef" href="ansys.edb.definition.BondwireDef.html" />
-    <link rel="prev" title="name" href="ansys.edb.definition.ApdBondwireDef.name.html" />
+    <link rel="next" title="reference_file" href="ansys.edb.definition.ComponentModel.reference_file.html" />
+    <link rel="prev" title="is_null" href="ansys.edb.definition.ComponentModel.is_null.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -151,8 +151,9 @@
     
 
           <li class="nav-item nav-item-1"><a href="../index.html" >API Reference</a> » </li>
-          <li class="nav-item nav-item-2"><a href="../definition.html" accesskey="U">Definition</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">ansys.edb.definition.BondwireDefType</a></li> 
+          <li class="nav-item nav-item-2"><a href="../definition.html" >Definition</a> » </li>
+          <li class="nav-item nav-item-3"><a href="ansys.edb.definition.ComponentModel.html" accesskey="U">ansys.edb.definition.ComponentModel</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">msg</a></li> 
       </ul>
     </div>
         </div>
@@ -194,11 +195,6 @@
      ansys.edb.definition.ApdBondwireDef
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
-     ansys.edb.definition.BondwireDefType
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.BondwireDef.html">
      ansys.edb.definition.BondwireDef
@@ -209,14 +205,46 @@
      ansys.edb.definition.ComponentDef
     </a>
    </li>
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="ansys.edb.definition.ComponentModel.html">
+     ansys.edb.definition.ComponentModel
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.ComponentModel.id.html">
+       id
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.ComponentModel.is_null.html">
+       is_null
+      </a>
+     </li>
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       msg
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.definition.ComponentModel.reference_file.html">
+       reference_file
+      </a>
+     </li>
+    </ul>
+   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.ComponentPin.html">
      ansys.edb.definition.ComponentPin
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.definition.NPortComponentModel.html">
-     ansys.edb.definition.NPortComponentModel
+    <a class="reference internal" href="ansys.edb.definition.DielectricMaterialModel.html">
+     ansys.edb.definition.DielectricMaterialModel
     </a>
    </li>
    <li class="toctree-l2">
@@ -245,8 +273,8 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.definition.MaterialProperty.html">
-     ansys.edb.definition.MaterialProperty
+    <a class="reference internal" href="ansys.edb.definition.NPortComponentModel.html">
+     ansys.edb.definition.NPortComponentModel
     </a>
    </li>
    <li class="toctree-l2">
@@ -262,6 +290,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.definition.PadstackDefData.html">
      ansys.edb.definition.PadstackDefData
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.definition.ThermalModifier.html">
+     ansys.edb.definition.ThermalModifier
     </a>
    </li>
   </ul>
@@ -362,21 +395,19 @@
               
               <div>
                 
-  <section id="ansys-edb-definition-bondwiredeftype">
-<h1>ansys.edb.definition.BondwireDefType<a class="headerlink" href="#ansys-edb-definition-bondwiredeftype" title="Permalink to this headline">#</a></h1>
-<dl class="py class">
-<dt class="sig sig-object py" id="ansys.edb.definition.BondwireDefType">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.definition.</span></span><span class="sig-name descname"><span class="pre">BondwireDefType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.BondwireDefType" title="Permalink to this definition">#</a></dt>
-<dd><p>Enum representing bondwire types.</p>
-<p class="rubric">Attributes</p>
-<table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-</tbody>
-</table>
+  <section id="msg">
+<h1>msg<a class="headerlink" href="#msg" title="Permalink to this headline">#</a></h1>
+<dl class="py property">
+<dt class="sig sig-object py" id="ansys.edb.definition.ComponentModel.msg">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ComponentModel.</span></span><span class="sig-name descname"><span class="pre">msg</span></span><a class="headerlink" href="#ansys.edb.definition.ComponentModel.msg" title="Permalink to this definition">#</a></dt>
+<dd><p>Return protobuf message that represents this object’s ID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code></dt><dd></dd>
+</dl>
+</dd>
+</dl>
 </dd></dl>
 
 </section>
