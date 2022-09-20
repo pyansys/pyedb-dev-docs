@@ -206,8 +206,23 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
     </a>
    </li>
    <li class="toctree-l2 current active has-children">
@@ -288,6 +303,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.component.html">
        component
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.component_def.html">
+       component_def
       </a>
      </li>
      <li class="toctree-l3">
@@ -381,6 +401,16 @@
       </a>
      </li>
     </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
+    </a>
    </li>
   </ul>
  </li>
@@ -479,16 +509,21 @@
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layout</span></code></span></dt><dd></dd>
-<dt><strong>outline</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a> <code class="xref py py-obj docutils literal notranslate"><span class="pre">of</span></code> <code class="xref py py-obj docutils literal notranslate"><span class="pre">Point2D</span></code> or <code class="xref py py-obj docutils literal notranslate"><span class="pre">PolygonData</span></code></span></dt><dd></dd>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout that owns the via group.</p>
+</dd>
+<dt><strong>outline</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Point2D</span></code>] <code class="xref py py-obj docutils literal notranslate"><span class="pre">or</span></code>             <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.geometry.PolygonData.html#ansys.edb.geometry.PolygonData" title="ansys.edb.geometry.PolygonData"><code class="xref py py-class docutils literal notranslate"><span class="pre">PolygonData</span></code></a>]</span></dt><dd><p>List of primitives that will be used to create the via groups.</p>
+</dd>
 <dt><strong>conductivity_ratio</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
-<dt><strong>layer</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a> or <code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer</span></code></span></dt><dd></dd>
-<dt><strong>net</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a> or <code class="xref py py-obj docutils literal notranslate"><span class="pre">Net</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd></dd>
+<dt><strong>layer</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a> or <a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a></span></dt><dd><p>Placement layer for the via group.</p>
+</dd>
+<dt><strong>net</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a> or <a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Net the via group should belong to.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html#ansys.edb.hierarchy.ViaGroup" title="ansys.edb.hierarchy.ViaGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroup</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html#ansys.edb.hierarchy.ViaGroup" title="ansys.edb.hierarchy.ViaGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroup</span></code></a></dt><dd><p>Newly created via group.</p>
+</dd>
 </dl>
 </dd>
 </dl>

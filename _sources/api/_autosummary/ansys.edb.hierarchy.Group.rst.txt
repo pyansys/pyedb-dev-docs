@@ -61,6 +61,9 @@
       Group.component
       
       
+      Group.component_def
+      
+      
       Group.edb_uid
       
       

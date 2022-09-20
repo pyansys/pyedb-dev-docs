@@ -205,6 +205,11 @@
      ansys.edb.hierarchy.CellInstance
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
@@ -273,6 +278,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.Group.component.html">
        component
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.Group.component_def.html">
+       component_def
       </a>
      </li>
      <li class="toctree-l3">
@@ -353,8 +363,28 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -450,14 +480,13 @@
 <dl class="py property">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.Group.solve_independent_preference">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Group.</span></span><span class="sig-name descname"><span class="pre">solve_independent_preference</span></span><a class="headerlink" href="#ansys.edb.hierarchy.Group.solve_independent_preference" title="Permalink to this definition">#</a></dt>
-<dd><p>Get solve independent preference.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></dt><dd></dd>
-</dl>
-</dd>
-</dl>
+<dd><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether the object is assigned to solve independent of its parent context.</p>
+<p>True if solving independently, False if embedded.</p>
+<p class="rubric">Notes</p>
+<p>For a <a class="reference internal" href="ansys.edb.definition.ComponentModel.html#ansys.edb.definition.ComponentModel" title="ansys.edb.definition.ComponentModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentModel</span></code></a>, this flag indicates if the
+model is embedded with the field-solver or not, when applicable.
+For a <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.html#ansys.edb.hierarchy.CellInstance" title="ansys.edb.hierarchy.CellInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">CellInstance</span></code></a>, it indicates if the design’s
+geometry is flattened/meshed with the parent or not, when applicable.</p>
 </dd></dl>
 
 </section>

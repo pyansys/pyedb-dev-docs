@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="ansys.edb.hierarchy.Group" href="ansys.edb.hierarchy.Group.html" />
+    <link rel="next" title="ansys.edb.hierarchy.ComponentGroup" href="ansys.edb.hierarchy.ComponentGroup.html" />
     <link rel="prev" title="transform" href="ansys.edb.hierarchy.CellInstance.transform.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -266,6 +266,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component_def.html">
+       component_def
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html">
        edb_uid
       </a>
@@ -358,13 +363,38 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -460,14 +490,8 @@
 <dl class="py property">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.CellInstance.transform3d">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">CellInstance.</span></span><span class="sig-name descname"><span class="pre">transform3d</span></span><a class="headerlink" href="#ansys.edb.hierarchy.CellInstance.transform3d" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the 3D transformation of this cell instance inside the owning layout.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Transform3D</span></code></dt><dd></dd>
-</dl>
-</dd>
-</dl>
+<dd><p><a class="reference internal" href="ansys.edb.utility.Transform3D.html#ansys.edb.utility.Transform3D" title="ansys.edb.utility.Transform3D"><code class="xref py py-class docutils literal notranslate"><span class="pre">Transform3D</span></code></a>: 3D transformation information of this cell instance.</p>
+<p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_3d.html#ansys.edb.hierarchy.CellInstance.placement_3d" title="ansys.edb.hierarchy.CellInstance.placement_3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">placement_3d</span></code></a> must be True for the transformation to be applied.</p>
 </dd></dl>
 
 </section>

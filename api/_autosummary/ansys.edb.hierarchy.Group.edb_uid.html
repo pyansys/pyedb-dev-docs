@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="group" href="ansys.edb.hierarchy.Group.group.html" />
-    <link rel="prev" title="component" href="ansys.edb.hierarchy.Group.component.html" />
+    <link rel="prev" title="component_def" href="ansys.edb.hierarchy.Group.component_def.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -205,6 +205,11 @@
      ansys.edb.hierarchy.CellInstance
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
@@ -273,6 +278,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.Group.component.html">
        component
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.Group.component_def.html">
+       component_def
       </a>
      </li>
      <li class="toctree-l3 current active">
@@ -353,8 +363,28 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -450,16 +480,9 @@
 <dl class="py property">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.Group.edb_uid">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Group.</span></span><span class="sig-name descname"><span class="pre">edb_uid</span></span><a class="headerlink" href="#ansys.edb.hierarchy.Group.edb_uid" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the unique, persistent ID for the Connectable object.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a></dt><dd><p>This id is unique across the all Connectable objects in the cell
-and persistent across closing and reopening the database.</p>
-</dd>
-</dl>
-</dd>
-</dl>
+<dd><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique, persistent ID for the <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object.</p>
+<p>This id is unique across the all <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> objects in the cell and persistent across closing and         reopening the database.</p>
+<p>Read-Only.</p>
 </dd></dl>
 
 </section>

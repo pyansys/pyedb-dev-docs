@@ -58,6 +58,9 @@
       CellInstance.component
       
       
+      CellInstance.component_def
+      
+      
       CellInstance.edb_uid
       
       

@@ -67,6 +67,9 @@
       ViaGroup.component
       
       
+      ViaGroup.component_def
+      
+      
       ViaGroup.conductor_percentage
       
       

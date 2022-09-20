@@ -265,6 +265,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component_def.html">
+       component_def
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html">
        edb_uid
       </a>
@@ -357,13 +362,38 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -459,7 +489,7 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.CellInstance">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.hierarchy.</span></span><span class="sig-name descname"><span class="pre">CellInstance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.CellInstance" title="Permalink to this definition">#</a></dt>
-<dd><p>Class for representing cell instance hierarchy object.</p>
+<dd><p>Class representing a cell instance object.</p>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -468,22 +498,22 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.create.html#ansys.edb.hierarchy.CellInstance.create" title="ansys.edb.hierarchy.CellInstance.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.create</span></code></a>(layout, name, ref)</p></td>
-<td><p>Create a cell instance object with layout.</p></td>
+<td><p>Create a cell instance object with a layout.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.create_with_component.html#ansys.edb.hierarchy.CellInstance.create_with_component" title="ansys.edb.hierarchy.CellInstance.create_with_component"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.create_with_component</span></code></a>(layout, ...)</p></td>
-<td><p>Create a cell instance object with component.</p></td>
+<td><p>Create a cell instance object with a component definition.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.delete.html#ansys.edb.hierarchy.CellInstance.delete" title="ansys.edb.hierarchy.CellInstance.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.find.html#ansys.edb.hierarchy.CellInstance.find" title="ansys.edb.hierarchy.CellInstance.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.find</span></code></a>(layout, name)</p></td>
-<td><p>Find a cell instance by name in the given layout.</p></td>
+<td><p>Find a cell instance in layout by name.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.find_by_id.html#ansys.edb.hierarchy.CellInstance.find_by_id" title="ansys.edb.hierarchy.CellInstance.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.find_by_id</span></code></a>(layout, uid)</p></td>
-<td><p>Find a Connectable object by Database ID.</p></td>
+<td><p>Find a <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object by Database ID.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.get_parameter_override.html#ansys.edb.hierarchy.CellInstance.get_parameter_override" title="ansys.edb.hierarchy.CellInstance.get_parameter_override"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.get_parameter_override</span></code></a>(value)</p></td>
-<td><p>Get value of the queried parameter.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.get_parameter_override.html#ansys.edb.hierarchy.CellInstance.get_parameter_override" title="ansys.edb.hierarchy.CellInstance.get_parameter_override"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.get_parameter_override</span></code></a>(param_name)</p></td>
+<td><p>Get the override of the cell instance parameter by name.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.get_product_property.html#ansys.edb.hierarchy.CellInstance.get_product_property" title="ansys.edb.hierarchy.CellInstance.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.get_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Get the product property of the layout object with the given product and attribute ids.</p></td>
@@ -492,7 +522,7 @@
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.set_parameter_override.html#ansys.edb.hierarchy.CellInstance.set_parameter_override" title="ansys.edb.hierarchy.CellInstance.set_parameter_override"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.set_parameter_override</span></code></a>(...)</p></td>
-<td><p>Set override value for the given parameter.</p></td>
+<td><p>Set override value for the given cell instance parameter.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.set_product_property.html#ansys.edb.hierarchy.CellInstance.set_product_property" title="ansys.edb.hierarchy.CellInstance.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
@@ -507,61 +537,64 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component.html#ansys.edb.hierarchy.CellInstance.component" title="ansys.edb.hierarchy.CellInstance.component"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.component</span></code></a></p></td>
-<td><p>Get underlying component on the hierarchy object.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html#ansys.edb.hierarchy.ComponentGroup" title="ansys.edb.hierarchy.ComponentGroup"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentGroup</span></code></a>: Component of the <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html#ansys.edb.hierarchy.CellInstance.edb_uid" title="ansys.edb.hierarchy.CellInstance.edb_uid"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.edb_uid</span></code></a></p></td>
-<td><p>Get the unique, persistent ID for the Connectable object.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component_def.html#ansys.edb.hierarchy.CellInstance.component_def" title="ansys.edb.hierarchy.CellInstance.component_def"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.component_def</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a>: Component definition for this         object if it exists, None otherwise.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.group.html#ansys.edb.hierarchy.CellInstance.group" title="ansys.edb.hierarchy.CellInstance.group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.group</span></code></a></p></td>
-<td><p>Get the group of the connectable object.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html#ansys.edb.hierarchy.CellInstance.edb_uid" title="ansys.edb.hierarchy.CellInstance.edb_uid"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.edb_uid</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique, persistent ID for the <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.id.html#ansys.edb.hierarchy.CellInstance.id" title="ansys.edb.hierarchy.CellInstance.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.id</span></code></a></p></td>
-<td><p>Return unique ID of an EDB object.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.group.html#ansys.edb.hierarchy.CellInstance.group" title="ansys.edb.hierarchy.CellInstance.group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.group</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.hierarchy.Group.html#ansys.edb.hierarchy.Group" title="ansys.edb.hierarchy.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a>: Group of the <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.is_null.html#ansys.edb.hierarchy.CellInstance.is_null" title="ansys.edb.hierarchy.CellInstance.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.is_null</span></code></a></p></td>
-<td><p>Determine whether this object exists in EDB.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.id.html#ansys.edb.hierarchy.CellInstance.id" title="ansys.edb.hierarchy.CellInstance.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.id</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.layout.html#ansys.edb.hierarchy.CellInstance.layout" title="ansys.edb.hierarchy.CellInstance.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.layout</span></code></a></p></td>
-<td><p>Get the Layout of the layout object.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.is_null.html#ansys.edb.hierarchy.CellInstance.is_null" title="ansys.edb.hierarchy.CellInstance.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.is_null</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.layout_obj_type.html#ansys.edb.hierarchy.CellInstance.layout_obj_type" title="ansys.edb.hierarchy.CellInstance.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.layout_obj_type</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.layout.html#ansys.edb.hierarchy.CellInstance.layout" title="ansys.edb.hierarchy.CellInstance.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.layout</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a>: Owning layout of the object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.layout_obj_type.html#ansys.edb.hierarchy.CellInstance.layout_obj_type" title="ansys.edb.hierarchy.CellInstance.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.layout_obj_type</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.location.html#ansys.edb.hierarchy.CellInstance.location" title="ansys.edb.hierarchy.CellInstance.location"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.location</span></code></a></p></td>
-<td><p>Get location.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.location.html#ansys.edb.hierarchy.CellInstance.location" title="ansys.edb.hierarchy.CellInstance.location"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.location</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tuple</span></code></a> (<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>, <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>):          [x, y] location of the object on the <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_layer.html#ansys.edb.hierarchy.CellInstance.placement_layer" title="ansys.edb.hierarchy.CellInstance.placement_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">placement_layer</span></code></a>.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.msg.html#ansys.edb.hierarchy.CellInstance.msg" title="ansys.edb.hierarchy.CellInstance.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.msg</span></code></a></p></td>
-<td><p>Return protobuf message that represents this object's ID.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.msg.html#ansys.edb.hierarchy.CellInstance.msg" title="ansys.edb.hierarchy.CellInstance.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.msg</span></code></a></p></td>
+<td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.name.html#ansys.edb.hierarchy.CellInstance.name" title="ansys.edb.hierarchy.CellInstance.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.name</span></code></a></p></td>
-<td><p>Get name of the hierarchy object.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.name.html#ansys.edb.hierarchy.CellInstance.name" title="ansys.edb.hierarchy.CellInstance.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.name</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>: Name of the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.net.html#ansys.edb.hierarchy.CellInstance.net" title="ansys.edb.hierarchy.CellInstance.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.net</span></code></a></p></td>
-<td><p>Get the net of the connectable object.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.net.html#ansys.edb.hierarchy.CellInstance.net" title="ansys.edb.hierarchy.CellInstance.net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.net</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a>: Net of the <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.obj_type.html#ansys.edb.hierarchy.CellInstance.obj_type" title="ansys.edb.hierarchy.CellInstance.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.obj_type</span></code></a></p></td>
-<td><p>Get the layout object type.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.obj_type.html#ansys.edb.hierarchy.CellInstance.obj_type" title="ansys.edb.hierarchy.CellInstance.obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.obj_type</span></code></a></p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">LayoutObjType</span></code>: Layout object type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_3d.html#ansys.edb.hierarchy.CellInstance.placement_3d" title="ansys.edb.hierarchy.CellInstance.placement_3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.placement_3d</span></code></a></p></td>
-<td><p>Get if cell instance is 3D placed in the owning layout.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_3d.html#ansys.edb.hierarchy.CellInstance.placement_3d" title="ansys.edb.hierarchy.CellInstance.placement_3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.placement_3d</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine if this cell instance is 3D placed in the owning layout.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_layer.html#ansys.edb.hierarchy.CellInstance.placement_layer" title="ansys.edb.hierarchy.CellInstance.placement_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.placement_layer</span></code></a></p></td>
-<td><p>Get placement layer.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.placement_layer.html#ansys.edb.hierarchy.CellInstance.placement_layer" title="ansys.edb.hierarchy.CellInstance.placement_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.placement_layer</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a>: Placement layer for this object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.reference_layout.html#ansys.edb.hierarchy.CellInstance.reference_layout" title="ansys.edb.hierarchy.CellInstance.reference_layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.reference_layout</span></code></a></p></td>
-<td><p>Get the reference layout of the cell instance.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.reference_layout.html#ansys.edb.hierarchy.CellInstance.reference_layout" title="ansys.edb.hierarchy.CellInstance.reference_layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.reference_layout</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a>: Reference layout of the cell instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.solve_independent_preference.html#ansys.edb.hierarchy.CellInstance.solve_independent_preference" title="ansys.edb.hierarchy.CellInstance.solve_independent_preference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.solve_independent_preference</span></code></a></p></td>
-<td><p>Get solve independent preference.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.solve_independent_preference.html#ansys.edb.hierarchy.CellInstance.solve_independent_preference" title="ansys.edb.hierarchy.CellInstance.solve_independent_preference"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.solve_independent_preference</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether the object is assigned to solve independent of its parent context.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.term_instances.html#ansys.edb.hierarchy.CellInstance.term_instances" title="ansys.edb.hierarchy.CellInstance.term_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.term_instances</span></code></a></p></td>
-<td><p>Get the list of terminal instances associated with this cell instance.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.term_instances.html#ansys.edb.hierarchy.CellInstance.term_instances" title="ansys.edb.hierarchy.CellInstance.term_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.term_instances</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a> of <code class="xref py py-class docutils literal notranslate"><span class="pre">TerminalInstances</span></code>: List of terminal         instances associated with this cell instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.transform.html#ansys.edb.hierarchy.CellInstance.transform" title="ansys.edb.hierarchy.CellInstance.transform"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.transform</span></code></a></p></td>
-<td><p>Get transform.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.transform.html#ansys.edb.hierarchy.CellInstance.transform" title="ansys.edb.hierarchy.CellInstance.transform"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.transform</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.utility.Transform.html#ansys.edb.utility.Transform" title="ansys.edb.utility.Transform"><code class="xref py py-class docutils literal notranslate"><span class="pre">Transform</span></code></a>: Transformation information of the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.transform3d.html#ansys.edb.hierarchy.CellInstance.transform3d" title="ansys.edb.hierarchy.CellInstance.transform3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.transform3d</span></code></a></p></td>
-<td><p>Get the 3D transformation of this cell instance inside the owning layout.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.transform3d.html#ansys.edb.hierarchy.CellInstance.transform3d" title="ansys.edb.hierarchy.CellInstance.transform3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance.transform3d</span></code></a></p></td>
+<td><p><a class="reference internal" href="ansys.edb.utility.Transform3D.html#ansys.edb.utility.Transform3D" title="ansys.edb.utility.Transform3D"><code class="xref py py-class docutils literal notranslate"><span class="pre">Transform3D</span></code></a>: 3D transformation information of this cell instance.</p></td>
 </tr>
 </tbody>
 </table>

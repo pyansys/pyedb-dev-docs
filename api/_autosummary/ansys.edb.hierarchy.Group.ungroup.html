@@ -205,6 +205,11 @@
      ansys.edb.hierarchy.CellInstance
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
@@ -273,6 +278,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.Group.component.html">
        component
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.Group.component_def.html">
+       component_def
       </a>
      </li>
      <li class="toctree-l3">
@@ -353,8 +363,28 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -450,11 +480,12 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.Group.ungroup">
 <span class="sig-prename descclassname"><span class="pre">Group.</span></span><span class="sig-name descname"><span class="pre">ungroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recursive</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.Group.ungroup" title="Permalink to this definition">#</a></dt>
-<dd><p>Ungroup the group.</p>
+<dd><p>Dissolves the group.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>recursive</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd></dd>
+<dt><strong>recursive</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>True if all containing groups should also be dissolved, False otherwise.</p>
+</dd>
 </dl>
 </dd>
 </dl>

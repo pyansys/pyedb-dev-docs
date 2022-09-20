@@ -204,13 +204,38 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -286,8 +311,13 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#classes">
-   Classes
+  <a class="reference internal nav-link" href="#object-types">
+   Object Types
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#enums">
+   Enums
   </a>
  </li>
 </ul>
@@ -313,8 +343,10 @@
                 
   <section id="hierarchy">
 <h1>Hierarchy<a class="headerlink" href="#hierarchy" title="Permalink to this headline">#</a></h1>
-<section id="classes">
-<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">#</a></h2>
+<p>Hierarchy objects are <a class="reference internal" href="glossary.html#term-Connectable"><span class="xref std std-term">Connectables</span></a> that can act as a container for other <a class="reference internal" href="glossary.html#term-Connectable"><span class="xref std std-term">Connectables</span></a>.
+Sub-designs, MCAD Components, Coordinate systems etc.. are all examples of hierarchy objects.</p>
+<section id="object-types">
+<h2>Object Types<a class="headerlink" href="#object-types" title="Permalink to this headline">#</a></h2>
 <table class="autosummary longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
@@ -322,13 +354,39 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.CellInstance.html#ansys.edb.hierarchy.CellInstance" title="ansys.edb.hierarchy.CellInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance</span></code></a>(msg)</p></td>
-<td><p>Class for representing cell instance hierarchy object.</p></td>
+<td><p>Class representing a cell instance object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.Group.html#ansys.edb.hierarchy.Group" title="ansys.edb.hierarchy.Group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Group</span></code></a>(msg)</p></td>
-<td><p>Class representing group object.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ComponentGroup.html#ansys.edb.hierarchy.ComponentGroup" title="ansys.edb.hierarchy.ComponentGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup</span></code></a>(msg)</p></td>
+<td><p>Class representing a component group object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ViaGroup.html#ansys.edb.hierarchy.ViaGroup" title="ansys.edb.hierarchy.ViaGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroup</span></code></a>(msg)</p></td>
-<td><p>Class representing a via group.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.Group.html#ansys.edb.hierarchy.Group" title="ansys.edb.hierarchy.Group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Group</span></code></a>(msg)</p></td>
+<td><p>Class representing a group object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.PinGroup.html#ansys.edb.hierarchy.PinGroup" title="ansys.edb.hierarchy.PinGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PinGroup</span></code></a>(msg)</p></td>
+<td><p>Class representing a pin group object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.Structure3D.html#ansys.edb.hierarchy.Structure3D" title="ansys.edb.hierarchy.Structure3D"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Structure3D</span></code></a>(msg)</p></td>
+<td><p>Class representing a structure3d object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ViaGroup.html#ansys.edb.hierarchy.ViaGroup" title="ansys.edb.hierarchy.ViaGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroup</span></code></a>(msg)</p></td>
+<td><p>Class representing a via group object.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="enums">
+<h2>Enums<a class="headerlink" href="#enums" title="Permalink to this headline">#</a></h2>
+<table class="autosummary longtable table autosummary">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.ComponentType.html#ansys.edb.hierarchy.ComponentType" title="ansys.edb.hierarchy.ComponentType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentType</span></code></a>(value)</p></td>
+<td><p>Enum representing component types.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.hierarchy.MeshClosure.html#ansys.edb.hierarchy.MeshClosure" title="ansys.edb.hierarchy.MeshClosure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MeshClosure</span></code></a>(value)</p></td>
+<td><p>Enum representing mesh closure types.</p></td>
 </tr>
 </tbody>
 </table>

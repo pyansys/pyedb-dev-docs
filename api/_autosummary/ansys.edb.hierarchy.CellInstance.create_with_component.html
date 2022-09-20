@@ -266,6 +266,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component_def.html">
+       component_def
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html">
        edb_uid
       </a>
@@ -358,13 +363,38 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -460,18 +490,22 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.CellInstance.create_with_component">
 <em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">CellInstance.</span></span><span class="sig-name descname"><span class="pre">create_with_component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.CellInstance.create_with_component" title="Permalink to this definition">#</a></dt>
-<dd><p>Create a cell instance object with component.</p>
-<dl class="field-list simple">
+<dd><p>Create a cell instance object with a component definition.</p>
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>layout: Layout</strong></dt><dd></dd>
-<dt><strong>name: str</strong></dt><dd></dd>
-<dt><strong>ref: Component</strong></dt><dd></dd>
+<dd class="field-odd"><dl>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout that owns the cell instance.</p>
+</dd>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the cell instance to be created.</p>
+</dd>
+<dt><strong>ref</strong><span class="classifier"><a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a></span></dt><dd><p>The component this cell instance refers to.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.html#ansys.edb.hierarchy.CellInstance" title="ansys.edb.hierarchy.CellInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.hierarchy.CellInstance.html#ansys.edb.hierarchy.CellInstance" title="ansys.edb.hierarchy.CellInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CellInstance</span></code></a></dt><dd><p>Newly created cell instance.</p>
+</dd>
 </dl>
 </dd>
 </dl>

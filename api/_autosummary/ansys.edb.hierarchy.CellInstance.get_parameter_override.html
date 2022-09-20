@@ -266,6 +266,11 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.component_def.html">
+       component_def
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.CellInstance.edb_uid.html">
        edb_uid
       </a>
@@ -358,13 +363,38 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html">
      ansys.edb.hierarchy.ViaGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
     </a>
    </li>
   </ul>
@@ -459,17 +489,18 @@
 <h1>get_parameter_override<a class="headerlink" href="#get-parameter-override" title="Permalink to this headline">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.CellInstance.get_parameter_override">
-<span class="sig-prename descclassname"><span class="pre">CellInstance.</span></span><span class="sig-name descname"><span class="pre">get_parameter_override</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.CellInstance.get_parameter_override" title="Permalink to this definition">#</a></dt>
-<dd><p>Get value of the queried parameter.</p>
+<span class="sig-prename descclassname"><span class="pre">CellInstance.</span></span><span class="sig-name descname"><span class="pre">get_parameter_override</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.CellInstance.get_parameter_override" title="Permalink to this definition">#</a></dt>
+<dd><p>Get the override of the cell instance parameter by name.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
+<dt><strong>param_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the parameter to override.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code></dt><dd><p>value of the queried parameter</p>
+<dt><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></dt><dd><p>Override value for the parameter.</p>
 </dd>
 </dl>
 </dd>

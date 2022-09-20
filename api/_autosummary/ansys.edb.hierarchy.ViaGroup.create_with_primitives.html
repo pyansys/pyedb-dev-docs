@@ -206,8 +206,23 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html">
+     ansys.edb.hierarchy.ComponentGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.hierarchy.Group.html">
      ansys.edb.hierarchy.Group
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.PinGroup.html">
+     ansys.edb.hierarchy.PinGroup
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.Structure3D.html">
+     ansys.edb.hierarchy.Structure3D
     </a>
    </li>
    <li class="toctree-l2 current active has-children">
@@ -288,6 +303,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.component.html">
        component
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.component_def.html">
+       component_def
       </a>
      </li>
      <li class="toctree-l3">
@@ -382,6 +402,16 @@
      </li>
     </ul>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.ComponentType.html">
+     ansys.edb.hierarchy.ComponentType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.hierarchy.MeshClosure.html">
+     ansys.edb.hierarchy.MeshClosure
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -475,19 +505,22 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.ViaGroup.create_with_primitives">
 <em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ViaGroup.</span></span><span class="sig-name descname"><span class="pre">create_with_primitives</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">primitives</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_persistent</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.ViaGroup.create_with_primitives" title="Permalink to this definition">#</a></dt>
-<dd><p>Create a via group with primitives.</p>
+<dd><p>Create a via group(s) with primitives.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layout</span></code></span></dt><dd></dd>
-<dt><strong>primitives</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a> <code class="xref py py-obj docutils literal notranslate"><span class="pre">of</span></code> <code class="xref py py-obj docutils literal notranslate"><span class="pre">Primitives</span></code></span></dt><dd></dd>
-<dt><strong>is_persistent</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>should primitives be persistent</p>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout that owns the via group.</p>
+</dd>
+<dt><strong>primitives</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.primitive.Primitive.html#ansys.edb.primitive.Primitive" title="ansys.edb.primitive.Primitive"><code class="xref py py-class docutils literal notranslate"><span class="pre">Primitive</span></code></a>]</span></dt><dd><p>List of primitives that will be used to create the via groups.</p>
+</dd>
+<dt><strong>is_persistent</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>Primitives are preserved during via group creation if True, deleted otherwise.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a> <code class="xref py py-obj docutils literal notranslate"><span class="pre">of</span></code> <code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroups</span></code></dt><dd></dd>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.hierarchy.ViaGroup.html#ansys.edb.hierarchy.ViaGroup" title="ansys.edb.hierarchy.ViaGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ViaGroup</span></code></a>]</dt><dd><p>List of newly created via group(s).</p>
+</dd>
 </dl>
 </dd>
 </dl>
