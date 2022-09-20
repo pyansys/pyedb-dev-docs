@@ -1,6 +1,0 @@
-get\_polygonal\_pad\_parameters
-===============================
-
-.. currentmodule:: ansys.edb.definition
-
-.. automethod:: PadstackDefData.get_polygonal_pad_parameters

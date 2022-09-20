@@ -27,16 +27,10 @@
       PadstackDefData.get_pad_parameters
       
       
-      PadstackDefData.get_polygonal_pad_parameters
-      
-      
       PadstackDefData.set_hole_parameters
       
       
       PadstackDefData.set_pad_parameters
-      
-      
-      PadstackDefData.set_polygonal_pad_parameters
       
    
    

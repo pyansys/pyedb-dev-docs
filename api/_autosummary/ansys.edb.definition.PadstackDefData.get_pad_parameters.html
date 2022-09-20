@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="get_polygonal_pad_parameters" href="ansys.edb.definition.PadstackDefData.get_polygonal_pad_parameters.html" />
+    <link rel="next" title="set_hole_parameters" href="ansys.edb.definition.PadstackDefData.set_hole_parameters.html" />
     <link rel="prev" title="get_hole_parameters" href="ansys.edb.definition.PadstackDefData.get_hole_parameters.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -291,11 +291,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.definition.PadstackDefData.get_polygonal_pad_parameters.html">
-       get_polygonal_pad_parameters
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.PadstackDefData.set_hole_parameters.html">
        set_hole_parameters
       </a>
@@ -303,11 +298,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.PadstackDefData.set_pad_parameters.html">
        set_pad_parameters
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.definition.PadstackDefData.set_polygonal_pad_parameters.html">
-       set_polygonal_pad_parameters
       </a>
      </li>
      <li class="toctree-l3">
@@ -489,22 +479,26 @@
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[</dt><dd><p>PadstackDefData.PadGeometryType,
-List[<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>],
+<dd class="field-even"><dl>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference internal" href="../definition.html#ansys.edb.definition.PadstackDefData.PadGeometryType" title="ansys.edb.definition.padstack_def_data.PadstackDefData.PadGeometryType"><code class="xref py py-class docutils literal notranslate"><span class="pre">PadGeometryType</span></code></a>,</dt><dd><p>list[<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>],
 <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
 <a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
-<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></p>
+<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>]</p>
+<p>or</p>
 </dd>
-</dl>
-<dl class="simple">
-<dt>]</dt><dd><p>Returns a tuple of the following format:
-(pad_type, sizes, offset_x, offset_y, rotation)
-pad_type : Pad type.
-sizes : Pad parameters.
-offset_x : X offset.
-offset_y : Y offset.
-rotation : Rotation.</p>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference internal" href="ansys.edb.geometry.PolygonData.html#ansys.edb.geometry.PolygonData" title="ansys.edb.geometry.PolygonData"><code class="xref py py-class docutils literal notranslate"><span class="pre">PolygonData</span></code></a>,</dt><dd><p><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
+<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>,
+<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>]</p>
+<p>Returns a tuple of the following format:</p>
+<p><strong>(pad_type, sizes, offset_x, offset_y, rotation)</strong></p>
+<p>or accordingly if geometry shape is polygon then</p>
+<p><strong>(fp, offset_x, offset_y, rotation)</strong></p>
+<p><strong>pad_type</strong> : Pad type.</p>
+<p><strong>sizes</strong> : Pad parameters.</p>
+<p><strong>offset_x</strong> : X offset.</p>
+<p><strong>offset_y</strong> : Y offset.</p>
+<p><strong>rotation</strong> : Rotation.</p>
+<p><strong>fp</strong> : Polygon geometry.</p>
 </dd>
 </dl>
 </dd>

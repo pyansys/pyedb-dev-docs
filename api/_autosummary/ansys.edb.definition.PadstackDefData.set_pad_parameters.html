@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="set_polygonal_pad_parameters" href="ansys.edb.definition.PadstackDefData.set_polygonal_pad_parameters.html" />
+    <link rel="next" title="hole_range" href="ansys.edb.definition.PadstackDefData.hole_range.html" />
     <link rel="prev" title="set_hole_parameters" href="ansys.edb.definition.PadstackDefData.set_hole_parameters.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -291,11 +291,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.definition.PadstackDefData.get_polygonal_pad_parameters.html">
-       get_polygonal_pad_parameters
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.definition.PadstackDefData.set_hole_parameters.html">
        set_hole_parameters
       </a>
@@ -303,11 +298,6 @@
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
        set_pad_parameters
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.definition.PadstackDefData.set_polygonal_pad_parameters.html">
-       set_polygonal_pad_parameters
       </a>
      </li>
      <li class="toctree-l3">
@@ -479,7 +469,7 @@
 <h1>set_pad_parameters<a class="headerlink" href="#set-pad-parameters" title="Permalink to this headline">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.definition.PadstackDefData.set_pad_parameters">
-<span class="sig-prename descclassname"><span class="pre">PadstackDefData.</span></span><span class="sig-name descname"><span class="pre">set_pad_parameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pad_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type_geom</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sizes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset_x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset_y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.PadstackDefData.set_pad_parameters" title="Permalink to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">PadstackDefData.</span></span><span class="sig-name descname"><span class="pre">set_pad_parameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pad_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset_x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">offset_y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type_geom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sizes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fp</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.definition.PadstackDefData.set_pad_parameters" title="Permalink to this definition">#</a></dt>
 <dd><p>Set a pad’s parameters by layer name and pad type in its original value in database.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
@@ -488,15 +478,17 @@
 </dd>
 <dt><strong>pad_type</strong><span class="classifier"><a class="reference internal" href="../definition.html#ansys.edb.definition.PadstackDefData.PadType" title="ansys.edb.definition.PadstackDefData.PadType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackDefData.PadType</span></code></a></span></dt><dd><p>Pad type.</p>
 </dd>
-<dt><strong>type_geom</strong><span class="classifier"><a class="reference internal" href="../definition.html#ansys.edb.definition.PadstackDefData.PadGeometryType" title="ansys.edb.definition.PadstackDefData.PadGeometryType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackDefData.PadGeometryType</span></code></a></span></dt><dd><p>Pad geometry type.</p>
-</dd>
-<dt><strong>sizes</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>]</span></dt><dd><p>Pad parameters.</p>
-</dd>
 <dt><strong>offset_x</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>X offset.</p>
 </dd>
 <dt><strong>offset_y</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Y offset.</p>
 </dd>
 <dt><strong>rotation</strong><span class="classifier"><a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a></span></dt><dd><p>Rotation.</p>
+</dd>
+<dt><strong>type_geom</strong><span class="classifier"><a class="reference internal" href="../definition.html#ansys.edb.definition.PadstackDefData.PadGeometryType" title="ansys.edb.definition.PadstackDefData.PadGeometryType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackDefData.PadGeometryType</span></code></a></span></dt><dd><p>Pad geometry type. None if setting polygonal pad parameters.</p>
+</dd>
+<dt><strong>sizes</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>]</span></dt><dd><p>Pad parameters. None if setting polygonal pad parameters.</p>
+</dd>
+<dt><strong>fp</strong><span class="classifier"><a class="reference internal" href="ansys.edb.geometry.PolygonData.html#ansys.edb.geometry.PolygonData" title="ansys.edb.geometry.PolygonData"><code class="xref py py-class docutils literal notranslate"><span class="pre">PolygonData</span></code></a></span></dt><dd><p>Polygon geometry. None if not setting polygonal pad parameters.</p>
 </dd>
 </dl>
 </dd>
