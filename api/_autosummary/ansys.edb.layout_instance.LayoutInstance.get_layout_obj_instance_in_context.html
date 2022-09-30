@@ -282,11 +282,6 @@
      ansys.edb.layout_instance.LayoutObjInstance3DGeometry
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstanceGeometry.html">
-     ansys.edb.layout_instance.LayoutObjInstanceGeometry
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -365,12 +360,18 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.layout_instance.LayoutInstance.get_layout_obj_instance_in_context">
 <span class="sig-prename descclassname"><span class="pre">LayoutInstance.</span></span><span class="sig-name descname"><span class="pre">get_layout_obj_instance_in_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout_obj</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layout_instance.LayoutInstance.get_layout_obj_instance_in_context" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the layout obj instance of the given ConnObj in the provided context.</p>
+<dd><p>Get the <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">layout</span> <span class="pre">object</span> <span class="pre">instance</span></code></a> of the given <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a>         in the provided context.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout_obj</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ansys.edb.core.ConnObj</span></code></span></dt><dd></dd>
-<dt><strong>context</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>]</span></dt><dd></dd>
+<dt><strong>layout_obj</strong><span class="classifier"><a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a></span></dt><dd><p>Layout object whose instances will be searched for.</p>
+</dd>
+<dt><strong>context</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>]</span></dt><dd><p>list of strings specifying the <a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.html#ansys.edb.layout_instance.LayoutInstanceContext" title="ansys.edb.layout_instance.LayoutInstanceContext"><code class="xref py py-class docutils literal notranslate"><span class="pre">context</span></code></a> that the instance of             layout_obj will be retrieved from.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.context.html#ansys.edb.layout_instance.LayoutObjInstance.context" title="ansys.edb.layout_instance.LayoutObjInstance.context"><code class="xref py py-func docutils literal notranslate"><span class="pre">LayoutObjInstance.context()</span></code></a></p>
+</div>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>

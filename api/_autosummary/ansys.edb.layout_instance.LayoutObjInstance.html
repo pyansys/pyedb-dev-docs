@@ -291,11 +291,6 @@
      ansys.edb.layout_instance.LayoutObjInstance3DGeometry
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstanceGeometry.html">
-     ansys.edb.layout_instance.LayoutObjInstanceGeometry
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -374,7 +369,7 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.layout_instance.LayoutObjInstance">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.layout_instance.</span></span><span class="sig-name descname"><span class="pre">LayoutObjInstance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layout_instance.LayoutObjInstance" title="Permalink to this definition">#</a></dt>
-<dd><p>Class representing layout instance object.</p>
+<dd><p>Class representing layout object instance.</p>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -383,10 +378,10 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.get_bbox.html#ansys.edb.layout_instance.LayoutObjInstance.get_bbox" title="ansys.edb.layout_instance.LayoutObjInstance.get_bbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.get_bbox</span></code></a>([local])</p></td>
-<td><p>Get the bounding box of the layout obj instance.</p></td>
+<td><p>Get the bounding box of the layout object instance.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.get_geometries.html#ansys.edb.layout_instance.LayoutObjInstance.get_geometries" title="ansys.edb.layout_instance.LayoutObjInstance.get_geometries"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.get_geometries</span></code></a>(layer)</p></td>
-<td><p>Get the layout object instance geometry that exists on the specified layer.</p></td>
+<td><p>Get the geometry that exists on the specified layer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -398,7 +393,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.context.html#ansys.edb.layout_instance.LayoutObjInstance.context" title="ansys.edb.layout_instance.LayoutObjInstance.context"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.context</span></code></a></p></td>
-<td><p>Get a list of strings representing the context of this layout obj instance.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>]: List of strings representing the context of the layout object instance.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.id.html#ansys.edb.layout_instance.LayoutObjInstance.id" title="ansys.edb.layout_instance.LayoutObjInstance.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
@@ -407,13 +402,13 @@
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.layers.html#ansys.edb.layout_instance.LayoutObjInstance.layers" title="ansys.edb.layout_instance.LayoutObjInstance.layers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.layers</span></code></a></p></td>
-<td><p>Get the layers this layout obj instance has geometry on.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layer</span></code></a>]: Layers this layout object instance has geometry on.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.layout_instance_context.html#ansys.edb.layout_instance.LayoutObjInstance.layout_instance_context" title="ansys.edb.layout_instance.LayoutObjInstance.layout_instance_context"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.layout_instance_context</span></code></a></p></td>
-<td><p>Get the layout instance context this layout obj instance exists in.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.html#ansys.edb.layout_instance.LayoutInstanceContext" title="ansys.edb.layout_instance.LayoutInstanceContext"><code class="xref py py-class docutils literal notranslate"><span class="pre">LayoutInstanceContext</span></code></a>: The context this layout object instance exists in.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.layout_obj.html#ansys.edb.layout_instance.LayoutObjInstance.layout_obj" title="ansys.edb.layout_instance.LayoutObjInstance.layout_obj"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.layout_obj</span></code></a></p></td>
-<td><p>Get the definition layout obj this layout obj instance is an instance of.</p></td>
+<td><p><a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a>: The definition layout object this layout object instance         is an instance of.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.msg.html#ansys.edb.layout_instance.LayoutObjInstance.msg" title="ansys.edb.layout_instance.LayoutObjInstance.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance.msg</span></code></a></p></td>
 <td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>

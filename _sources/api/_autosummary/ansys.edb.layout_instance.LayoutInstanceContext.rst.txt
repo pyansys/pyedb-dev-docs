@@ -17,6 +17,9 @@
       
       LayoutInstanceContext.get_bbox
       
+      
+      LayoutInstanceContext.get_is_3d_placement
+      
    
    
 
@@ -29,9 +32,6 @@
    
       
       LayoutInstanceContext.id
-      
-      
-      LayoutInstanceContext.is_3d_placement
       
       
       LayoutInstanceContext.is_null

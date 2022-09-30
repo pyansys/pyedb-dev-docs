@@ -282,11 +282,6 @@
      ansys.edb.layout_instance.LayoutObjInstance3DGeometry
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstanceGeometry.html">
-     ansys.edb.layout_instance.LayoutObjInstanceGeometry
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -365,18 +360,19 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.layout_instance.LayoutInstance.get_connected_objects">
 <span class="sig-prename descclassname"><span class="pre">LayoutInstance.</span></span><span class="sig-name descname"><span class="pre">get_connected_objects</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">origin_layout_obj_inst</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">touching_only</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layout_instance.LayoutInstance.get_connected_objects" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the layout obj instances connected to the origin layout obj instance.</p>
+<dd><p>Get the <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">layout</span> <span class="pre">object</span> <span class="pre">instances</span></code></a> connected to the origin         layout object instance.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>origin_layout_obj_inst</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance</span></code></a></span></dt><dd></dd>
-<dt><strong>touching_only</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>If touching_only is true, only layout obj instances touching origin_layout_obj_inst on the placement
-lyr of origin_layout_obj_inst will be returned. Otherwise, all layout obj instances across all layers
-that are electrically connected to origin_layout_obj will be returned.</p>
+<dt><strong>origin_layout_obj_inst</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance</span></code></a></span></dt><dd><p><a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">layout</span> <span class="pre">object</span> <span class="pre">instance</span></code></a> that will act as the origin to get connected objects             from.</p>
 </dd>
-<dt><strong>Returns</strong></dt><dd></dd>
-<dt><strong>——-</strong></dt><dd></dd>
-<dt><strong>list[LayoutObjInstance]</strong></dt><dd></dd>
+<dt><strong>touching_only</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>If touching_only is true, only <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">layout</span> <span class="pre">object</span> <span class="pre">instances</span></code></a> touching             origin_layout_obj_inst on the placement <a class="reference internal" href="ansys.edb.layer.Layer.html#ansys.edb.layer.Layer" title="ansys.edb.layer.Layer"><code class="xref py py-class docutils literal notranslate"><span class="pre">layer</span></code></a> of origin_layout_obj_inst             will be returned. Otherwise, all layout object instances across all layers that are electrically connected             to origin_layout_obj_inst will be returned.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance.html#ansys.edb.layout_instance.LayoutObjInstance" title="ansys.edb.layout_instance.LayoutObjInstance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayoutObjInstance</span></code></a>]</dt><dd></dd>
 </dl>
 </dd>
 </dl>

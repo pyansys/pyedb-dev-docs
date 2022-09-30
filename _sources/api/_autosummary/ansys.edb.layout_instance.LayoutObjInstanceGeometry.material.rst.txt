@@ -1,6 +1,0 @@
-material
-========
-
-.. currentmodule:: ansys.edb.layout_instance
-
-.. autoproperty:: LayoutObjInstanceGeometry.material

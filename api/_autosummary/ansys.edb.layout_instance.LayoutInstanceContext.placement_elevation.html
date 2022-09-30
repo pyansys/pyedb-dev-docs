@@ -236,13 +236,13 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.id.html">
-       id
+      <a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.get_is_3d_placement.html">
+       get_is_3d_placement
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.is_3d_placement.html">
-       is_3d_placement
+      <a class="reference internal" href="ansys.edb.layout_instance.LayoutInstanceContext.id.html">
+       id
       </a>
      </li>
      <li class="toctree-l3">
@@ -290,11 +290,6 @@
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstance3DGeometry.html">
      ansys.edb.layout_instance.LayoutObjInstance3DGeometry
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layout_instance.LayoutObjInstanceGeometry.html">
-     ansys.edb.layout_instance.LayoutObjInstanceGeometry
     </a>
    </li>
   </ul>
@@ -375,18 +370,9 @@
 <dl class="py property">
 <dt class="sig sig-object py" id="ansys.edb.layout_instance.LayoutInstanceContext.placement_elevation">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">LayoutInstanceContext.</span></span><span class="sig-name descname"><span class="pre">placement_elevation</span></span><a class="headerlink" href="#ansys.edb.layout_instance.LayoutInstanceContext.placement_elevation" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the placement elevation of this layout instance context.</p>
-<p>Only applies if this layout instance context doesn’t have 3D placement.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a> or <a class="reference external" href="https://docs.python.org/dev/library/constants.html#None" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">None</span></code></a></dt><dd><p>If this layout instance context has 3d placement is enabled, None is returned because the placement of the
-context is dictated by the underlying 3d transformation. Otherwise, the placement elevation of the layout
-instance context is returned.</p>
-</dd>
-</dl>
-</dd>
-</dl>
+<dd><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>: The placement elevation of the context.</p>
+<p>Only applies if the context doesn’t have 3D placement.         If the context has 3D placement is enabled, <a class="reference external" href="https://docs.python.org/dev/library/constants.html#None" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a> is returned because the placement of the context is         dictated by the underlying 3d transformation. Otherwise, the placement elevation of the context is returned.</p>
+<p>Read-Only.</p>
 </dd></dl>
 
 </section>
