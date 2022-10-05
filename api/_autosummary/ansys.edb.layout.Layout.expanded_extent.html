@@ -499,17 +499,24 @@
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>nets</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">Net</span></code>]</span></dt><dd></dd>
-<dt><strong>extent</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GeometryExtentType</span></code></span></dt><dd></dd>
-<dt><strong>expansion_factor</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
-<dt><strong>expansion_unitless</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd></dd>
-<dt><strong>use_round_corner</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd></dd>
-<dt><strong>num_increments</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">num</span></code></span></dt><dd></dd>
+<dt><strong>nets</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a>]</span></dt><dd><p>A list of nets.</p>
+</dd>
+<dt><strong>extent</strong><span class="classifier"><a class="reference internal" href="ansys.edb.geometry.ExtentType.html#ansys.edb.geometry.ExtentType" title="ansys.edb.geometry.ExtentType"><code class="xref py py-class docutils literal notranslate"><span class="pre">ExtentType</span></code></a></span></dt><dd><p>Geometry extent type for expansion.</p>
+</dd>
+<dt><strong>expansion_factor</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd><p>Expansion factor for the polygon union.</p>
+</dd>
+<dt><strong>expansion_unitless</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>When unitless, the distance by which the extent expands is the factor multiplied by the longer dimension             (X or Y distance) of the expanded object/net.</p>
+</dd>
+<dt><strong>use_round_corner</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>Whether to use round or sharp corners.
+For round corners, this returns a bounding box if its area is within 10% of the rounded expansion’s area.</p>
+</dd>
+<dt><strong>num_increments</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">num</span></code></span></dt><dd><p>Number of iteration desired to reach the full expansion.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">PolygonData</span></code></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.geometry.PolygonData.html#ansys.edb.geometry.PolygonData" title="ansys.edb.geometry.PolygonData"><code class="xref py py-class docutils literal notranslate"><span class="pre">PolygonData</span></code></a></dt><dd></dd>
 </dl>
 </dd>
 </dl>
