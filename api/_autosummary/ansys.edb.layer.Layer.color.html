@@ -246,16 +246,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html">
-       is_stackup_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html">
-       is_via_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.Layer.set_is_in_zone.html">
        set_is_in_zone
       </a>
@@ -283,6 +273,16 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.Layer.is_null.html">
        is_null
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html">
+       is_stackup_layer
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html">
+       is_via_layer
       </a>
      </li>
      <li class="toctree-l3">
@@ -343,6 +343,21 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
+     ansys.edb.layer.StackupLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
+     ansys.edb.layer.ViaLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
+     ansys.edb.layer.LayerCollection
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerType.html">
      ansys.edb.layer.LayerType
     </a>
@@ -363,23 +378,28 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
-     ansys.edb.layer.StackupLayer
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
-     ansys.edb.layer.ViaLayer
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
-     ansys.edb.layer.LayerCollection
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -470,15 +490,8 @@
 <dl class="py property">
 <dt class="sig sig-object py" id="ansys.edb.layer.Layer.color">
 <em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Layer.</span></span><span class="sig-name descname"><span class="pre">color</span></span><a class="headerlink" href="#ansys.edb.layer.Layer.color" title="Permalink to this definition">#</a></dt>
-<dd><p>Get the color of the layer.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</dt><dd><p>Tuple containing the color RGB values in the format (R,G,B)</p>
-</dd>
-</dl>
-</dd>
-</dl>
+<dd><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>]: Color of the layer.</p>
+<p>Tuple contains the color RGB values in the format (R,G,B)</p>
 </dd></dl>
 
 </section>

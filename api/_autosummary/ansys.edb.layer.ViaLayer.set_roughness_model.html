@@ -211,26 +211,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
-     ansys.edb.layer.LayerType
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
-     ansys.edb.layer.TopBottomAssociation
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
-     ansys.edb.layer.DrawOverride
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
-     ansys.edb.layer.LayerVisibility
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
      ansys.edb.layer.StackupLayer
     </a>
@@ -296,16 +276,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.ViaLayer.is_stackup_layer.html">
-       is_stackup_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.ViaLayer.is_via_layer.html">
-       is_via_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.ViaLayer.set_fill_material.html">
        set_fill_material
       </a>
@@ -368,6 +338,16 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.ViaLayer.is_null.html">
        is_null
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.ViaLayer.is_stackup_layer.html">
+       is_stackup_layer
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.ViaLayer.is_via_layer.html">
+       is_via_layer
       </a>
      </li>
      <li class="toctree-l3">
@@ -468,8 +448,48 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
+     ansys.edb.layer.LayerType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
+     ansys.edb.layer.TopBottomAssociation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
+     ansys.edb.layer.DrawOverride
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
+     ansys.edb.layer.LayerVisibility
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -564,13 +584,8 @@
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>roughness_model</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code> or <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">tuple</span></code></a>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Value</span></code>]</span></dt><dd><p>If roughness_model is a single Value object, a Groisse roughness model
-with a roughness value equal to the provided value will be assigned to
-the layer. If roughness_model is a tuple of two Value objects, a Huray
-roughness model will be assigned to the layer with a nodule radius value
-equal to roughness_model[0] and a surface ratio value equal to roughness_model[1]</p>
-</dd>
-<dt><strong>region</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RoughnessRegion</span></code></span></dt><dd></dd>
+<dt><strong>roughness_model</strong><span class="classifier"><a class="reference internal" href="../glossary.html#term-RoughnessModel"><span class="xref std std-term">RoughnessModel</span></a></span></dt><dd></dd>
+<dt><strong>region</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html#ansys.edb.layer.RoughnessRegion" title="ansys.edb.layer.RoughnessRegion"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RoughnessRegion</span></code></a></span></dt><dd></dd>
 </dl>
 </dd>
 </dl>

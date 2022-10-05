@@ -245,16 +245,6 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html">
-       is_stackup_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html">
-       is_via_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.Layer.set_is_in_zone.html">
        set_is_in_zone
       </a>
@@ -282,6 +272,16 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.Layer.is_null.html">
        is_null
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html">
+       is_stackup_layer
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html">
+       is_via_layer
       </a>
      </li>
      <li class="toctree-l3">
@@ -342,6 +342,21 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
+     ansys.edb.layer.StackupLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
+     ansys.edb.layer.ViaLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
+     ansys.edb.layer.LayerCollection
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerType.html">
      ansys.edb.layer.LayerType
     </a>
@@ -362,23 +377,28 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
-     ansys.edb.layer.StackupLayer
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
-     ansys.edb.layer.ViaLayer
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
-     ansys.edb.layer.LayerCollection
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -495,12 +515,6 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_in_zone.html#ansys.edb.layer.Layer.is_in_zone" title="ansys.edb.layer.Layer.is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_in_zone</span></code></a>(zone)</p></td>
 <td><p>Check if the layer exists in the provided zone.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html#ansys.edb.layer.Layer.is_stackup_layer" title="ansys.edb.layer.Layer.is_stackup_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_stackup_layer</span></code></a>()</p></td>
-<td><p>Determine if the layer is a stackup layer.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html#ansys.edb.layer.Layer.is_via_layer" title="ansys.edb.layer.Layer.is_via_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_via_layer</span></code></a>()</p></td>
-<td><p>Determine if the layer is via layer.</p></td>
-</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.set_is_in_zone.html#ansys.edb.layer.Layer.set_is_in_zone" title="ansys.edb.layer.Layer.set_is_in_zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.set_is_in_zone</span></code></a>(zone[, in_zone])</p></td>
 <td><p>Set whether the layer exists in the specified zone.</p></td>
 </tr>
@@ -517,10 +531,10 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.color.html#ansys.edb.layer.Layer.color" title="ansys.edb.layer.Layer.color"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.color</span></code></a></p></td>
-<td><p>Get the color of the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>]: Color of the layer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.draw_override.html#ansys.edb.layer.Layer.draw_override" title="ansys.edb.layer.Layer.draw_override"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.draw_override</span></code></a></p></td>
-<td><p>Get the draw override of the layer.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.layer.DrawOverride.html#ansys.edb.layer.DrawOverride" title="ansys.edb.layer.DrawOverride"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawOverride</span></code></a>: Draw override of the layer.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.id.html#ansys.edb.layer.Layer.id" title="ansys.edb.layer.Layer.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
@@ -528,38 +542,44 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_null.html#ansys.edb.layer.Layer.is_null" title="ansys.edb.layer.Layer.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_null</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_stackup_layer.html#ansys.edb.layer.Layer.is_stackup_layer" title="ansys.edb.layer.Layer.is_stackup_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_stackup_layer</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Flag indicating if the layer is a <a class="reference internal" href="ansys.edb.layer.StackupLayer.html#ansys.edb.layer.StackupLayer" title="ansys.edb.layer.StackupLayer"><code class="xref py py-class docutils literal notranslate"><span class="pre">StackupLayer</span></code></a>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.is_via_layer.html#ansys.edb.layer.Layer.is_via_layer" title="ansys.edb.layer.Layer.is_via_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.is_via_layer</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Flag indicating if the layer is a <a class="reference internal" href="ansys.edb.layer.ViaLayer.html#ansys.edb.layer.ViaLayer" title="ansys.edb.layer.ViaLayer"><code class="xref py py-class docutils literal notranslate"><span class="pre">ViaLayer</span></code></a>.</p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.layer_id.html#ansys.edb.layer.Layer.layer_id" title="ansys.edb.layer.Layer.layer_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.layer_id</span></code></a></p></td>
-<td><p>Get the layer id of the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: Layer id of the layer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.layout_obj_type.html#ansys.edb.layer.Layer.layout_obj_type" title="ansys.edb.layer.Layer.layout_obj_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.layout_obj_type</span></code></a></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.locked.html#ansys.edb.layer.Layer.locked" title="ansys.edb.layer.Layer.locked"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.locked</span></code></a></p></td>
-<td><p>Check if the layer is locked.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Flag indicating if the layer is locked.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.msg.html#ansys.edb.layer.Layer.msg" title="ansys.edb.layer.Layer.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.msg</span></code></a></p></td>
 <td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.name.html#ansys.edb.layer.Layer.name" title="ansys.edb.layer.Layer.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.name</span></code></a></p></td>
-<td><p>Get the name of the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>: Name of the layer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.top_bottom_association.html#ansys.edb.layer.Layer.top_bottom_association" title="ansys.edb.layer.Layer.top_bottom_association"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.top_bottom_association</span></code></a></p></td>
-<td><p>Get the top-bottom association of the layer.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html#ansys.edb.layer.TopBottomAssociation" title="ansys.edb.layer.TopBottomAssociation"><code class="xref py py-class docutils literal notranslate"><span class="pre">TopBottomAssociation</span></code></a>: Top-bottom association of the layer.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.transparency.html#ansys.edb.layer.Layer.transparency" title="ansys.edb.layer.Layer.transparency"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.transparency</span></code></a></p></td>
-<td><p>Get the transparency value of the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: Transparency value of the layer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.type.html#ansys.edb.layer.Layer.type" title="ansys.edb.layer.Layer.type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.type</span></code></a></p></td>
-<td><p>Get layer type.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.layer.LayerType.html#ansys.edb.layer.LayerType" title="ansys.edb.layer.LayerType"><code class="xref py py-class docutils literal notranslate"><span class="pre">LayerType</span></code></a>: Layer type of the layer.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.visibility_mask.html#ansys.edb.layer.Layer.visibility_mask" title="ansys.edb.layer.Layer.visibility_mask"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.visibility_mask</span></code></a></p></td>
-<td><p>Get the visibility mask of the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: Visibility mask of the layer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.zone.html#ansys.edb.layer.Layer.zone" title="ansys.edb.layer.Layer.zone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.zone</span></code></a></p></td>
-<td><p>Return the zone index associated with owning layer collection.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: Zone index associated with owning layer collection.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.layer.Layer.zones.html#ansys.edb.layer.Layer.zones" title="ansys.edb.layer.Layer.zones"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Layer.zones</span></code></a></p></td>
-<td><p>Retrieve the zone ids of all zones containing the layer.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>]: Zone ids of all zones containing the layer.</p></td>
 </tr>
 </tbody>
 </table>

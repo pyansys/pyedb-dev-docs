@@ -3,4 +3,4 @@ is\_stackup\_layer
 
 .. currentmodule:: ansys.edb.layer
 
-.. automethod:: ViaLayer.is_stackup_layer
+.. autoproperty:: ViaLayer.is_stackup_layer

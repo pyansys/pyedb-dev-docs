@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="ansys.edb.layer.TopBottomAssociation" href="ansys.edb.layer.TopBottomAssociation.html" />
-    <link rel="prev" title="zones" href="ansys.edb.layer.Layer.zones.html" />
+    <link rel="prev" title="zone_ids" href="ansys.edb.layer.LayerCollection.zone_ids.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -209,6 +209,21 @@
      ansys.edb.layer.Layer
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
+     ansys.edb.layer.StackupLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
+     ansys.edb.layer.ViaLayer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
+     ansys.edb.layer.LayerCollection
+    </a>
+   </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      ansys.edb.layer.LayerType
@@ -230,23 +245,28 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
-     ansys.edb.layer.StackupLayer
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.ViaLayer.html">
-     ansys.edb.layer.ViaLayer
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerCollection.html">
-     ansys.edb.layer.LayerCollection
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -338,6 +358,28 @@
 <dt class="sig sig-object py" id="ansys.edb.layer.LayerType">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.layer.</span></span><span class="sig-name descname"><span class="pre">LayerType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layer.LayerType" title="Permalink to this definition">#</a></dt>
 <dd><p>Enum representing types of layers.</p>
+<ul class="simple">
+<li><p>SIGNAL_LAYER</p></li>
+<li><p>DIELECTRIC_LAYER</p></li>
+<li><p>CONDUCTING_LAYER</p></li>
+<li><p>AIRLINES_LAYER</p></li>
+<li><p>AIRLINES_LAYER</p></li>
+<li><p>ERRORS_LAYER</p></li>
+<li><p>SYMBOL_LAYER</p></li>
+<li><p>MEASURE_LAYER</p></li>
+<li><p>ASSEMBLY_LAYER</p></li>
+<li><p>SILKSCREEN_LAYER</p></li>
+<li><p>SOLDER_MASK_LAYER</p></li>
+<li><p>SOLDER_PASTE_LAYER</p></li>
+<li><p>GLUE_LAYER</p></li>
+<li><p>WIREBOND_LAYER</p></li>
+<li><p>USER_LAYER</p></li>
+<li><p>SIWAVE_HFSS_SOLVER_REGIONS</p></li>
+<li><p>POST_PROCESSING_LAYER</p></li>
+<li><p>OUTLINE_LAYER</p></li>
+<li><p>LAYER_TYPES_COUNT</p></li>
+<li><p>UNDEFINED_LAYER_TYPE</p></li>
+</ul>
 <p class="rubric">Attributes</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>

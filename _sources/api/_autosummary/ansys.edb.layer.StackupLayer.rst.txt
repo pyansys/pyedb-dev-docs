@@ -42,12 +42,6 @@
       StackupLayer.is_in_zone
       
       
-      StackupLayer.is_stackup_layer
-      
-      
-      StackupLayer.is_via_layer
-      
-      
       StackupLayer.set_fill_material
       
       
@@ -92,6 +86,12 @@
       
       
       StackupLayer.is_null
+      
+      
+      StackupLayer.is_stackup_layer
+      
+      
+      StackupLayer.is_via_layer
       
       
       StackupLayer.layer_id

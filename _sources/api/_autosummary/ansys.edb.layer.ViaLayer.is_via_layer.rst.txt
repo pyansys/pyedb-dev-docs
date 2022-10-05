@@ -3,4 +3,4 @@ is\_via\_layer
 
 .. currentmodule:: ansys.edb.layer
 
-.. automethod:: ViaLayer.is_via_layer
+.. autoproperty:: ViaLayer.is_via_layer

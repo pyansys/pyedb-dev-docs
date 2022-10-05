@@ -210,26 +210,6 @@
      ansys.edb.layer.Layer
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
-     ansys.edb.layer.LayerType
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
-     ansys.edb.layer.TopBottomAssociation
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
-     ansys.edb.layer.DrawOverride
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
-     ansys.edb.layer.LayerVisibility
-    </a>
-   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
      ansys.edb.layer.StackupLayer
@@ -283,16 +263,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_in_zone.html">
        is_in_zone
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_stackup_layer.html">
-       is_stackup_layer
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_via_layer.html">
-       is_via_layer
       </a>
      </li>
      <li class="toctree-l3">
@@ -353,6 +323,16 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_null.html">
        is_null
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_stackup_layer.html">
+       is_stackup_layer
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.layer.StackupLayer.is_via_layer.html">
+       is_via_layer
       </a>
      </li>
      <li class="toctree-l3">
@@ -458,8 +438,48 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
+     ansys.edb.layer.LayerType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
+     ansys.edb.layer.TopBottomAssociation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
+     ansys.edb.layer.DrawOverride
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
+     ansys.edb.layer.LayerVisibility
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -551,15 +571,18 @@
 <dt class="sig sig-object py" id="ansys.edb.layer.StackupLayer.create">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">StackupLayer.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">layer_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">thickness</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">elevation</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">material</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layer.StackupLayer.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a stackup layer.</p>
-<p>Parameters
-name : str
-layer_type : LayerType
-thickness : float
-thickness : float
-material : str</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><dl class="simple">
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
+<dt><strong>layer_type</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.LayerType.html#ansys.edb.layer.LayerType" title="ansys.edb.layer.LayerType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LayerType</span></code></a></span></dt><dd></dd>
+<dt><strong>thickness</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
+<dt><strong>elevation</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
+<dt><strong>material</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
 <dt><a class="reference internal" href="ansys.edb.layer.StackupLayer.html#ansys.edb.layer.StackupLayer" title="ansys.edb.layer.StackupLayer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StackupLayer</span></code></a></dt><dd></dd>
 </dl>
 </dd>

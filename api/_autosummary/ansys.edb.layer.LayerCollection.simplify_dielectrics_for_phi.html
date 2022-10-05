@@ -211,26 +211,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
-     ansys.edb.layer.LayerType
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
-     ansys.edb.layer.TopBottomAssociation
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
-     ansys.edb.layer.DrawOverride
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
-     ansys.edb.layer.LayerVisibility
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.StackupLayer.html">
      ansys.edb.layer.StackupLayer
     </a>
@@ -398,8 +378,48 @@
     </ul>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerType.html">
+     ansys.edb.layer.LayerType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.TopBottomAssociation.html">
+     ansys.edb.layer.TopBottomAssociation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DrawOverride.html">
+     ansys.edb.layer.DrawOverride
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerVisibility.html">
+     ansys.edb.layer.LayerVisibility
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DCThicknessType.html">
+     ansys.edb.layer.DCThicknessType
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.RoughnessRegion.html">
+     ansys.edb.layer.RoughnessRegion
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.layer.LayerCollectionMode.html">
      ansys.edb.layer.LayerCollectionMode
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.LayerTypeSet.html">
+     ansys.edb.layer.LayerTypeSet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html">
+     ansys.edb.layer.DielectricMergingMethod
     </a>
    </li>
   </ul>
@@ -490,18 +510,18 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.layer.LayerCollection.simplify_dielectrics_for_phi">
 <span class="sig-prename descclassname"><span class="pre">LayerCollection.</span></span><span class="sig-name descname"><span class="pre">simplify_dielectrics_for_phi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">database</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">layer_thickness_thresh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">merging_method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">DielectricMergingMethod.WEIGHTED_CAPACITANCE</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.layer.LayerCollection.simplify_dielectrics_for_phi" title="Permalink to this definition">#</a></dt>
-<dd><p>Split dielectric layers at the boundaries of signal layers and merges them.</p>
+<dd><p>Split dielectric layers at the boundaries of signal layers and merge them.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>database</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Database</span></code></span></dt><dd></dd>
-<dt><strong>layer_thickness_thresh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd></dd>
-<dt><strong>merging_method</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DielectricMergingMethod</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd></dd>
+<dt><strong>database</strong><span class="classifier"><a class="reference internal" href="ansys.edb.database.Database.html#ansys.edb.database.Database" title="ansys.edb.database.Database"><code class="xref py py-class docutils literal notranslate"><span class="pre">Database</span></code></a></span></dt><dd></dd>
+<dt><strong>layer_thickness_thresh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
+<dt><strong>merging_method</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layer.DielectricMergingMethod.html#ansys.edb.layer.DielectricMergingMethod" title="ansys.edb.layer.DielectricMergingMethod"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DielectricMergingMethod</span></code></a></span></dt><dd></dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference internal" href="ansys.edb.layer.StackupLayer.html#ansys.edb.layer.StackupLayer" title="ansys.edb.layer.StackupLayer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StackupLayer</span></code></a>]</dt><dd><p>returns a list of dielectric layers created during the dielectric simplification process</p>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.layer.StackupLayer.html#ansys.edb.layer.StackupLayer" title="ansys.edb.layer.StackupLayer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StackupLayer</span></code></a>]</dt><dd><p>returns a list of dielectric layers created during the dielectric simplification process</p>
 </dd>
 </dl>
 </dd>

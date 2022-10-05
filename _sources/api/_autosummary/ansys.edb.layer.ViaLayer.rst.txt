@@ -45,12 +45,6 @@
       ViaLayer.is_in_zone
       
       
-      ViaLayer.is_stackup_layer
-      
-      
-      ViaLayer.is_via_layer
-      
-      
       ViaLayer.set_fill_material
       
       
@@ -98,6 +92,12 @@
       
       
       ViaLayer.is_null
+      
+      
+      ViaLayer.is_stackup_layer
+      
+      
+      ViaLayer.is_via_layer
       
       
       ViaLayer.layer_id
