@@ -82,6 +82,9 @@
       ExtendedNet.name
       
       
+      ExtendedNet.nets
+      
+      
       ExtendedNet.obj_type
       
    

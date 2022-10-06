@@ -76,6 +76,9 @@
       NetClass.name
       
       
+      NetClass.nets
+      
+      
       NetClass.obj_type
       
    
