@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="find_by_id" href="ansys.edb.hierarchy.ComponentGroup.find_by_id.html" />
+    <link rel="next" title="find_by_def" href="ansys.edb.hierarchy.ComponentGroup.find_by_def.html" />
     <link rel="prev" title="delete" href="ansys.edb.hierarchy.ComponentGroup.delete.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -243,6 +243,11 @@
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
        find
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find_by_def.html">
+       find_by_def
       </a>
      </li>
      <li class="toctree-l3">
@@ -504,20 +509,20 @@
 <h1>find<a class="headerlink" href="#find" title="Permalink to this headline">#</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.hierarchy.ComponentGroup.find">
-<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ComponentGroup.</span></span><span class="sig-name descname"><span class="pre">find</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">comp_def_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.ComponentGroup.find" title="Permalink to this definition">#</a></dt>
-<dd><p>Find all the components belonging to a specific component definition.</p>
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ComponentGroup.</span></span><span class="sig-name descname"><span class="pre">find</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.hierarchy.ComponentGroup.find" title="Permalink to this definition">#</a></dt>
+<dd><p>Find a group by name.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout to search the component group(s) in.</p>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout to search the group in.</p>
 </dd>
-<dt><strong>comp_def_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the <a class="reference internal" href="ansys.edb.definition.ComponentDef.html#ansys.edb.definition.ComponentDef" title="ansys.edb.definition.ComponentDef"><code class="xref py py-class docutils literal notranslate"><span class="pre">ComponentDef</span></code></a>.</p>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the group to be searched.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.html#ansys.edb.hierarchy.ComponentGroup" title="ansys.edb.hierarchy.ComponentGroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup</span></code></a>]</dt><dd><p>List of component group(s) that are found.</p>
+<dt><a class="reference internal" href="ansys.edb.hierarchy.Group.html#ansys.edb.hierarchy.Group" title="ansys.edb.hierarchy.Group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Group</span></code></a></dt><dd><p>Group that is found, None otherwise.</p>
 </dd>
 </dl>
 </dd>
