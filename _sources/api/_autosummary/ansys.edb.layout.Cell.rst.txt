@@ -54,6 +54,12 @@
       Cell.get_all_variable_names
       
       
+      Cell.get_product_property
+      
+      
+      Cell.get_product_property_ids
+      
+      
       Cell.get_variable_desc
       
       
@@ -61,12 +67,6 @@
       
       
       Cell.is_parameter
-      
-      
-      Cell.product_property
-      
-      
-      Cell.product_property_ids
       
       
       Cell.set_hfss_extent_info

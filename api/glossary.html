@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; ansys-edb</title>
+    <title>Glossary &#8212; ansys-edb</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -148,7 +148,7 @@
         <li class="nav-item nav-item-0"><a href="../index.html">ansys-edb</a> » </li>
     
 
-        <li class="nav-item nav-item-this"><a href="">&lt;no title&gt;</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Glossary</a></li> 
       </ul>
     </div>
         </div>
@@ -209,7 +209,9 @@
               
               <div>
                 
-  <dl class="glossary">
+  <section id="glossary">
+<h1>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">#</a></h1>
+<dl class="glossary">
 <dt id="term-Connectable">Connectable<a class="headerlink" href="#term-Connectable" title="Permalink to this term">#</a></dt><dd><p>The generic type for most objects in Layout.</p>
 <p>Objects of the following types are all connectables :</p>
 <div class="toctree-wrapper compound">
@@ -219,6 +221,9 @@
 <li class="toctree-l1"><a class="reference internal" href="terminal.html">Terminals</a></li>
 </ul>
 </div>
+</dd>
+<dt id="term-Zone">Zone<a class="headerlink" href="#term-Zone" title="Permalink to this term">#</a></dt><dd><p>Multizone stackups allow a design to be divided into areas called zones.</p>
+<p>Each zone contains a subset of layers available to the entire circuit board and is spatially defined by polygons on the Outline layer.</p>
 </dd>
 <dt id="term-ValueLike">ValueLike<a class="headerlink" href="#term-ValueLike" title="Permalink to this term">#</a></dt><dd><p><a class="reference external" href="https://docs.python.org/dev/library/typing.html#typing.Union" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#complex" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complex</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference internal" href="_autosummary/ansys.edb.utility.Value.html#ansys.edb.utility.Value" title="ansys.edb.utility.Value"><code class="xref py py-class docutils literal notranslate"><span class="pre">Value</span></code></a>]</p>
 </dd>
@@ -233,7 +238,32 @@ A Huray roughness model is represented  by a tuple of the form [nodule_radius_va
 <dt id="term-HFSSSolverProperties">HFSSSolverProperties<a class="headerlink" href="#term-HFSSSolverProperties" title="Permalink to this term">#</a></dt><dd><p>HFSS solver properties are represented by a tuple of the form [dc_thickness_type, dc_thickness_value, solve_inside_enabled]</p>
 <p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#tuple" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tuple</span></code></a>[<a class="reference internal" href="_autosummary/ansys.edb.layer.DCThicknessType.html#ansys.edb.layer.DCThicknessType" title="ansys.edb.layer.DCThicknessType"><code class="xref py py-class docutils literal notranslate"><span class="pre">DCThicknessType</span></code></a>, <a class="reference internal" href="#term-ValueLike"><span class="xref std std-term">ValueLike</span></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>]</p>
 </dd>
+<dt id="term-HFSSExtents">HFSSExtents<a class="headerlink" href="#term-HFSSExtents" title="Permalink to this term">#</a></dt><dd><p>Extent box around the design, represented by a <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#dict" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dict</span></code></a> with the following key:values</p>
+<div class="line-block">
+<div class="line"><strong>dielectric</strong>: (<a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>)</div>
+<div class="line-block">
+<div class="line">Dielectric extent size. First parameter is the value and second parameter indicates if the value is a multiple.</div>
+</div>
+<div class="line"><strong>airbox_horizontal</strong>: (<a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>)</div>
+<div class="line-block">
+<div class="line">Airbox horizontal extent size. First parameter is the value and second parameter indicates if the value is a multiple.</div>
+</div>
+<div class="line"><strong>airbox_vertical_positive</strong>: (<a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>)</div>
+<div class="line-block">
+<div class="line">Airbox positive vertical extent size. First parameter is the value and second parameter indicates if the value is a multiple.</div>
+</div>
+<div class="line"><strong>airbox_vertical_negative</strong>: (<a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>)</div>
+<div class="line-block">
+<div class="line">Airbox negative vertical extent size. First parameter is the value and second parameter indicates if the value is a multiple.</div>
+</div>
+<div class="line"><strong>airbox_truncate_at_ground</strong>: <a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a></div>
+<div class="line-block">
+<div class="line">Whether airbox will be truncated at the ground layers.</div>
+</div>
+</div>
+</dd>
 </dl>
+</section>
 
 
               </div>
