@@ -27,16 +27,13 @@
       DifferentialPair.delete
       
       
-      DifferentialPair.find
+      DifferentialPair.find_by_name
       
       
       DifferentialPair.get_product_property
       
       
       DifferentialPair.get_product_property_ids
-      
-      
-      DifferentialPair.nets
       
       
       DifferentialPair.remove_net
@@ -83,6 +80,9 @@
       
       
       DifferentialPair.negative_net
+      
+      
+      DifferentialPair.nets
       
       
       DifferentialPair.obj_type

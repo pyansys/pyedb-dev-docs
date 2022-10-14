@@ -265,8 +265,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.net.NetClass.find.html">
-       find
+      <a class="reference internal" href="ansys.edb.net.NetClass.find_by_name.html">
+       find_by_name
       </a>
      </li>
      <li class="toctree-l3">
@@ -428,10 +428,10 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.add_net.html#ansys.edb.net.NetClass.add_net" title="ansys.edb.net.NetClass.add_net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.add_net</span></code></a>(net)</p></td>
-<td><p>Add net to netclass.</p></td>
+<td><p>Add net to this this object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.contains_net.html#ansys.edb.net.NetClass.contains_net" title="ansys.edb.net.NetClass.contains_net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.contains_net</span></code></a>(net)</p></td>
-<td><p>Find if net exists in netclass.</p></td>
+<td><p>Check if net exists in this object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.create.html#ansys.edb.net.NetClass.create" title="ansys.edb.net.NetClass.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.create</span></code></a>(layout, name)</p></td>
 <td><p>Create net class.</p></td>
@@ -439,7 +439,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.delete.html#ansys.edb.net.NetClass.delete" title="ansys.edb.net.NetClass.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.find.html#ansys.edb.net.NetClass.find" title="ansys.edb.net.NetClass.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.find</span></code></a>(layout, name)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.find_by_name.html#ansys.edb.net.NetClass.find_by_name" title="ansys.edb.net.NetClass.find_by_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.find_by_name</span></code></a>(layout, name)</p></td>
 <td><p>Find net class by name.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.get_product_property.html#ansys.edb.net.NetClass.get_product_property" title="ansys.edb.net.NetClass.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.get_product_property</span></code></a>(prod_id, attr_id)</p></td>
@@ -449,7 +449,7 @@
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.remove_net.html#ansys.edb.net.NetClass.remove_net" title="ansys.edb.net.NetClass.remove_net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.remove_net</span></code></a>(net)</p></td>
-<td><p>Remove net from netclass.</p></td>
+<td><p>Remove net from this object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.set_product_property.html#ansys.edb.net.NetClass.set_product_property" title="ansys.edb.net.NetClass.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
@@ -464,7 +464,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.description.html#ansys.edb.net.NetClass.description" title="ansys.edb.net.NetClass.description"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.description</span></code></a></p></td>
-<td><p>Return description of net class.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a> : Description of this object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.id.html#ansys.edb.net.NetClass.id" title="ansys.edb.net.NetClass.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
@@ -473,7 +473,7 @@
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.is_power_ground.html#ansys.edb.net.NetClass.is_power_ground" title="ansys.edb.net.NetClass.is_power_ground"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.is_power_ground</span></code></a></p></td>
-<td><p>Return whether this netclass is power or ground.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>: True if object belongs to Power/Ground <a class="reference internal" href="#ansys.edb.net.NetClass" title="ansys.edb.net.NetClass"><code class="xref py py-class docutils literal notranslate"><span class="pre">NetClass</span></code></a>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.layout.html#ansys.edb.net.NetClass.layout" title="ansys.edb.net.NetClass.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.layout</span></code></a></p></td>
 <td><p><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a>: Owning layout of the object.</p></td>
@@ -485,7 +485,7 @@
 <td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.name.html#ansys.edb.net.NetClass.name" title="ansys.edb.net.NetClass.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.name</span></code></a></p></td>
-<td><p>Name of net class.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>: Name of this object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.NetClass.nets.html#ansys.edb.net.NetClass.nets" title="ansys.edb.net.NetClass.nets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NetClass.nets</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a> of <a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a>: List of nets in this object.</p></td>

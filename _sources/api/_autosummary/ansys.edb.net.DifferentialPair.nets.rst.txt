@@ -3,4 +3,4 @@ nets
 
 .. currentmodule:: ansys.edb.net
 
-.. automethod:: DifferentialPair.nets
+.. autoproperty:: DifferentialPair.nets

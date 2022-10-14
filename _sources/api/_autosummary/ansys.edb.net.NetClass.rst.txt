@@ -27,7 +27,7 @@
       NetClass.delete
       
       
-      NetClass.find
+      NetClass.find_by_name
       
       
       NetClass.get_product_property

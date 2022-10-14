@@ -27,9 +27,6 @@
       ExtendedNet.delete
       
       
-      ExtendedNet.find
-      
-      
       ExtendedNet.find_by_name
       
       

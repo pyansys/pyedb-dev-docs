@@ -39,7 +39,7 @@
     <script src="../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Simulation Setup" href="simulation_setup.html" />
+    <link rel="next" title="launch_session" href="_autosummary/ansys.edb.session.launch_session.html" />
     <link rel="prev" title="ansys.edb.primitive.RectangleRepresentationType" href="_autosummary/ansys.edb.primitive.RectangleRepresentationType.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -218,10 +218,27 @@
    Primitives
   </a>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active has-children">
   <a class="current reference internal" href="#">
    Session
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.session.launch_session.html">
+     launch_session
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="_autosummary/ansys.edb.session.session.html">
+     session
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="simulation_setup.html">
@@ -296,26 +313,24 @@
                 
   <section id="session">
 <h1>Session<a class="headerlink" href="#session" title="Permalink to this headline">#</a></h1>
+<p>A session both launches a new server executable and creates a channel connection to that server. Once that
+occurs, all EDB API function calls will be processed using that channel.</p>
 <section id="functions">
 <h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">#</a></h2>
-<dl class="py function">
-<dt class="sig sig-object py" id="ansys.edb.session.launch_session">
-<span class="sig-prename descclassname"><span class="pre">ansys.edb.session.</span></span><span class="sig-name descname"><span class="pre">launch_session</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ansys_em_root</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">port_num</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ip_address</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.session.launch_session" title="Permalink to this definition">#</a></dt>
-<dd><p>Launch a local session to an EDB API server. must be manually disconnected after use.</p>
-<dl class="field-list">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl>
-<dt><strong>ansys_em_root</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd></dd>
-<dt><strong>port_num</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a></span></dt><dd></dd>
-<dt><strong>ip_address</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd></dd>
-<dt><strong>Returns</strong></dt><dd></dd>
-<dt><strong>——-</strong></dt><dd></dd>
-<dt><strong>None</strong></dt><dd></dd>
-</dl>
-</dd>
-</dl>
-</dd></dl>
-
+<table class="autosummary longtable table autosummary">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/ansys.edb.session.launch_session.html#ansys.edb.session.launch_session" title="ansys.edb.session.launch_session"><code class="xref py py-obj docutils literal notranslate"><span class="pre">launch_session</span></code></a>(ansys_em_root, port_num[, ...])</p></td>
+<td><p>Launch a local session to an EDB API server.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/ansys.edb.session.session.html#ansys.edb.session.session" title="ansys.edb.session.session"><code class="xref py py-obj docutils literal notranslate"><span class="pre">session</span></code></a>(ansys_em_root, port_num[, ip_address])</p></td>
+<td><p>Launch a local session to an EDB API server in a context manager.</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 

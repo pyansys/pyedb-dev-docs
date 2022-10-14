@@ -251,8 +251,8 @@
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.net.DifferentialPair.find.html">
-       find
+      <a class="reference internal" href="ansys.edb.net.DifferentialPair.find_by_name.html">
+       find_by_name
       </a>
      </li>
      <li class="toctree-l3">
@@ -263,11 +263,6 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.net.DifferentialPair.get_product_property_ids.html">
        get_product_property_ids
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.net.DifferentialPair.nets.html">
-       nets
       </a>
      </li>
      <li class="toctree-l3">
@@ -328,6 +323,11 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.net.DifferentialPair.negative_net.html">
        negative_net
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.net.DifferentialPair.nets.html">
+       nets
       </a>
      </li>
      <li class="toctree-l3">
@@ -436,22 +436,24 @@
 <dt class="sig sig-object py" id="ansys.edb.net.DifferentialPair.create">
 <em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">DifferentialPair.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_net</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">neg_net</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.net.DifferentialPair.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a differential pair.</p>
+<p>User must either provide both nets or omit both nets</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout on which differential pair is placed.</p>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout on which new differential pair is placed.</p>
 </dd>
-<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of differential pair.</p>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of new differential pair.</p>
 </dd>
-<dt><strong>pos_net</strong><span class="classifier"><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a> or <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Positive net. must be provided with negative net if non-None.</p>
+<dt><strong>pos_net</strong><span class="classifier"><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net</span></code></a> or <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Positive net or name of positive net.</p>
 </dd>
-<dt><strong>neg_net</strong><span class="classifier"><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-class docutils literal notranslate"><span class="pre">Net</span></code></a> or <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Negative net. must be provided with positive net if non-None.</p>
+<dt><strong>neg_net</strong><span class="classifier"><a class="reference internal" href="ansys.edb.net.Net.html#ansys.edb.net.Net" title="ansys.edb.net.Net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net</span></code></a> or <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Negative net or name of negative net.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.net.DifferentialPair.html#ansys.edb.net.DifferentialPair" title="ansys.edb.net.DifferentialPair"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DifferentialPair</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.net.DifferentialPair.html#ansys.edb.net.DifferentialPair" title="ansys.edb.net.DifferentialPair"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DifferentialPair</span></code></a></dt><dd><p>Newly created differential pair.</p>
+</dd>
 </dl>
 </dd>
 </dl>

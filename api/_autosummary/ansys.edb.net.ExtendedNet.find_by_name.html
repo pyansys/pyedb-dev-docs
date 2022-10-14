@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="get_product_property" href="ansys.edb.net.ExtendedNet.get_product_property.html" />
-    <link rel="prev" title="find" href="ansys.edb.net.ExtendedNet.find.html" />
+    <link rel="prev" title="delete" href="ansys.edb.net.ExtendedNet.delete.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -255,11 +255,6 @@
        delete
       </a>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.net.ExtendedNet.find.html">
-       find
-      </a>
-     </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
        find_by_name
@@ -430,19 +425,19 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.edb.net.ExtendedNet.find_by_name">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ExtendedNet.</span></span><span class="sig-name descname"><span class="pre">find_by_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">layout</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.net.ExtendedNet.find_by_name" title="Permalink to this definition">#</a></dt>
-<dd><p>Find an extendednet in a layout by name.</p>
+<dd><p>Find an extended net in a layout by name.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>The layout object</p>
+<dt><strong>layout</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a></span></dt><dd><p>Layout being searched for extended net</p>
 </dd>
-<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the extendednet to find</p>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the extended net to find</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.net.ExtendedNet.html#ansys.edb.net.ExtendedNet" title="ansys.edb.net.ExtendedNet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExtendedNet</span></code></a></dt><dd><p>The extended net that was found. Null object is returned if it is not found.</p>
+<dt><a class="reference internal" href="ansys.edb.net.ExtendedNet.html#ansys.edb.net.ExtendedNet" title="ansys.edb.net.ExtendedNet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExtendedNet</span></code></a></dt><dd><p>The extended net that was found. Check the returned extended net’s             <a class="reference internal" href="ansys.edb.net.ExtendedNet.is_null.html#ansys.edb.net.ExtendedNet.is_null" title="ansys.edb.net.ExtendedNet.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_null</span></code></a> property to see if it exists.</p>
 </dd>
 </dl>
 </dd>

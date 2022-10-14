@@ -465,7 +465,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.Net.extended_net.html#ansys.edb.net.Net.extended_net" title="ansys.edb.net.Net.extended_net"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.extended_net</span></code></a></p></td>
-<td><p>Get an extended net.</p></td>
+<td><p><a class="reference internal" href="ansys.edb.net.ExtendedNet.html#ansys.edb.net.ExtendedNet" title="ansys.edb.net.ExtendedNet"><code class="xref py py-class docutils literal notranslate"><span class="pre">ExtendedNet</span></code></a> or <code class="xref py py-class docutils literal notranslate"><span class="pre">None</span></code>: The extended net that this net belongs to.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.id.html#ansys.edb.net.Net.id" title="ansys.edb.net.Net.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
@@ -474,7 +474,7 @@
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.is_power_ground.html#ansys.edb.net.Net.is_power_ground" title="ansys.edb.net.Net.is_power_ground"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.is_power_ground</span></code></a></p></td>
-<td><p>Get whether a net is grounded.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>: True if net belongs to Power/Ground <a class="reference internal" href="ansys.edb.net.NetClass.html#ansys.edb.net.NetClass" title="ansys.edb.net.NetClass"><code class="xref py py-class docutils literal notranslate"><span class="pre">NetClass</span></code></a>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.Net.layout.html#ansys.edb.net.Net.layout" title="ansys.edb.net.Net.layout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.layout</span></code></a></p></td>
 <td><p><a class="reference internal" href="ansys.edb.layout.Layout.html#ansys.edb.layout.Layout" title="ansys.edb.layout.Layout"><code class="xref py py-class docutils literal notranslate"><span class="pre">Layout</span></code></a>: Owning layout of the object.</p></td>
@@ -486,10 +486,10 @@
 <td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.name.html#ansys.edb.net.Net.name" title="ansys.edb.net.Net.name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.name</span></code></a></p></td>
-<td><p>Get name of a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>: Name of this net.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.Net.net_classes.html#ansys.edb.net.Net.net_classes" title="ansys.edb.net.Net.net_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.net_classes</span></code></a></p></td>
-<td><p>Get a list of net classes on a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.net.NetClass.html#ansys.edb.net.NetClass" title="ansys.edb.net.NetClass"><code class="xref py py-class docutils literal notranslate"><span class="pre">NetClass</span></code></a>]: List of all net classes on this net.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.no_net_name.html#ansys.edb.net.Net.no_net_name" title="ansys.edb.net.Net.no_net_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.no_net_name</span></code></a></p></td>
 <td><p></p></td>
@@ -498,16 +498,16 @@
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">LayoutObjType</span></code>: Layout object type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.padstack_instances.html#ansys.edb.net.Net.padstack_instances" title="ansys.edb.net.Net.padstack_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.padstack_instances</span></code></a></p></td>
-<td><p>Get a list of padstack instances on a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.primitive.PadstackInstance.html#ansys.edb.primitive.PadstackInstance" title="ansys.edb.primitive.PadstackInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">PadstackInstance</span></code></a>]: List of padstacks on this net.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.Net.primitives.html#ansys.edb.net.Net.primitives" title="ansys.edb.net.Net.primitives"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.primitives</span></code></a></p></td>
-<td><p>Get a list of primitives on a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.primitive.Primitive.html#ansys.edb.primitive.Primitive" title="ansys.edb.primitive.Primitive"><code class="xref py py-class docutils literal notranslate"><span class="pre">Primitive</span></code></a>]: List of all primitives on this net.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.net.Net.terminal_instances.html#ansys.edb.net.Net.terminal_instances" title="ansys.edb.net.Net.terminal_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.terminal_instances</span></code></a></p></td>
-<td><p>Get a list of terminal instances on a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.terminal.TerminalInstance.html#ansys.edb.terminal.TerminalInstance" title="ansys.edb.terminal.TerminalInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">TerminalInstance</span></code></a>]: terminal instances on net.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.net.Net.terminals.html#ansys.edb.net.Net.terminals" title="ansys.edb.net.Net.terminals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Net.terminals</span></code></a></p></td>
-<td><p>Get a list of terminals on a net.</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#list" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code></a>[<a class="reference internal" href="ansys.edb.terminal.Terminal.html#ansys.edb.terminal.Terminal" title="ansys.edb.terminal.Terminal"><code class="xref py py-class docutils literal notranslate"><span class="pre">Terminal</span></code></a>]: List of all terminals on this net.</p></td>
 </tr>
 </tbody>
 </table>
