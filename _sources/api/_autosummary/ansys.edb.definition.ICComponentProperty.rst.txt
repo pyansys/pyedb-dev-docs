@@ -28,6 +28,9 @@
       :toctree:
    
       
+      ICComponentProperty.die_property
+      
+      
       ICComponentProperty.id
       
       
@@ -35,6 +38,9 @@
       
       
       ICComponentProperty.msg
+      
+      
+      ICComponentProperty.port_property
       
       
       ICComponentProperty.solder_ball_property
