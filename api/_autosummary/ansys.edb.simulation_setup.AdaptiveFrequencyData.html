@@ -260,11 +260,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
-     ansys.edb.simulation_setup.SimulationSetupType
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html">
      ansys.edb.simulation_setup.SimulationSetup
     </a>
@@ -282,6 +277,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.simulation_setup.SweepData.html">
      ansys.edb.simulation_setup.SweepData
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
+     ansys.edb.simulation_setup.SimulationSetupType
     </a>
    </li>
   </ul>
@@ -348,6 +348,18 @@
 <dt class="sig sig-object py" id="ansys.edb.simulation_setup.AdaptiveFrequencyData">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.simulation_setup.</span></span><span class="sig-name descname"><span class="pre">AdaptiveFrequencyData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adaptive_frequency</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'5e9'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_delta</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'0.02'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_passes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.simulation_setup.AdaptiveFrequencyData" title="Permalink to this definition">#</a></dt>
 <dd><p>Class representing adaptive frequency.</p>
+<dl class="field-list">
+<dt class="field-odd">Attributes</dt>
+<dd class="field-odd"><dl>
+<dt><strong>adaptive_frequency</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Frequency where adaptive calculations are performed.</p>
+</dd>
+<dt><strong>max_delta</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Adaptive calculations are repeated until the S-parameters change by less than this amount.</p>
+</dd>
+<dt><strong>max_passes</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Adaptive calculations are stopped after this number of passes even if max_delta isn’t attained.</p>
+</dd>
+</dl>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>

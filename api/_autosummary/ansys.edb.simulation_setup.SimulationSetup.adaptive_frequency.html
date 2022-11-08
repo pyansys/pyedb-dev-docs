@@ -260,11 +260,6 @@
      ansys.edb.simulation_setup.MeshOperation
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
-     ansys.edb.simulation_setup.SimulationSetupType
-    </a>
-   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html">
      ansys.edb.simulation_setup.SimulationSetup
@@ -330,6 +325,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.simulation_setup.SweepData.html">
      ansys.edb.simulation_setup.SweepData
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
+     ansys.edb.simulation_setup.SimulationSetupType
     </a>
    </li>
   </ul>
@@ -399,9 +399,12 @@
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>frequency</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd></dd>
-<dt><strong>max_delta_s</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a></span></dt><dd></dd>
-<dt><strong>max_pass</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a></span></dt><dd></dd>
+<dt><strong>frequency</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Frequency where adaptive calculations are performed.</p>
+</dd>
+<dt><strong>max_delta_s</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Adaptive calculations are repeated until the S-parameters change by less than this amount.</p>
+</dd>
+<dt><strong>max_pass</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a></span></dt><dd><p>Adaptive calculations are stopped after this number of passes even if max_delta_s isn’t attained.</p>
+</dd>
 </dl>
 </dd>
 </dl>

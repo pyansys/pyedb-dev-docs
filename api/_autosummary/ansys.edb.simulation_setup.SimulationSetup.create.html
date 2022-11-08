@@ -260,11 +260,6 @@
      ansys.edb.simulation_setup.MeshOperation
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
-     ansys.edb.simulation_setup.SimulationSetupType
-    </a>
-   </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html">
      ansys.edb.simulation_setup.SimulationSetup
@@ -332,6 +327,11 @@
      ansys.edb.simulation_setup.SweepData
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
+     ansys.edb.simulation_setup.SimulationSetupType
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toctree-l1">
@@ -396,17 +396,21 @@
 <dt class="sig sig-object py" id="ansys.edb.simulation_setup.SimulationSetup.create">
 <em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">SimulationSetup.</span></span><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cell</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sim_type</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.simulation_setup.SimulationSetup.create" title="Permalink to this definition">#</a></dt>
 <dd><p>Create a simulation setup.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><dl class="simple">
-<dt><strong>cell: Cell</strong></dt><dd></dd>
-<dt><strong>name: str</strong></dt><dd></dd>
-<dt><strong>sim_type: SimulationSetupType</strong></dt><dd></dd>
+<dd class="field-odd"><dl>
+<dt><strong>cell</strong><span class="classifier"><a class="reference internal" href="ansys.edb.layout.Cell.html#ansys.edb.layout.Cell" title="ansys.edb.layout.Cell"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cell</span></code></a></span></dt><dd><p>Cell to be simulated.</p>
+</dd>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of this simulation setup.</p>
+</dd>
+<dt><strong>sim_type</strong><span class="classifier"><a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html#ansys.edb.simulation_setup.SimulationSetupType" title="ansys.edb.simulation_setup.SimulationSetupType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimulationSetupType</span></code></a></span></dt><dd><p>Type of this simulation setup.</p>
+</dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html#ansys.edb.simulation_setup.SimulationSetup" title="ansys.edb.simulation_setup.SimulationSetup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimulationSetup</span></code></a></dt><dd></dd>
+<dt><a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html#ansys.edb.simulation_setup.SimulationSetup" title="ansys.edb.simulation_setup.SimulationSetup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimulationSetup</span></code></a></dt><dd><p>Newly created simulation setup.</p>
+</dd>
 </dl>
 </dd>
 </dl>

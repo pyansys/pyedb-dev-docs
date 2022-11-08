@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Terminals" href="../terminal.html" />
+    <link rel="next" title="ansys.edb.simulation_setup.SimulationSetupType" href="ansys.edb.simulation_setup.SimulationSetupType.html" />
     <link rel="prev" title="ansys.edb.simulation_setup.SkinDepthMeshOperation" href="ansys.edb.simulation_setup.SkinDepthMeshOperation.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -260,11 +260,6 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
-     ansys.edb.simulation_setup.SimulationSetupType
-    </a>
-   </li>
-   <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetup.html">
      ansys.edb.simulation_setup.SimulationSetup
     </a>
@@ -282,6 +277,11 @@
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      ansys.edb.simulation_setup.SweepData
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ansys.edb.simulation_setup.SimulationSetupType.html">
+     ansys.edb.simulation_setup.SimulationSetupType
     </a>
    </li>
   </ul>
@@ -348,6 +348,62 @@
 <dt class="sig sig-object py" id="ansys.edb.simulation_setup.SweepData">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.simulation_setup.</span></span><span class="sig-name descname"><span class="pre">SweepData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">distribution</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_f</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_f</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">step</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fast_sweep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.simulation_setup.SweepData" title="Permalink to this definition">#</a></dt>
 <dd><p>Class representing a sweep data setting.</p>
+<p class="rubric">Notes</p>
+<p>Here are the choices for the distribution parameter</p>
+<table class="colwidths-given table" id="id1">
+<caption><span class="caption-text">Values for distribution parameter</span><a class="headerlink" href="#id1" title="Permalink to this table">#</a></caption>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 50%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Distribution</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>LIN</p></td>
+<td><p>linear (start, stop, step)</p></td>
+<td><p>LIN 2GHz 4GHz 100MHz or LIN 1dBm 10dBm 1dB</p></td>
+</tr>
+<tr class="row-odd"><td><p>LINC</p></td>
+<td><p>linear (start, stop, count)</p></td>
+<td><p>LINC 2GHz 4GHz 11</p></td>
+</tr>
+<tr class="row-even"><td><p>ESTP</p></td>
+<td><p>Exponential step (start, stop, count)</p></td>
+<td><p>ESTP 2MHz 10MHz 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>DEC</p></td>
+<td><p>decade (start, stop, number of decades)</p></td>
+<td><p>DEC 10KHz 10GHz 6</p></td>
+</tr>
+<tr class="row-even"><td><p>OCT</p></td>
+<td><p>octave (start, stop, number of octaves)</p></td>
+<td><p>OCT 10MHz 160MHz 5</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="field-list">
+<dt class="field-odd">Attributes</dt>
+<dd class="field-odd"><dl>
+<dt><strong>name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of this sweep.</p>
+</dd>
+<dt><strong>distribution</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Type of sweep (see table below).</p>
+</dd>
+<dt><strong>start_f</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Start frequency is number with optional frequency units.</p>
+</dd>
+<dt><strong>end_f</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>End frequency is number with optional frequency units.</p>
+</dd>
+<dt><strong>step</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Step is either frequency with optional frequency units or an integer when a count is needed.</p>
+</dd>
+<dt><strong>fast_sweep</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>True if this is a fast sweep.</p>
+</dd>
+</dl>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
