@@ -1,0 +1,6 @@
+is\_mcad
+========
+
+.. currentmodule:: ansys.edb.hierarchy
+
+.. autoproperty:: ComponentGroup.is_mcad

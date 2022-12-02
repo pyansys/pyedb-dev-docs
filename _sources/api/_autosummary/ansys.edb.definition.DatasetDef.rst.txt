@@ -14,6 +14,18 @@
       :toctree:
    
       
+      
+      DatasetDef.create
+      
+      
+      DatasetDef.find_by_name
+      
+      
+      DatasetDef.get_data
+      
+      
+      DatasetDef.set_data
+      
    
    
 
@@ -32,6 +44,9 @@
       
       
       DatasetDef.msg
+      
+      
+      DatasetDef.name
       
    
    

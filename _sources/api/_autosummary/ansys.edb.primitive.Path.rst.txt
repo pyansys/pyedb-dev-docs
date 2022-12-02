@@ -24,6 +24,15 @@
       Path.create
       
       
+      Path.create_3d_comp
+      
+      
+      Path.create_hfss
+      
+      
+      Path.create_stride
+      
+      
       Path.delete
       
       
@@ -95,6 +104,18 @@
       
       
       Path.id
+      
+      
+      Path.is_mcad
+      
+      
+      Path.is_mcad_3d_comp
+      
+      
+      Path.is_mcad_hfss
+      
+      
+      Path.is_mcad_stride
       
       
       Path.is_negative

@@ -21,6 +21,15 @@
       PinGroupTerminal.create
       
       
+      PinGroupTerminal.create_3d_comp
+      
+      
+      PinGroupTerminal.create_hfss
+      
+      
+      PinGroupTerminal.create_stride
+      
+      
       PinGroupTerminal.delete
       
       
@@ -89,6 +98,18 @@
       
       
       PinGroupTerminal.is_interface_terminal
+      
+      
+      PinGroupTerminal.is_mcad
+      
+      
+      PinGroupTerminal.is_mcad_3d_comp
+      
+      
+      PinGroupTerminal.is_mcad_hfss
+      
+      
+      PinGroupTerminal.is_mcad_stride
       
       
       PinGroupTerminal.is_null

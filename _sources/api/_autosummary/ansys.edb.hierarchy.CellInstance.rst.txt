@@ -18,6 +18,15 @@
       CellInstance.create
       
       
+      CellInstance.create_3d_comp
+      
+      
+      CellInstance.create_hfss
+      
+      
+      CellInstance.create_stride
+      
+      
       CellInstance.create_with_component
       
       
@@ -68,6 +77,18 @@
       
       
       CellInstance.id
+      
+      
+      CellInstance.is_mcad
+      
+      
+      CellInstance.is_mcad_3d_comp
+      
+      
+      CellInstance.is_mcad_hfss
+      
+      
+      CellInstance.is_mcad_stride
       
       
       CellInstance.is_null

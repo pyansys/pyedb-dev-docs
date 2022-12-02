@@ -305,6 +305,21 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_3d_comp.html">
+       create_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_hfss.html">
+       create_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_stride.html">
+       create_stride
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.terminal.PointTerminal.delete.html">
        delete
       </a>
@@ -402,6 +417,26 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_interface_terminal.html">
        is_interface_terminal
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad.html">
+       is_mcad
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_3d_comp.html">
+       is_mcad_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_hfss.html">
+       is_mcad_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_stride.html">
+       is_mcad_stride
       </a>
      </li>
      <li class="toctree-l3">
@@ -613,31 +648,40 @@
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.create.html#ansys.edb.terminal.PointTerminal.create" title="ansys.edb.terminal.PointTerminal.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.create</span></code></a>(layout, net, layer, ...)</p></td>
 <td><p>Create a point terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.delete.html#ansys.edb.terminal.PointTerminal.delete" title="ansys.edb.terminal.PointTerminal.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.delete</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_3d_comp.html#ansys.edb.terminal.PointTerminal.create_3d_comp" title="ansys.edb.terminal.PointTerminal.create_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.create_3d_comp</span></code></a>()</p></td>
+<td><p>Create a 3dComp model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_hfss.html#ansys.edb.terminal.PointTerminal.create_hfss" title="ansys.edb.terminal.PointTerminal.create_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.create_hfss</span></code></a>()</p></td>
+<td><p>Create a HFSS model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.create_stride.html#ansys.edb.terminal.PointTerminal.create_stride" title="ansys.edb.terminal.PointTerminal.create_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.create_stride</span></code></a>()</p></td>
+<td><p>Create a stride model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.delete.html#ansys.edb.terminal.PointTerminal.delete" title="ansys.edb.terminal.PointTerminal.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.find.html#ansys.edb.terminal.PointTerminal.find" title="ansys.edb.terminal.PointTerminal.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.find</span></code></a>(layout, name)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.find.html#ansys.edb.terminal.PointTerminal.find" title="ansys.edb.terminal.PointTerminal.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.find</span></code></a>(layout, name)</p></td>
 <td><p>Find a terminal by name.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.find_by_id.html#ansys.edb.terminal.PointTerminal.find_by_id" title="ansys.edb.terminal.PointTerminal.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.find_by_id</span></code></a>(layout, uid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.find_by_id.html#ansys.edb.terminal.PointTerminal.find_by_id" title="ansys.edb.terminal.PointTerminal.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.find_by_id</span></code></a>(layout, uid)</p></td>
 <td><p>Find a <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object by Database ID.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.get_product_property.html#ansys.edb.terminal.PointTerminal.get_product_property" title="ansys.edb.terminal.PointTerminal.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.get_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.get_product_property.html#ansys.edb.terminal.PointTerminal.get_product_property" title="ansys.edb.terminal.PointTerminal.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.get_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Get the product property of the layout object with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.get_product_property_ids.html#ansys.edb.terminal.PointTerminal.get_product_property_ids" title="ansys.edb.terminal.PointTerminal.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.get_product_property_ids</span></code></a>(prod_id)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.get_product_property_ids.html#ansys.edb.terminal.PointTerminal.get_product_property_ids" title="ansys.edb.terminal.PointTerminal.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.product_solver_names.html#ansys.edb.terminal.PointTerminal.product_solver_names" title="ansys.edb.terminal.PointTerminal.product_solver_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.product_solver_names</span></code></a>(product_id)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.product_solver_names.html#ansys.edb.terminal.PointTerminal.product_solver_names" title="ansys.edb.terminal.PointTerminal.product_solver_names"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.product_solver_names</span></code></a>(product_id)</p></td>
 <td><p>Return the list of solver names.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.product_solver_option.html#ansys.edb.terminal.PointTerminal.product_solver_option" title="ansys.edb.terminal.PointTerminal.product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.product_solver_option</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.product_solver_option.html#ansys.edb.terminal.PointTerminal.product_solver_option" title="ansys.edb.terminal.PointTerminal.product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.product_solver_option</span></code></a>(...)</p></td>
 <td><p>Return product solver option name.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.set_product_property.html#ansys.edb.terminal.PointTerminal.set_product_property" title="ansys.edb.terminal.PointTerminal.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.set_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.set_product_property.html#ansys.edb.terminal.PointTerminal.set_product_property" title="ansys.edb.terminal.PointTerminal.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.set_product_solver_option.html#ansys.edb.terminal.PointTerminal.set_product_solver_option" title="ansys.edb.terminal.PointTerminal.set_product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.set_product_solver_option</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.set_product_solver_option.html#ansys.edb.terminal.PointTerminal.set_product_solver_option" title="ansys.edb.terminal.PointTerminal.set_product_solver_option"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.set_product_solver_option</span></code></a>(...)</p></td>
 <td><p>Set product solver option name.</p></td>
 </tr>
 </tbody>
@@ -681,6 +725,18 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_interface_terminal.html#ansys.edb.terminal.PointTerminal.is_interface_terminal" title="ansys.edb.terminal.PointTerminal.is_interface_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_interface_terminal</span></code></a></p></td>
 <td><p>Return whether this terminal is an interface.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad.html#ansys.edb.terminal.PointTerminal.is_mcad" title="ansys.edb.terminal.PointTerminal.is_mcad"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_mcad</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_3d_comp.html#ansys.edb.terminal.PointTerminal.is_mcad_3d_comp" title="ansys.edb.terminal.PointTerminal.is_mcad_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_mcad_3d_comp</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a 3D Comp Mcad Model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_hfss.html#ansys.edb.terminal.PointTerminal.is_mcad_hfss" title="ansys.edb.terminal.PointTerminal.is_mcad_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_mcad_hfss</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a HFSS Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_mcad_stride.html#ansys.edb.terminal.PointTerminal.is_mcad_stride" title="ansys.edb.terminal.PointTerminal.is_mcad_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_mcad_stride</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Stride Mcad Model.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.terminal.PointTerminal.is_null.html#ansys.edb.terminal.PointTerminal.is_null" title="ansys.edb.terminal.PointTerminal.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PointTerminal.is_null</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>

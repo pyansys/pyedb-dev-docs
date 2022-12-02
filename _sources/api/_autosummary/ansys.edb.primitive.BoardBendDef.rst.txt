@@ -21,6 +21,15 @@
       BoardBendDef.cast
       
       
+      BoardBendDef.create_3d_comp
+      
+      
+      BoardBendDef.create_hfss
+      
+      
+      BoardBendDef.create_stride
+      
+      
       BoardBendDef.delete
       
       
@@ -71,6 +80,18 @@
       
       
       BoardBendDef.id
+      
+      
+      BoardBendDef.is_mcad
+      
+      
+      BoardBendDef.is_mcad_3d_comp
+      
+      
+      BoardBendDef.is_mcad_hfss
+      
+      
+      BoardBendDef.is_mcad_stride
       
       
       BoardBendDef.is_negative

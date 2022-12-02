@@ -1,0 +1,6 @@
+maximum\_power
+==============
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoproperty:: PackageDef.maximum_power

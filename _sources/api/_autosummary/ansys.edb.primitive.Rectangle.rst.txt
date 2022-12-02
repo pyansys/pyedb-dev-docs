@@ -24,6 +24,15 @@
       Rectangle.create
       
       
+      Rectangle.create_3d_comp
+      
+      
+      Rectangle.create_hfss
+      
+      
+      Rectangle.create_stride
+      
+      
       Rectangle.delete
       
       
@@ -83,6 +92,18 @@
       
       
       Rectangle.id
+      
+      
+      Rectangle.is_mcad
+      
+      
+      Rectangle.is_mcad_3d_comp
+      
+      
+      Rectangle.is_mcad_hfss
+      
+      
+      Rectangle.is_mcad_stride
       
       
       Rectangle.is_negative

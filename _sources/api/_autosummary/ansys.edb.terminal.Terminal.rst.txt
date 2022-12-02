@@ -18,6 +18,15 @@
       Terminal.cast
       
       
+      Terminal.create_3d_comp
+      
+      
+      Terminal.create_hfss
+      
+      
+      Terminal.create_stride
+      
+      
       Terminal.delete
       
       
@@ -86,6 +95,18 @@
       
       
       Terminal.is_interface_terminal
+      
+      
+      Terminal.is_mcad
+      
+      
+      Terminal.is_mcad_3d_comp
+      
+      
+      Terminal.is_mcad_hfss
+      
+      
+      Terminal.is_mcad_stride
       
       
       Terminal.is_null

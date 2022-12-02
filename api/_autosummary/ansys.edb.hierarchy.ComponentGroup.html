@@ -230,6 +230,21 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_3d_comp.html">
+       create_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_hfss.html">
+       create_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_stride.html">
+       create_stride
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_with_component.html">
        create_with_component
       </a>
@@ -312,6 +327,26 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.id.html">
        id
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad.html">
+       is_mcad
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_3d_comp.html">
+       is_mcad_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_hfss.html">
+       is_mcad_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_stride.html">
+       is_mcad_stride
       </a>
      </li>
      <li class="toctree-l3">
@@ -526,34 +561,43 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create.html#ansys.edb.hierarchy.ComponentGroup.create" title="ansys.edb.hierarchy.ComponentGroup.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create</span></code></a>(layout, name)</p></td>
 <td><p>Create a group.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_with_component.html#ansys.edb.hierarchy.ComponentGroup.create_with_component" title="ansys.edb.hierarchy.ComponentGroup.create_with_component"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create_with_component</span></code></a>(layout, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_3d_comp.html#ansys.edb.hierarchy.ComponentGroup.create_3d_comp" title="ansys.edb.hierarchy.ComponentGroup.create_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create_3d_comp</span></code></a>()</p></td>
+<td><p>Create a 3dComp model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_hfss.html#ansys.edb.hierarchy.ComponentGroup.create_hfss" title="ansys.edb.hierarchy.ComponentGroup.create_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create_hfss</span></code></a>()</p></td>
+<td><p>Create a HFSS model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_stride.html#ansys.edb.hierarchy.ComponentGroup.create_stride" title="ansys.edb.hierarchy.ComponentGroup.create_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create_stride</span></code></a>()</p></td>
+<td><p>Create a stride model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.create_with_component.html#ansys.edb.hierarchy.ComponentGroup.create_with_component" title="ansys.edb.hierarchy.ComponentGroup.create_with_component"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.create_with_component</span></code></a>(layout, ...)</p></td>
 <td><p>Create a component group with a component.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.delete.html#ansys.edb.hierarchy.ComponentGroup.delete" title="ansys.edb.hierarchy.ComponentGroup.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.delete</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.delete.html#ansys.edb.hierarchy.ComponentGroup.delete" title="ansys.edb.hierarchy.ComponentGroup.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find.html#ansys.edb.hierarchy.ComponentGroup.find" title="ansys.edb.hierarchy.ComponentGroup.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find</span></code></a>(layout, name)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find.html#ansys.edb.hierarchy.ComponentGroup.find" title="ansys.edb.hierarchy.ComponentGroup.find"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find</span></code></a>(layout, name)</p></td>
 <td><p>Find a group by name.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find_by_def.html#ansys.edb.hierarchy.ComponentGroup.find_by_def" title="ansys.edb.hierarchy.ComponentGroup.find_by_def"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find_by_def</span></code></a>(layout, comp_def_name)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find_by_def.html#ansys.edb.hierarchy.ComponentGroup.find_by_def" title="ansys.edb.hierarchy.ComponentGroup.find_by_def"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find_by_def</span></code></a>(layout, comp_def_name)</p></td>
 <td><p>Find all the components belonging to a specific component definition.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find_by_id.html#ansys.edb.hierarchy.ComponentGroup.find_by_id" title="ansys.edb.hierarchy.ComponentGroup.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find_by_id</span></code></a>(layout, uid)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.find_by_id.html#ansys.edb.hierarchy.ComponentGroup.find_by_id" title="ansys.edb.hierarchy.ComponentGroup.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.find_by_id</span></code></a>(layout, uid)</p></td>
 <td><p>Find a <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object by Database ID.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.get_product_property.html#ansys.edb.hierarchy.ComponentGroup.get_product_property" title="ansys.edb.hierarchy.ComponentGroup.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.get_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.get_product_property.html#ansys.edb.hierarchy.ComponentGroup.get_product_property" title="ansys.edb.hierarchy.ComponentGroup.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.get_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Get the product property of the layout object with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.get_product_property_ids.html#ansys.edb.hierarchy.ComponentGroup.get_product_property_ids" title="ansys.edb.hierarchy.ComponentGroup.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.get_product_property_ids</span></code></a>(prod_id)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.get_product_property_ids.html#ansys.edb.hierarchy.ComponentGroup.get_product_property_ids" title="ansys.edb.hierarchy.ComponentGroup.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.remove_member.html#ansys.edb.hierarchy.ComponentGroup.remove_member" title="ansys.edb.hierarchy.ComponentGroup.remove_member"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.remove_member</span></code></a>(member)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.remove_member.html#ansys.edb.hierarchy.ComponentGroup.remove_member" title="ansys.edb.hierarchy.ComponentGroup.remove_member"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.remove_member</span></code></a>(member)</p></td>
 <td><p>Remove an object from the group.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.set_product_property.html#ansys.edb.hierarchy.ComponentGroup.set_product_property" title="ansys.edb.hierarchy.ComponentGroup.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.set_product_property</span></code></a>(prod_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.set_product_property.html#ansys.edb.hierarchy.ComponentGroup.set_product_property" title="ansys.edb.hierarchy.ComponentGroup.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.set_product_property</span></code></a>(prod_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.ungroup.html#ansys.edb.hierarchy.ComponentGroup.ungroup" title="ansys.edb.hierarchy.ComponentGroup.ungroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.ungroup</span></code></a>(recursive)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.ungroup.html#ansys.edb.hierarchy.ComponentGroup.ungroup" title="ansys.edb.hierarchy.ComponentGroup.ungroup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.ungroup</span></code></a>(recursive)</p></td>
 <td><p>Dissolves the group.</p></td>
 </tr>
 </tbody>
@@ -585,6 +629,18 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.id.html#ansys.edb.hierarchy.ComponentGroup.id" title="ansys.edb.hierarchy.ComponentGroup.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad.html#ansys.edb.hierarchy.ComponentGroup.is_mcad" title="ansys.edb.hierarchy.ComponentGroup.is_mcad"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.is_mcad</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_3d_comp.html#ansys.edb.hierarchy.ComponentGroup.is_mcad_3d_comp" title="ansys.edb.hierarchy.ComponentGroup.is_mcad_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.is_mcad_3d_comp</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a 3D Comp Mcad Model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_hfss.html#ansys.edb.hierarchy.ComponentGroup.is_mcad_hfss" title="ansys.edb.hierarchy.ComponentGroup.is_mcad_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.is_mcad_hfss</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a HFSS Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_mcad_stride.html#ansys.edb.hierarchy.ComponentGroup.is_mcad_stride" title="ansys.edb.hierarchy.ComponentGroup.is_mcad_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.is_mcad_stride</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Stride Mcad Model.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.hierarchy.ComponentGroup.is_null.html#ansys.edb.hierarchy.ComponentGroup.is_null" title="ansys.edb.hierarchy.ComponentGroup.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ComponentGroup.is_null</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>

@@ -265,6 +265,21 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_3d_comp.html">
+       create_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_hfss.html">
+       create_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_stride.html">
+       create_stride
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.delete.html">
        delete
       </a>
@@ -402,6 +417,26 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_layout_pin.html">
        is_layout_pin
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad.html">
+       is_mcad
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_3d_comp.html">
+       is_mcad_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_hfss.html">
+       is_mcad_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_stride.html">
+       is_mcad_stride
       </a>
      </li>
      <li class="toctree-l3">
@@ -651,67 +686,76 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create.html#ansys.edb.primitive.PadstackInstance.create" title="ansys.edb.primitive.PadstackInstance.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.create</span></code></a>(layout, net, name, ...)</p></td>
 <td><p>Create a PadstackInstance object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.delete.html#ansys.edb.primitive.PadstackInstance.delete" title="ansys.edb.primitive.PadstackInstance.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.delete</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_3d_comp.html#ansys.edb.primitive.PadstackInstance.create_3d_comp" title="ansys.edb.primitive.PadstackInstance.create_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.create_3d_comp</span></code></a>()</p></td>
+<td><p>Create a 3dComp model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_hfss.html#ansys.edb.primitive.PadstackInstance.create_hfss" title="ansys.edb.primitive.PadstackInstance.create_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.create_hfss</span></code></a>()</p></td>
+<td><p>Create a HFSS model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.create_stride.html#ansys.edb.primitive.PadstackInstance.create_stride" title="ansys.edb.primitive.PadstackInstance.create_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.create_stride</span></code></a>()</p></td>
+<td><p>Create a stride model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.delete.html#ansys.edb.primitive.PadstackInstance.delete" title="ansys.edb.primitive.PadstackInstance.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.find_by_id.html#ansys.edb.primitive.PadstackInstance.find_by_id" title="ansys.edb.primitive.PadstackInstance.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.find_by_id</span></code></a>(layout, uid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.find_by_id.html#ansys.edb.primitive.PadstackInstance.find_by_id" title="ansys.edb.primitive.PadstackInstance.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.find_by_id</span></code></a>(layout, uid)</p></td>
 <td><p>Find a <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object by Database ID.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth.html#ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth" title="ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_by_depth</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth.html#ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth" title="ansys.edb.primitive.PadstackInstance.get_back_drill_by_depth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_by_depth</span></code></a>(...)</p></td>
 <td><p>Get the back drill by depth.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer.html#ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer" title="ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_by_layer</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer.html#ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer" title="ansys.edb.primitive.PadstackInstance.get_back_drill_by_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_by_layer</span></code></a>(...)</p></td>
 <td><p>Get the back drill by layer.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_type.html#ansys.edb.primitive.PadstackInstance.get_back_drill_type" title="ansys.edb.primitive.PadstackInstance.get_back_drill_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_type</span></code></a>(from_bottom)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_back_drill_type.html#ansys.edb.primitive.PadstackInstance.get_back_drill_type" title="ansys.edb.primitive.PadstackInstance.get_back_drill_type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_back_drill_type</span></code></a>(from_bottom)</p></td>
 <td><p>Get the back drill type of Padstack Instance.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_hfss_prop.html#ansys.edb.primitive.PadstackInstance.get_hfss_prop" title="ansys.edb.primitive.PadstackInstance.get_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_hfss_prop</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_hfss_prop.html#ansys.edb.primitive.PadstackInstance.get_hfss_prop" title="ansys.edb.primitive.PadstackInstance.get_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_hfss_prop</span></code></a>()</p></td>
 <td><p>Get HFSS properties.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_hole_overrides.html#ansys.edb.primitive.PadstackInstance.get_hole_overrides" title="ansys.edb.primitive.PadstackInstance.get_hole_overrides"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_hole_overrides</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_hole_overrides.html#ansys.edb.primitive.PadstackInstance.get_hole_overrides" title="ansys.edb.primitive.PadstackInstance.get_hole_overrides"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_hole_overrides</span></code></a>()</p></td>
 <td><p>Get the hole overrides of Padstack Instance.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_layer_range.html#ansys.edb.primitive.PadstackInstance.get_layer_range" title="ansys.edb.primitive.PadstackInstance.get_layer_range"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_layer_range</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_layer_range.html#ansys.edb.primitive.PadstackInstance.get_layer_range" title="ansys.edb.primitive.PadstackInstance.get_layer_range"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_layer_range</span></code></a>()</p></td>
 <td><p>Get the top and bottom layers of a Padstack Instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal.html#ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal" title="ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_padstack_instance_terminal</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal.html#ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal" title="ansys.edb.primitive.PadstackInstance.get_padstack_instance_terminal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_padstack_instance_terminal</span></code></a>()</p></td>
 <td><p><a class="reference internal" href="ansys.edb.terminal.TerminalInstance.html#ansys.edb.terminal.TerminalInstance" title="ansys.edb.terminal.TerminalInstance"><code class="xref py py-class docutils literal notranslate"><span class="pre">TerminalInstance</span></code></a>: Padstack Instance's terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_position_and_rotation.html#ansys.edb.primitive.PadstackInstance.get_position_and_rotation" title="ansys.edb.primitive.PadstackInstance.get_position_and_rotation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_position_and_rotation</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_position_and_rotation.html#ansys.edb.primitive.PadstackInstance.get_position_and_rotation" title="ansys.edb.primitive.PadstackInstance.get_position_and_rotation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_position_and_rotation</span></code></a>()</p></td>
 <td><p>Get the position and rotation of a Padstack Instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_product_property.html#ansys.edb.primitive.PadstackInstance.get_product_property" title="ansys.edb.primitive.PadstackInstance.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_product_property</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_product_property.html#ansys.edb.primitive.PadstackInstance.get_product_property" title="ansys.edb.primitive.PadstackInstance.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_product_property</span></code></a>(...)</p></td>
 <td><p>Get the product property of the layout object with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_product_property_ids.html#ansys.edb.primitive.PadstackInstance.get_product_property_ids" title="ansys.edb.primitive.PadstackInstance.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_product_property_ids</span></code></a>(prod_id)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.get_product_property_ids.html#ansys.edb.primitive.PadstackInstance.get_product_property_ids" title="ansys.edb.primitive.PadstackInstance.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_in_pin_group.html#ansys.edb.primitive.PadstackInstance.is_in_pin_group" title="ansys.edb.primitive.PadstackInstance.is_in_pin_group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_in_pin_group</span></code></a>(pin_group)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_in_pin_group.html#ansys.edb.primitive.PadstackInstance.is_in_pin_group" title="ansys.edb.primitive.PadstackInstance.is_in_pin_group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_in_pin_group</span></code></a>(pin_group)</p></td>
 <td><p>Check if Padstack instance is in the Pin Group.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.remove_hfss_prop.html#ansys.edb.primitive.PadstackInstance.remove_hfss_prop" title="ansys.edb.primitive.PadstackInstance.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.remove_hfss_prop</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.remove_hfss_prop.html#ansys.edb.primitive.PadstackInstance.remove_hfss_prop" title="ansys.edb.primitive.PadstackInstance.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.remove_hfss_prop</span></code></a>()</p></td>
 <td><p>Remove HFSS properties.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth.html#ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth" title="ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_back_drill_by_depth</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth.html#ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth" title="ansys.edb.primitive.PadstackInstance.set_back_drill_by_depth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_back_drill_by_depth</span></code></a>(...)</p></td>
 <td><p>Set the back drill by Depth.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer.html#ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer" title="ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_back_drill_by_layer</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer.html#ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer" title="ansys.edb.primitive.PadstackInstance.set_back_drill_by_layer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_back_drill_by_layer</span></code></a>(...)</p></td>
 <td><p>Set the back drill by layer.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_hfss_prop.html#ansys.edb.primitive.PadstackInstance.set_hfss_prop" title="ansys.edb.primitive.PadstackInstance.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_hfss_prop</span></code></a>(material, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_hfss_prop.html#ansys.edb.primitive.PadstackInstance.set_hfss_prop" title="ansys.edb.primitive.PadstackInstance.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_hfss_prop</span></code></a>(material, ...)</p></td>
 <td><p>Set HFSS properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_hole_overrides.html#ansys.edb.primitive.PadstackInstance.set_hole_overrides" title="ansys.edb.primitive.PadstackInstance.set_hole_overrides"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_hole_overrides</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_hole_overrides.html#ansys.edb.primitive.PadstackInstance.set_hole_overrides" title="ansys.edb.primitive.PadstackInstance.set_hole_overrides"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_hole_overrides</span></code></a>(...)</p></td>
 <td><p>Set the hole overrides of Padstack Instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_layer_range.html#ansys.edb.primitive.PadstackInstance.set_layer_range" title="ansys.edb.primitive.PadstackInstance.set_layer_range"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_layer_range</span></code></a>(top_layer, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_layer_range.html#ansys.edb.primitive.PadstackInstance.set_layer_range" title="ansys.edb.primitive.PadstackInstance.set_layer_range"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_layer_range</span></code></a>(top_layer, ...)</p></td>
 <td><p>Set the top and bottom layers of a Padstack Instance.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_position_and_rotation.html#ansys.edb.primitive.PadstackInstance.set_position_and_rotation" title="ansys.edb.primitive.PadstackInstance.set_position_and_rotation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_position_and_rotation</span></code></a>(x, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_position_and_rotation.html#ansys.edb.primitive.PadstackInstance.set_position_and_rotation" title="ansys.edb.primitive.PadstackInstance.set_position_and_rotation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_position_and_rotation</span></code></a>(x, ...)</p></td>
 <td><p>Set the position and rotation of a Padstack Instance.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_product_property.html#ansys.edb.primitive.PadstackInstance.set_product_property" title="ansys.edb.primitive.PadstackInstance.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_product_property</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.set_product_property.html#ansys.edb.primitive.PadstackInstance.set_product_property" title="ansys.edb.primitive.PadstackInstance.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.set_product_property</span></code></a>(...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
 </tbody>
@@ -743,6 +787,18 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_layout_pin.html#ansys.edb.primitive.PadstackInstance.is_layout_pin" title="ansys.edb.primitive.PadstackInstance.is_layout_pin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_layout_pin</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: If padstack instance is layout pin.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad.html#ansys.edb.primitive.PadstackInstance.is_mcad" title="ansys.edb.primitive.PadstackInstance.is_mcad"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_mcad</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_3d_comp.html#ansys.edb.primitive.PadstackInstance.is_mcad_3d_comp" title="ansys.edb.primitive.PadstackInstance.is_mcad_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_mcad_3d_comp</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a 3D Comp Mcad Model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_hfss.html#ansys.edb.primitive.PadstackInstance.is_mcad_hfss" title="ansys.edb.primitive.PadstackInstance.is_mcad_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_mcad_hfss</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a HFSS Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_mcad_stride.html#ansys.edb.primitive.PadstackInstance.is_mcad_stride" title="ansys.edb.primitive.PadstackInstance.is_mcad_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_mcad_stride</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Stride Mcad Model.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.PadstackInstance.is_negative.html#ansys.edb.primitive.PadstackInstance.is_negative" title="ansys.edb.primitive.PadstackInstance.is_negative"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PadstackInstance.is_negative</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: If the primitive is negative.</p></td>

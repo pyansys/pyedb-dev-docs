@@ -21,6 +21,15 @@
       EdgeTerminal.create
       
       
+      EdgeTerminal.create_3d_comp
+      
+      
+      EdgeTerminal.create_hfss
+      
+      
+      EdgeTerminal.create_stride
+      
+      
       EdgeTerminal.delete
       
       
@@ -92,6 +101,18 @@
       
       
       EdgeTerminal.is_interface_terminal
+      
+      
+      EdgeTerminal.is_mcad
+      
+      
+      EdgeTerminal.is_mcad_3d_comp
+      
+      
+      EdgeTerminal.is_mcad_hfss
+      
+      
+      EdgeTerminal.is_mcad_stride
       
       
       EdgeTerminal.is_null

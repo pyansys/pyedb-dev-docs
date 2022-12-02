@@ -18,6 +18,15 @@
       VoltageRegulator.create
       
       
+      VoltageRegulator.create_3d_comp
+      
+      
+      VoltageRegulator.create_hfss
+      
+      
+      VoltageRegulator.create_stride
+      
+      
       VoltageRegulator.delete
       
       
@@ -56,6 +65,18 @@
       
       
       VoltageRegulator.id
+      
+      
+      VoltageRegulator.is_mcad
+      
+      
+      VoltageRegulator.is_mcad_3d_comp
+      
+      
+      VoltageRegulator.is_mcad_hfss
+      
+      
+      VoltageRegulator.is_mcad_stride
       
       
       VoltageRegulator.is_null

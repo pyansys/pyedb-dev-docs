@@ -1,0 +1,6 @@
+is\_mcad\_hfss
+==============
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoproperty:: PadstackInstance.is_mcad_hfss

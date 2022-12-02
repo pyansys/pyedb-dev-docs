@@ -24,6 +24,15 @@
       PadstackInstance.create
       
       
+      PadstackInstance.create_3d_comp
+      
+      
+      PadstackInstance.create_hfss
+      
+      
+      PadstackInstance.create_stride
+      
+      
       PadstackInstance.delete
       
       
@@ -116,6 +125,18 @@
       
       
       PadstackInstance.is_layout_pin
+      
+      
+      PadstackInstance.is_mcad
+      
+      
+      PadstackInstance.is_mcad_3d_comp
+      
+      
+      PadstackInstance.is_mcad_hfss
+      
+      
+      PadstackInstance.is_mcad_stride
       
       
       PadstackInstance.is_negative

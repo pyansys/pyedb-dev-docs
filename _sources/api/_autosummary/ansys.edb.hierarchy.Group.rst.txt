@@ -24,6 +24,15 @@
       Group.create
       
       
+      Group.create_3d_comp
+      
+      
+      Group.create_hfss
+      
+      
+      Group.create_stride
+      
+      
       Group.delete
       
       
@@ -71,6 +80,18 @@
       
       
       Group.id
+      
+      
+      Group.is_mcad
+      
+      
+      Group.is_mcad_3d_comp
+      
+      
+      Group.is_mcad_hfss
+      
+      
+      Group.is_mcad_stride
       
       
       Group.is_null

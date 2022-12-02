@@ -1,0 +1,6 @@
+is\_mcad
+========
+
+.. currentmodule:: ansys.edb.terminal
+
+.. autoproperty:: TerminalInstance.is_mcad

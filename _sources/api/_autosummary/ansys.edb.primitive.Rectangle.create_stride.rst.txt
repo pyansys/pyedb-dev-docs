@@ -1,0 +1,6 @@
+create\_stride
+==============
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Rectangle.create_stride

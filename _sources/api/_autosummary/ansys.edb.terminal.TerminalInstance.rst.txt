@@ -18,6 +18,15 @@
       TerminalInstance.create
       
       
+      TerminalInstance.create_3d_comp
+      
+      
+      TerminalInstance.create_hfss
+      
+      
+      TerminalInstance.create_stride
+      
+      
       TerminalInstance.delete
       
       
@@ -59,6 +68,18 @@
       
       
       TerminalInstance.id
+      
+      
+      TerminalInstance.is_mcad
+      
+      
+      TerminalInstance.is_mcad_3d_comp
+      
+      
+      TerminalInstance.is_mcad_hfss
+      
+      
+      TerminalInstance.is_mcad_stride
       
       
       TerminalInstance.is_null

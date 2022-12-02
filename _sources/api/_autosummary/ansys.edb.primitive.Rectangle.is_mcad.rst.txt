@@ -1,0 +1,6 @@
+is\_mcad
+========
+
+.. currentmodule:: ansys.edb.primitive
+
+.. autoproperty:: Rectangle.is_mcad

@@ -21,6 +21,15 @@
       BundleTerminal.create
       
       
+      BundleTerminal.create_3d_comp
+      
+      
+      BundleTerminal.create_hfss
+      
+      
+      BundleTerminal.create_stride
+      
+      
       BundleTerminal.delete
       
       
@@ -92,6 +101,18 @@
       
       
       BundleTerminal.is_interface_terminal
+      
+      
+      BundleTerminal.is_mcad
+      
+      
+      BundleTerminal.is_mcad_3d_comp
+      
+      
+      BundleTerminal.is_mcad_hfss
+      
+      
+      BundleTerminal.is_mcad_stride
       
       
       BundleTerminal.is_null

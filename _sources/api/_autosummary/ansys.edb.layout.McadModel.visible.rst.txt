@@ -1,0 +1,6 @@
+visible
+=======
+
+.. currentmodule:: ansys.edb.layout
+
+.. automethod:: McadModel.visible

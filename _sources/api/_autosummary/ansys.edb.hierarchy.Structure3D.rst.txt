@@ -24,6 +24,15 @@
       Structure3D.create
       
       
+      Structure3D.create_3d_comp
+      
+      
+      Structure3D.create_hfss
+      
+      
+      Structure3D.create_stride
+      
+      
       Structure3D.delete
       
       
@@ -77,6 +86,18 @@
       
       
       Structure3D.id
+      
+      
+      Structure3D.is_mcad
+      
+      
+      Structure3D.is_mcad_3d_comp
+      
+      
+      Structure3D.is_mcad_hfss
+      
+      
+      Structure3D.is_mcad_stride
       
       
       Structure3D.is_null

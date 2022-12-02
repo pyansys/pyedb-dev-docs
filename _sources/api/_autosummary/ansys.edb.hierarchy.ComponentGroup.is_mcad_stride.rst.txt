@@ -1,0 +1,6 @@
+is\_mcad\_stride
+================
+
+.. currentmodule:: ansys.edb.hierarchy
+
+.. autoproperty:: ComponentGroup.is_mcad_stride

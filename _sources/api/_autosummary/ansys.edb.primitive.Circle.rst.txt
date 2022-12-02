@@ -27,6 +27,15 @@
       Circle.create
       
       
+      Circle.create_3d_comp
+      
+      
+      Circle.create_hfss
+      
+      
+      Circle.create_stride
+      
+      
       Circle.delete
       
       
@@ -86,6 +95,18 @@
       
       
       Circle.id
+      
+      
+      Circle.is_mcad
+      
+      
+      Circle.is_mcad_3d_comp
+      
+      
+      Circle.is_mcad_hfss
+      
+      
+      Circle.is_mcad_stride
       
       
       Circle.is_negative

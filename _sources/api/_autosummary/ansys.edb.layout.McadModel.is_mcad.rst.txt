@@ -1,0 +1,6 @@
+is\_mcad
+========
+
+.. currentmodule:: ansys.edb.layout
+
+.. automethod:: McadModel.is_mcad

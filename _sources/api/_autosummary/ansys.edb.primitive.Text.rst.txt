@@ -24,6 +24,15 @@
       Text.create
       
       
+      Text.create_3d_comp
+      
+      
+      Text.create_hfss
+      
+      
+      Text.create_stride
+      
+      
       Text.delete
       
       
@@ -80,6 +89,18 @@
       
       
       Text.id
+      
+      
+      Text.is_mcad
+      
+      
+      Text.is_mcad_3d_comp
+      
+      
+      Text.is_mcad_hfss
+      
+      
+      Text.is_mcad_stride
       
       
       Text.is_negative

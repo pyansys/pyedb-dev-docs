@@ -24,6 +24,15 @@
       Bondwire.create
       
       
+      Bondwire.create_3d_comp
+      
+      
+      Bondwire.create_hfss
+      
+      
+      Bondwire.create_stride
+      
+      
       Bondwire.delete
       
       
@@ -110,6 +119,18 @@
       
       
       Bondwire.id
+      
+      
+      Bondwire.is_mcad
+      
+      
+      Bondwire.is_mcad_3d_comp
+      
+      
+      Bondwire.is_mcad_hfss
+      
+      
+      Bondwire.is_mcad_stride
       
       
       Bondwire.is_negative

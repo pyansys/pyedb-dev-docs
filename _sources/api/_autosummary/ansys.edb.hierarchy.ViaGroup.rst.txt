@@ -24,6 +24,15 @@
       ViaGroup.create
       
       
+      ViaGroup.create_3d_comp
+      
+      
+      ViaGroup.create_hfss
+      
+      
+      ViaGroup.create_stride
+      
+      
       ViaGroup.create_with_outline
       
       
@@ -80,6 +89,18 @@
       
       
       ViaGroup.id
+      
+      
+      ViaGroup.is_mcad
+      
+      
+      ViaGroup.is_mcad_3d_comp
+      
+      
+      ViaGroup.is_mcad_hfss
+      
+      
+      ViaGroup.is_mcad_stride
       
       
       ViaGroup.is_null

@@ -1,0 +1,6 @@
+create\_hfss
+============
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Rectangle.create_hfss

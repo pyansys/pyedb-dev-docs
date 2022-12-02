@@ -1,0 +1,6 @@
+set\_data
+=========
+
+.. currentmodule:: ansys.edb.definition
+
+.. automethod:: DatasetDef.set_data

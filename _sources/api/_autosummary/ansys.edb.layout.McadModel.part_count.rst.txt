@@ -1,0 +1,6 @@
+part\_count
+===========
+
+.. currentmodule:: ansys.edb.layout
+
+.. automethod:: McadModel.part_count

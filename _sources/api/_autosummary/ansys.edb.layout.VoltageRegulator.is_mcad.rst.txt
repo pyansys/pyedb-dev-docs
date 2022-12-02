@@ -1,0 +1,6 @@
+is\_mcad
+========
+
+.. currentmodule:: ansys.edb.layout
+
+.. autoproperty:: VoltageRegulator.is_mcad

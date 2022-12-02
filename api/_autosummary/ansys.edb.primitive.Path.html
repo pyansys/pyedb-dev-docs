@@ -270,6 +270,21 @@
       </a>
      </li>
      <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.create_3d_comp.html">
+       create_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.create_hfss.html">
+       create_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.create_stride.html">
+       create_stride
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Path.delete.html">
        delete
       </a>
@@ -372,6 +387,26 @@
      <li class="toctree-l3">
       <a class="reference internal" href="ansys.edb.primitive.Path.id.html">
        id
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.is_mcad.html">
+       is_mcad
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_3d_comp.html">
+       is_mcad_3d_comp
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_hfss.html">
+       is_mcad_hfss
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_stride.html">
+       is_mcad_stride
       </a>
      </li>
      <li class="toctree-l3">
@@ -601,43 +636,52 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.create.html#ansys.edb.primitive.Path.create" title="ansys.edb.primitive.Path.create"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.create</span></code></a>(layout, layer, net, width, ...)</p></td>
 <td><p>Create a path.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.delete.html#ansys.edb.primitive.Path.delete" title="ansys.edb.primitive.Path.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.delete</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.create_3d_comp.html#ansys.edb.primitive.Path.create_3d_comp" title="ansys.edb.primitive.Path.create_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.create_3d_comp</span></code></a>()</p></td>
+<td><p>Create a 3dComp model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.create_hfss.html#ansys.edb.primitive.Path.create_hfss" title="ansys.edb.primitive.Path.create_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.create_hfss</span></code></a>()</p></td>
+<td><p>Create a HFSS model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.create_stride.html#ansys.edb.primitive.Path.create_stride" title="ansys.edb.primitive.Path.create_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.create_stride</span></code></a>()</p></td>
+<td><p>Create a stride model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.delete.html#ansys.edb.primitive.Path.delete" title="ansys.edb.primitive.Path.delete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.delete</span></code></a>()</p></td>
 <td><p>Delete the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.find_by_id.html#ansys.edb.primitive.Path.find_by_id" title="ansys.edb.primitive.Path.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.find_by_id</span></code></a>(layout, uid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.find_by_id.html#ansys.edb.primitive.Path.find_by_id" title="ansys.edb.primitive.Path.find_by_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.find_by_id</span></code></a>(layout, uid)</p></td>
 <td><p>Find a <a class="reference internal" href="../glossary.html#term-Connectable"><span class="xref std std-term">Connectable</span></a> object by Database ID.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_clip_info.html#ansys.edb.primitive.Path.get_clip_info" title="ansys.edb.primitive.Path.get_clip_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_clip_info</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_clip_info.html#ansys.edb.primitive.Path.get_clip_info" title="ansys.edb.primitive.Path.get_clip_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_clip_info</span></code></a>()</p></td>
 <td><p>Get data used to clip the path.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_end_cap_style.html#ansys.edb.primitive.Path.get_end_cap_style" title="ansys.edb.primitive.Path.get_end_cap_style"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_end_cap_style</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_end_cap_style.html#ansys.edb.primitive.Path.get_end_cap_style" title="ansys.edb.primitive.Path.get_end_cap_style"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_end_cap_style</span></code></a>()</p></td>
 <td><p>Get path end cap styles.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_hfss_prop.html#ansys.edb.primitive.Path.get_hfss_prop" title="ansys.edb.primitive.Path.get_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_hfss_prop</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_hfss_prop.html#ansys.edb.primitive.Path.get_hfss_prop" title="ansys.edb.primitive.Path.get_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_hfss_prop</span></code></a>()</p></td>
 <td><p>Get HFSS properties.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_product_property.html#ansys.edb.primitive.Path.get_product_property" title="ansys.edb.primitive.Path.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_product_property</span></code></a>(prod_id, attr_id)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_product_property.html#ansys.edb.primitive.Path.get_product_property" title="ansys.edb.primitive.Path.get_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_product_property</span></code></a>(prod_id, attr_id)</p></td>
 <td><p>Get the product property of the layout object with the given product and attribute ids.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_product_property_ids.html#ansys.edb.primitive.Path.get_product_property_ids" title="ansys.edb.primitive.Path.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_product_property_ids</span></code></a>(prod_id)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.get_product_property_ids.html#ansys.edb.primitive.Path.get_product_property_ids" title="ansys.edb.primitive.Path.get_product_property_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.get_product_property_ids</span></code></a>(prod_id)</p></td>
 <td><p>Get a list of attribute ids corresponding to the provided product id for the layout object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.remove_hfss_prop.html#ansys.edb.primitive.Path.remove_hfss_prop" title="ansys.edb.primitive.Path.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.remove_hfss_prop</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.remove_hfss_prop.html#ansys.edb.primitive.Path.remove_hfss_prop" title="ansys.edb.primitive.Path.remove_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.remove_hfss_prop</span></code></a>()</p></td>
 <td><p>Remove HFSS properties.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.render.html#ansys.edb.primitive.Path.render" title="ansys.edb.primitive.Path.render"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.render</span></code></a>(width, end_cap1, end_cap2, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.render.html#ansys.edb.primitive.Path.render" title="ansys.edb.primitive.Path.render"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.render</span></code></a>(width, end_cap1, end_cap2, ...)</p></td>
 <td><p>Render a Path object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_clip_info.html#ansys.edb.primitive.Path.set_clip_info" title="ansys.edb.primitive.Path.set_clip_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_clip_info</span></code></a>(clipping_poly[, keep_inside])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_clip_info.html#ansys.edb.primitive.Path.set_clip_info" title="ansys.edb.primitive.Path.set_clip_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_clip_info</span></code></a>(clipping_poly[, keep_inside])</p></td>
 <td><p>Set data used to clip the path.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_end_cap_style.html#ansys.edb.primitive.Path.set_end_cap_style" title="ansys.edb.primitive.Path.set_end_cap_style"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_end_cap_style</span></code></a>(end_cap1, end_cap2)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_end_cap_style.html#ansys.edb.primitive.Path.set_end_cap_style" title="ansys.edb.primitive.Path.set_end_cap_style"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_end_cap_style</span></code></a>(end_cap1, end_cap2)</p></td>
 <td><p>Set path end cap styles.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_hfss_prop.html#ansys.edb.primitive.Path.set_hfss_prop" title="ansys.edb.primitive.Path.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_hfss_prop.html#ansys.edb.primitive.Path.set_hfss_prop" title="ansys.edb.primitive.Path.set_hfss_prop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_hfss_prop</span></code></a>(material, solve_inside)</p></td>
 <td><p>Set HFSS properties.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_product_property.html#ansys.edb.primitive.Path.set_product_property" title="ansys.edb.primitive.Path.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_product_property</span></code></a>(prod_id, attr_id, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.set_product_property.html#ansys.edb.primitive.Path.set_product_property" title="ansys.edb.primitive.Path.set_product_property"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.set_product_property</span></code></a>(prod_id, attr_id, ...)</p></td>
 <td><p>Set the product property of the layout object associated with the given product and attribute ids.</p></td>
 </tr>
 </tbody>
@@ -672,6 +716,18 @@
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.id.html#ansys.edb.primitive.Path.id" title="ansys.edb.primitive.Path.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.id</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.is_mcad.html#ansys.edb.primitive.Path.is_mcad" title="ansys.edb.primitive.Path.is_mcad"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.is_mcad</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Mcad Model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_3d_comp.html#ansys.edb.primitive.Path.is_mcad_3d_comp" title="ansys.edb.primitive.Path.is_mcad_3d_comp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.is_mcad_3d_comp</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a 3D Comp Mcad Model.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_hfss.html#ansys.edb.primitive.Path.is_mcad_hfss" title="ansys.edb.primitive.Path.is_mcad_hfss"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.is_mcad_hfss</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a HFSS Mcad Model.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.is_mcad_stride.html#ansys.edb.primitive.Path.is_mcad_stride" title="ansys.edb.primitive.Path.is_mcad_stride"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.is_mcad_stride</span></code></a></p></td>
+<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: True if this is a Stride Mcad Model.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.primitive.Path.is_negative.html#ansys.edb.primitive.Path.is_negative" title="ansys.edb.primitive.Path.is_negative"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Path.is_negative</span></code></a></p></td>
 <td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: If the primitive is negative.</p></td>

@@ -1,0 +1,6 @@
+type
+====
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoproperty:: DielectricMaterialModel.type

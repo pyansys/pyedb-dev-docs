@@ -1,0 +1,6 @@
+operating\_power
+================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoproperty:: PackageDef.operating_power

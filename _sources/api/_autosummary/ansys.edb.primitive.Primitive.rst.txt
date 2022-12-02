@@ -21,6 +21,15 @@
       Primitive.cast
       
       
+      Primitive.create_3d_comp
+      
+      
+      Primitive.create_hfss
+      
+      
+      Primitive.create_stride
+      
+      
       Primitive.delete
       
       
@@ -71,6 +80,18 @@
       
       
       Primitive.id
+      
+      
+      Primitive.is_mcad
+      
+      
+      Primitive.is_mcad_3d_comp
+      
+      
+      Primitive.is_mcad_hfss
+      
+      
+      Primitive.is_mcad_stride
       
       
       Primitive.is_negative

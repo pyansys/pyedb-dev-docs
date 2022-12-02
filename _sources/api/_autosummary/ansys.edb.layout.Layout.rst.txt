@@ -24,6 +24,15 @@
       Layout.convert_primitives_to_vias
       
       
+      Layout.create_3d_comp
+      
+      
+      Layout.create_hfss
+      
+      
+      Layout.create_stride
+      
+      
       Layout.create_value
       
       

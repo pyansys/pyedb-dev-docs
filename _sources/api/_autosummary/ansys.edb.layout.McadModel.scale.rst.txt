@@ -1,0 +1,6 @@
+scale
+=====
+
+.. currentmodule:: ansys.edb.layout
+
+.. autoproperty:: McadModel.scale

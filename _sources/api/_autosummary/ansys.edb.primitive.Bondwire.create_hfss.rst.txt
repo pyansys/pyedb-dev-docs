@@ -1,0 +1,6 @@
+create\_hfss
+============
+
+.. currentmodule:: ansys.edb.primitive
+
+.. automethod:: Bondwire.create_hfss

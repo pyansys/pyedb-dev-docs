@@ -21,6 +21,15 @@
       PadstackInstanceTerminal.create
       
       
+      PadstackInstanceTerminal.create_3d_comp
+      
+      
+      PadstackInstanceTerminal.create_hfss
+      
+      
+      PadstackInstanceTerminal.create_stride
+      
+      
       PadstackInstanceTerminal.delete
       
       
@@ -89,6 +98,18 @@
       
       
       PadstackInstanceTerminal.is_interface_terminal
+      
+      
+      PadstackInstanceTerminal.is_mcad
+      
+      
+      PadstackInstanceTerminal.is_mcad_3d_comp
+      
+      
+      PadstackInstanceTerminal.is_mcad_hfss
+      
+      
+      PadstackInstanceTerminal.is_mcad_stride
       
       
       PadstackInstanceTerminal.is_null

@@ -24,6 +24,15 @@
       Polygon.create
       
       
+      Polygon.create_3d_comp
+      
+      
+      Polygon.create_hfss
+      
+      
+      Polygon.create_stride
+      
+      
       Polygon.delete
       
       
@@ -74,6 +83,18 @@
       
       
       Polygon.id
+      
+      
+      Polygon.is_mcad
+      
+      
+      Polygon.is_mcad_3d_comp
+      
+      
+      Polygon.is_mcad_hfss
+      
+      
+      Polygon.is_mcad_stride
       
       
       Polygon.is_negative

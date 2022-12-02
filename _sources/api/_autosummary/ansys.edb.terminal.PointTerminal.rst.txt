@@ -21,6 +21,15 @@
       PointTerminal.create
       
       
+      PointTerminal.create_3d_comp
+      
+      
+      PointTerminal.create_hfss
+      
+      
+      PointTerminal.create_stride
+      
+      
       PointTerminal.delete
       
       
@@ -89,6 +98,18 @@
       
       
       PointTerminal.is_interface_terminal
+      
+      
+      PointTerminal.is_mcad
+      
+      
+      PointTerminal.is_mcad_3d_comp
+      
+      
+      PointTerminal.is_mcad_hfss
+      
+      
+      PointTerminal.is_mcad_stride
       
       
       PointTerminal.is_null

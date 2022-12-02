@@ -1,0 +1,6 @@
+create\_stride
+==============
+
+.. currentmodule:: ansys.edb.hierarchy
+
+.. automethod:: CellInstance.create_stride

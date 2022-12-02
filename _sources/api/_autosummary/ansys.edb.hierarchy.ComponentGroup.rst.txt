@@ -24,6 +24,15 @@
       ComponentGroup.create
       
       
+      ComponentGroup.create_3d_comp
+      
+      
+      ComponentGroup.create_hfss
+      
+      
+      ComponentGroup.create_stride
+      
+      
       ComponentGroup.create_with_component
       
       
@@ -83,6 +92,18 @@
       
       
       ComponentGroup.id
+      
+      
+      ComponentGroup.is_mcad
+      
+      
+      ComponentGroup.is_mcad_3d_comp
+      
+      
+      ComponentGroup.is_mcad_hfss
+      
+      
+      ComponentGroup.is_mcad_stride
       
       
       ComponentGroup.is_null

@@ -1,0 +1,6 @@
+material
+========
+
+.. currentmodule:: ansys.edb.layout
+
+.. automethod:: McadModel.material

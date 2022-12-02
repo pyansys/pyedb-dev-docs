@@ -1,0 +1,22 @@
+﻿ansys.edb.geometry.Point3DData
+==============================
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoclass:: Point3DData
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   
