@@ -1,0 +1,22 @@
+﻿ansys.edb.utility.HfssExtentInfo
+================================
+
+.. currentmodule:: ansys.edb.utility
+
+.. autoclass:: HfssExtentInfo
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   
