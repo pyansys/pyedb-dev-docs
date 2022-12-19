@@ -333,6 +333,47 @@
 <dt class="sig sig-object py" id="ansys.edb.utility.HfssExtentInfo">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">HfssExtentInfo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">use_open_region=True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extent_type=HFSSExtentInfoType.BOUNDING_BOX</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">open_region_type=OpenRegionType.RADIATION</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_polygon=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dielectric_extent_type=HFSSExtentInfoType.BOUNDING_BOX</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dielectric_base_polygon=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dielectric=(0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">True)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">honor_user_dielectric=True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">airbox_truncate_at_ground=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">airbox_horizontal=(0.15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">True)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">airbox_vertical_positive=(0.15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">True)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">airbox_vertical_negative=(0.15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">True)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sync_airbox_vertical_extent=True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_pml_visible=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">operating_frequency='5GHz'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radiation_level=&lt;ansys.edb.utility.value.Value</span> <span class="pre">object&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_xy_data_extent_for_vertical_expansion=True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.HfssExtentInfo" title="Permalink to this definition">#</a></dt>
 <dd><p>HFSS Extent info class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Attributes</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>use_open_region: bool</strong></dt><dd><p>Is Open Region used?</p>
+</dd>
+<dt><strong>extent_type: HfssExtentInfo.HFSSExtentInfoType</strong></dt><dd><p>Extent type.</p>
+</dd>
+<dt><strong>open_region_type: HfssExtentInfo.OpenRegionType</strong></dt><dd><p>Open region type.</p>
+</dd>
+<dt><strong>base_polygon: Primitive</strong></dt><dd><p>Polygon to use if extent type is Polygon.</p>
+</dd>
+<dt><strong>dielectric_extent_type: HfssExtentInfo.HFSSExtentInfoType</strong></dt><dd><p>Dielectric extent type.</p>
+</dd>
+<dt><strong>dielectric_base_polygon: :class:`Primitive &lt;ansys.edb.primitive.Primitive&gt;`</strong></dt><dd><p>Polygon to use if dielectric extent type is Polygon.</p>
+</dd>
+<dt><strong>dielectric: (float, bool)</strong></dt><dd><p>Dielectric extent size. First parameter is the value and second parameter             indicates if the value is a multiple.</p>
+</dd>
+<dt><strong>honor_user_dielectric: bool</strong></dt><dd><p>Honoring user defined dielectric primitive when calculate dielectric extent.</p>
+</dd>
+<dt><strong>airbox_truncate_at_ground: bool</strong></dt><dd><p>Whether airbox will be truncated at the ground layers.</p>
+</dd>
+<dt><strong>airbox_horizontal: (float, bool)</strong></dt><dd><p>Airbox horizontal extent size. First parameter is the value and second parameter             indicates if the value is a multiple.</p>
+</dd>
+<dt><strong>airbox_vertical_positive: (float, bool)</strong></dt><dd><p>Airbox positive vertical extent size. First parameter is the value and second parameter             indicates if the value is a multiple.</p>
+</dd>
+<dt><strong>airbox_vertical_negative: (float, bool)</strong></dt><dd><p>Airbox negative vertical extent size. First parameter is the value and second parameter indicates             if the value is a multiple.</p>
+</dd>
+<dt><strong>sync_airbox_vertical_extent: bool</strong></dt><dd><p>Whether airbox positive and negative vertical extent will be synchronized.</p>
+</dd>
+<dt><strong>is_pml_visible: bool</strong></dt><dd><p>Check to see if the PML boxes should be rendered or not.</p>
+</dd>
+<dt><strong>operating_frequency: :class:`Value &lt;ansys.edb.utility.Value&gt;`</strong></dt><dd><p>PML Operating Frequency.</p>
+</dd>
+<dt><strong>radiation_level: :class:`Value &lt;ansys.edb.utility.Value&gt;`</strong></dt><dd><p>PML Radiation level to calculate the thickness of boundary.</p>
+</dd>
+<dt><strong>user_xy_data_extent_for_vertical_expansion: bool</strong></dt><dd><p>if true, retain the old behaviour for the vertical expansion of the airbox.
+The vertical extent will be calculated from the XY data extent.</p>
+</dd>
+</dl>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
