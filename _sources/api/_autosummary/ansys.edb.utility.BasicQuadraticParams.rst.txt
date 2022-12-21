@@ -1,0 +1,22 @@
+﻿ansys.edb.utility.BasicQuadraticParams
+======================================
+
+.. currentmodule:: ansys.edb.utility
+
+.. autoclass:: BasicQuadraticParams
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   
