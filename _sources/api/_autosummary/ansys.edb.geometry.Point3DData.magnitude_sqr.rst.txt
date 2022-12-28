@@ -1,0 +1,6 @@
+magnitude\_sqr
+==============
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: Point3DData.magnitude_sqr

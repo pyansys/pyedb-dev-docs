@@ -1,0 +1,6 @@
+z
+=
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: Point3DData.z
