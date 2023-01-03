@@ -1,0 +1,6 @@
+get\_visit
+==========
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: RTree.get_visit

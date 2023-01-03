@@ -1,0 +1,6 @@
+search
+======
+
+.. currentmodule:: ansys.edb.geometry
+
+.. automethod:: RTree.search

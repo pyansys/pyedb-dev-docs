@@ -1,0 +1,6 @@
+extent
+======
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: RTree.extent

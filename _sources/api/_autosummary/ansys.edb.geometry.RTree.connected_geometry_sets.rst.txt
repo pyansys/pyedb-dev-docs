@@ -1,0 +1,6 @@
+connected\_geometry\_sets
+=========================
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: RTree.connected_geometry_sets

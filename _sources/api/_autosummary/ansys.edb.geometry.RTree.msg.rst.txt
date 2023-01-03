@@ -1,0 +1,6 @@
+msg
+===
+
+.. currentmodule:: ansys.edb.geometry
+
+.. autoproperty:: RTree.msg
