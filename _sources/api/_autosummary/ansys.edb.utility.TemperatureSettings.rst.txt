@@ -19,19 +19,4 @@
 
    
    
-   .. rubric:: Attributes
-
-   .. autosummary::
-      :toctree:
-   
-      
-      TemperatureSettings.id
-      
-      
-      TemperatureSettings.is_null
-      
-      
-      TemperatureSettings.msg
-      
-   
    

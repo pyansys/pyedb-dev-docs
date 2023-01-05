@@ -1,6 +1,0 @@
-id
-==
-
-.. currentmodule:: ansys.edb.utility
-
-.. autoproperty:: TemperatureSettings.id

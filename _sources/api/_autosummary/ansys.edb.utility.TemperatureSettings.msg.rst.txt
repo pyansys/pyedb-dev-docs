@@ -1,6 +1,0 @@
-msg
-===
-
-.. currentmodule:: ansys.edb.utility
-
-.. autoproperty:: TemperatureSettings.msg

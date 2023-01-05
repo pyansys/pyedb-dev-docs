@@ -39,7 +39,7 @@
     <script src="../../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="id" href="ansys.edb.utility.TemperatureSettings.id.html" />
+    <link rel="next" title="ansys.edb.utility.Transform" href="ansys.edb.utility.Transform.html" />
     <link rel="prev" title="ansys.edb.utility.Rlc" href="ansys.edb.utility.Rlc.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -269,32 +269,10 @@
      ansys.edb.utility.Rlc
     </a>
    </li>
-   <li class="toctree-l2 current active has-children">
+   <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      ansys.edb.utility.TemperatureSettings
     </a>
-    <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-    <label for="toctree-checkbox-2">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.TemperatureSettings.id.html">
-       id
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.TemperatureSettings.is_null.html">
-       is_null
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="ansys.edb.utility.TemperatureSettings.msg.html">
-       msg
-      </a>
-     </li>
-    </ul>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ansys.edb.utility.Transform.html">
@@ -363,8 +341,17 @@
 <h1>ansys.edb.utility.TemperatureSettings<a class="headerlink" href="#ansys-edb-utility-temperaturesettings" title="Permalink to this headline">#</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.edb.utility.TemperatureSettings">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">TemperatureSettings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.TemperatureSettings" title="Permalink to this definition">#</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.edb.utility.</span></span><span class="sig-name descname"><span class="pre">TemperatureSettings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">include_temp_dependence</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">enable_thermal_feedback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">temperature</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.edb.utility.TemperatureSettings" title="Permalink to this definition">#</a></dt>
 <dd><p>Temperature settings class.</p>
+<dl class="field-list">
+<dt class="field-odd">Attributes</dt>
+<dd class="field-odd"><dl>
+<dt><strong>include_temp_dependence</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd></dd>
+<dt><strong>enable_thermal_feedback</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd></dd>
+<dt><strong>temperature</strong><span class="classifier"><a class="reference internal" href="../glossary.html#term-ValueLike"><span class="xref std std-term">ValueLike</span></a></span></dt><dd></dd>
+</dl>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
@@ -372,24 +359,6 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-</tbody>
-</table>
-<p class="rubric">Attributes</p>
-<table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.TemperatureSettings.id.html#ansys.edb.utility.TemperatureSettings.id" title="ansys.edb.utility.TemperatureSettings.id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TemperatureSettings.id</span></code></a></p></td>
-<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>: The unique ID of an EDB object.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="ansys.edb.utility.TemperatureSettings.is_null.html#ansys.edb.utility.TemperatureSettings.is_null" title="ansys.edb.utility.TemperatureSettings.is_null"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TemperatureSettings.is_null</span></code></a></p></td>
-<td><p><a class="reference external" href="https://docs.python.org/dev/library/functions.html#bool" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code></a>: Determine whether this object exists in EDB.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ansys.edb.utility.TemperatureSettings.msg.html#ansys.edb.utility.TemperatureSettings.msg" title="ansys.edb.utility.TemperatureSettings.msg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TemperatureSettings.msg</span></code></a></p></td>
-<td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">EDBObjMessage</span></code> : Protobuf message that represents this object's ID.</p></td>
-</tr>
 </tbody>
 </table>
 </dd></dl>
