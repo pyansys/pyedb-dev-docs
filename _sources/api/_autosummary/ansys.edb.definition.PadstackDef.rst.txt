@@ -37,6 +37,9 @@
       PadstackDef.data
       
       
+      PadstackDef.definition_type
+      
+      
       PadstackDef.id
       
       

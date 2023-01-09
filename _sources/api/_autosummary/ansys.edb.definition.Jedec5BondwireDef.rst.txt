@@ -43,6 +43,9 @@
       Jedec5BondwireDef.bondwire_type
       
       
+      Jedec5BondwireDef.definition_type
+      
+      
       Jedec5BondwireDef.id
       
       

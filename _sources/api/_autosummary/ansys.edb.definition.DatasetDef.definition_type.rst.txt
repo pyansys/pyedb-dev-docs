@@ -1,0 +1,6 @@
+definition\_type
+================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoproperty:: DatasetDef.definition_type

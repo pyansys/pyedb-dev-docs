@@ -1,0 +1,29 @@
+﻿ansys.edb.definition.DefinitionObjType
+======================================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoclass:: DefinitionObjType
+
+   
+
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      
+      
+      
+      
+      
+      
+   
+   

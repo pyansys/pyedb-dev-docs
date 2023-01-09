@@ -37,6 +37,9 @@
       ComponentDef.component_pins
       
       
+      ComponentDef.definition_type
+      
+      
       ComponentDef.footprint
       
       

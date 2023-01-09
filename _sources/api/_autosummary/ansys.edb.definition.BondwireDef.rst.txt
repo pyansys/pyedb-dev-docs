@@ -28,6 +28,9 @@
       :toctree:
    
       
+      BondwireDef.definition_type
+      
+      
       BondwireDef.id
       
       

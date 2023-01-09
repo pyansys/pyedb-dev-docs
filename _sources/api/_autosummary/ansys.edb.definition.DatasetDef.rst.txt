@@ -37,6 +37,9 @@
       :toctree:
    
       
+      DatasetDef.definition_type
+      
+      
       DatasetDef.id
       
       

@@ -1,0 +1,6 @@
+definition\_type
+================
+
+.. currentmodule:: ansys.edb.definition
+
+.. autoproperty:: MaterialDef.definition_type

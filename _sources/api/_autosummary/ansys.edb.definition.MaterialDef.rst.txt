@@ -61,6 +61,9 @@
       :toctree:
    
       
+      MaterialDef.definition_type
+      
+      
       MaterialDef.dielectric_material_model
       
       

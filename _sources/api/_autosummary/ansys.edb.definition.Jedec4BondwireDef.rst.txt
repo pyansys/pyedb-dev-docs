@@ -18,6 +18,9 @@
       Jedec4BondwireDef.create
       
       
+      Jedec4BondwireDef.delete
+      
+      
       Jedec4BondwireDef.find_by_name
       
       
@@ -40,6 +43,9 @@
       Jedec4BondwireDef.bondwire_type
       
       
+      Jedec4BondwireDef.definition_type
+      
+      
       Jedec4BondwireDef.id
       
       
@@ -47,6 +53,9 @@
       
       
       Jedec4BondwireDef.msg
+      
+      
+      Jedec4BondwireDef.name
       
    
    

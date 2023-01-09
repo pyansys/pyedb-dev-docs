@@ -46,6 +46,9 @@
       ApdBondwireDef.bondwire_type
       
       
+      ApdBondwireDef.definition_type
+      
+      
       ApdBondwireDef.id
       
       

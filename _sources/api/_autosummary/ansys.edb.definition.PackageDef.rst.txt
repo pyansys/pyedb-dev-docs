@@ -46,6 +46,9 @@
       :toctree:
    
       
+      PackageDef.definition_type
+      
+      
       PackageDef.exterior_boundary
       
       
